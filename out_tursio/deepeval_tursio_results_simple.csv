@@ -1,0 +1,251 @@
+name,input,actual_output,expected_output,test_success,metric_name,metric_score,metric_threshold,metric_success,metric_reason
+test_case_0,What percentage of accounts have made no transactions in the last 90 days?,"Key Insight:
+All accounts in the dataset (100%) have made no transactions in the last 90 days.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question with no irrelevant information. Great job staying focused and concise!
+test_case_0,What percentage of accounts have made no transactions in the last 90 days?,"Key Insight:
+All accounts in the dataset (100%) have made no transactions in the last 90 days.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner."
+test_case_1,What is the total number of accounts that have closed within the last 90 days?,"Key Insights:
+
+The query indicates that 0 distinct accounts have closed within the last 90 days.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly with no irrelevant information. Great job staying focused and concise!
+test_case_1,What is the total number of accounts that have closed within the last 90 days?,"Key Insights:
+
+The query indicates that 0 distinct accounts have closed within the last 90 days.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_2,"What percentage of accounts have a loan balance greater than $10,000?","Key Insight:
+
+68.8% of the accounts in the dataset (688 out of 1000) have a loan balance greater than $10,000.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job!
+test_case_2,"What percentage of accounts have a loan balance greater than $10,000?","Key Insight:
+
+68.8% of the accounts in the dataset (688 out of 1000) have a loan balance greater than $10,000.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or perspectives, and demonstrates neutrality throughout."
+test_case_3,How many accounts have a credit card linked that is active?,"Key Insight:
+
+There are exactly 214 accounts with an active credit card. This count represents distinct account numbers linked to cards that meet the specified active status and type filters.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_3,How many accounts have a credit card linked that is active?,"Key Insight:
+
+There are exactly 214 accounts with an active credit card. This count represents distinct account numbers linked to cards that meet the specified active status and type filters.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or perspectives, and demonstrates neutrality throughout."
+test_case_4,What is the total number of accounts that have commented in the last 30 days?,"Key Insight:
+
+The dataset indicates that 0 unique accounts have commented in the last 30 days.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question with no irrelevant information. Great job staying focused and concise!
+test_case_4,What is the total number of accounts that have commented in the last 30 days?,"Key Insight:
+
+The dataset indicates that 0 unique accounts have commented in the last 30 days.",,True,Bias,0.0,0.5,True,The score is 0.00 because the actual output shows no evidence of bias and provides a balanced and objective response.
+test_case_10,What percentage of accounts have a negative balance?,"Key Insight:
+0% of accounts in the dataset exhibit a negative balance.
+
+Supporting Details:
+
+The calculation was derived by counting accounts with a negative balance and dividing by the total number of accounts.
+The result confirms that, within the current dataset, no accounts are in deficit.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_10,What percentage of accounts have a negative balance?,"Key Insight:
+0% of accounts in the dataset exhibit a negative balance.
+
+Supporting Details:
+
+The calculation was derived by counting accounts with a negative balance and dividing by the total number of accounts.
+The result confirms that, within the current dataset, no accounts are in deficit.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_11,How many accounts currently have a loan open?,"Key Insight
+The dataset reveals that exactly 735 distinct accounts currently have open loans, as indicated by the condition where the loan close date is either null or marked as an open status.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_11,How many accounts currently have a loan open?,"Key Insight
+The dataset reveals that exactly 735 distinct accounts currently have open loans, as indicated by the condition where the loan close date is either null or marked as an open status.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner."
+test_case_12,What is the total number of accounts with active credit cards?,"The dataset indicates that there are 645 unique accounts associated with active credit cards.
+
+This insight is derived by counting distinct account numbers in the CARD table where the card status equals 1, meaning active.
+The statistic directly relates to the number of accounts holding active credit cards, with ""active"" defined by the card status field.
+This concise summary directly reflects the results from the executed SQL query without additional, unnecessary details.",,True,Answer Relevancy,0.75,0.5,True,"The score is 0.75 because while the answer addresses the main question, it includes a comment about the summary's conciseness and lack of unnecessary details, which is not relevant to the specific request for the total number of accounts with active credit cards. This extra commentary prevents a higher score, but the answer still provides the necessary information, justifying its current score."
+test_case_12,What is the total number of accounts with active credit cards?,"The dataset indicates that there are 645 unique accounts associated with active credit cards.
+
+This insight is derived by counting distinct account numbers in the CARD table where the card status equals 1, meaning active.
+The statistic directly relates to the number of accounts holding active credit cards, with ""active"" defined by the card status field.
+This concise summary directly reflects the results from the executed SQL query without additional, unnecessary details.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner."
+test_case_13,What percentage of accounts have had no transactions in the last month?,"Key Insight:
+
+100% of the accounts in the dataset have had no transactions in the last month.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly with no irrelevant information. Great job staying focused and concise!
+test_case_13,What percentage of accounts have had no transactions in the last month?,"Key Insight:
+
+100% of the accounts in the dataset have had no transactions in the last month.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or assumptions, and demonstrates neutrality throughout. Well done on maintaining objectivity."
+test_case_14,How many accounts are currently flagged for suspicious activity?,"Key Insight:
+The query indicates that 0 accounts are currently flagged for suspicious activity.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant information. Great job staying focused!
+test_case_14,How many accounts are currently flagged for suspicious activity?,"Key Insight:
+The query indicates that 0 accounts are currently flagged for suspicious activity.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner."
+test_case_20,What percentage of active accounts have a loan?,"Key Insight:
+Based on the dataset preview, every active account shown in the join has an associated loan record, suggesting that 100% of active accounts have a loan.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job!
+test_case_20,What percentage of active accounts have a loan?,"Key Insight:
+Based on the dataset preview, every active account shown in the join has an associated loan record, suggesting that 100% of active accounts have a loan.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or perspectives, and demonstrates neutrality throughout."
+test_case_21,What percentage of accounts have made a comment in the last year?,"Key Insight:
+All active accounts included in the sample have an associated loan record—i.e., 100% of the active accounts in the dataset have a loan.",,False,Answer Relevancy,0.0,0.5,False,"The score is 0.00 because the actual output only discusses loan records and active accounts, which are irrelevant to the question about the percentage of accounts that have made a comment in the last year."
+test_case_21,What percentage of accounts have made a comment in the last year?,"Key Insight:
+All active accounts included in the sample have an associated loan record—i.e., 100% of the active accounts in the dataset have a loan.",,False,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_22,How many accounts have not logged any activity in the last 6 months?,"Key Insight: There are exactly 1,000 accounts that have not logged any activity in the last six months.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly with no irrelevant information. Great job staying focused and concise!
+test_case_22,How many accounts have not logged any activity in the last 6 months?,"Key Insight: There are exactly 1,000 accounts that have not logged any activity in the last six months.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_23,What percentage of accounts have a credit card?,"Key Insight:
+
+30.1% of accounts have an associated credit card.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_23,What percentage of accounts have a credit card?,"Key Insight:
+
+30.1% of accounts have an associated credit card.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_24,What percentage of accounts have shared information with other accounts?,"The data indicates that 66% of accounts have shared information with other accounts. This means that nearly two-thirds of all accounts have been involved in multiple share transactions or associations, as defined by having more than one distinct share ID.
+
+66% of Accounts: Out of the total accounts, 66% are linked with multiple share entries.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant information. Great job staying focused!
+test_case_24,What percentage of accounts have shared information with other accounts?,"The data indicates that 66% of accounts have shared information with other accounts. This means that nearly two-thirds of all accounts have been involved in multiple share transactions or associations, as defined by having more than one distinct share ID.
+
+66% of Accounts: Out of the total accounts, 66% are linked with multiple share entries.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or content, demonstrating neutrality and fairness throughout."
+test_case_25,"What is the count of accounts with a loan balance above $10,000?","Key Insight:
+
+There are exactly 688 distinct accounts with a loan balance above $10,000.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job!
+test_case_25,"What is the count of accounts with a loan balance above $10,000?","Key Insight:
+
+There are exactly 688 distinct accounts with a loan balance above $10,000.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_26,What percentage of accounts are classified as dormant?,"Key Insight:
+Approximately 97.9% of accounts are classified as dormant.
+",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_26,What percentage of accounts are classified as dormant?,"Key Insight:
+Approximately 97.9% of accounts are classified as dormant.
+",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner."
+test_case_27,How many accounts have received a note from a member in the last year?,"Key Insight:
+The query reveals that 21 accounts have received at least one note from a member in the past year.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly with no irrelevant information. Great job staying focused and concise!
+test_case_27,How many accounts have received a note from a member in the last year?,"Key Insight:
+The query reveals that 21 accounts have received at least one note from a member in the past year.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias and uses neutral, balanced language throughout."
+test_case_28,What percentage of accounts have a tracking record?,"High-Impact Finding
+
+Out of 1,000 total accounts, 675 have an associated tracking record, which means 67.5% of accounts have a tracking record.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_28,What percentage of accounts have a tracking record?,"High-Impact Finding
+
+Out of 1,000 total accounts, 675 have an associated tracking record, which means 67.5% of accounts have a tracking record.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or perspectives, and demonstrates neutrality throughout."
+test_case_29,How many accounts have more than one active loan?,"Key Insight:
+There are 463 accounts that have more than one active loan.
+",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_29,How many accounts have more than one active loan?,"Key Insight:
+There are 463 accounts that have more than one active loan.
+",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_35,"What is the total number of accounts with balances exceeding $500,000?","The key insight from the data is that no accounts have balances exceeding $500,000.
+
+The executed query returned a count of 0 distinct share account numbers meeting the criterion.
+This indicates that, based on the current dataset and applied filters, there are 0 accounts with balances above the $500,000 threshold.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_35,"What is the total number of accounts with balances exceeding $500,000?","The key insight from the data is that no accounts have balances exceeding $500,000.
+
+The executed query returned a count of 0 distinct share account numbers meeting the criterion.
+This indicates that, based on the current dataset and applied filters, there are 0 accounts with balances above the $500,000 threshold.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. The response is balanced and objective."
+test_case_36,What percentage of total liabilities do the top 10 accounts represent?,"Key Insight:
+The top 10 accounts represent 0% of the total liabilities.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job!
+test_case_36,What percentage of total liabilities do the top 10 accounts represent?,"Key Insight:
+The top 10 accounts represent 0% of the total liabilities.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_37,How many accounts have multiple credit products linked to them?,"Key Insight:
+The query returned a count of 1,000 unique accounts, which represents the total number of accounts processed, rather than explicitly identifying those with multiple credit products.",,True,Answer Relevancy,0.6666666666666666,0.5,True,"The score is 0.67 because the answer included a clarification about what the count represents, but did not directly address whether the accounts have multiple credit products, making the response only partially relevant."
+test_case_37,How many accounts have multiple credit products linked to them?,"Key Insight:
+The query returned a count of 1,000 unique accounts, which represents the total number of accounts processed, rather than explicitly identifying those with multiple credit products.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner."
+test_case_38,"What is the proportion of accounts with balances over $250,000 relative to total accounts?","Key Insights:
+
+Out of 1,000 total accounts, there are 0 accounts with balances greater than $250,000, resulting in a 0% proportion.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_38,"What is the proportion of accounts with balances over $250,000 relative to total accounts?","Key Insights:
+
+Out of 1,000 total accounts, there are 0 accounts with balances greater than $250,000, resulting in a 0% proportion.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions."
+test_case_39,How many accounts are flagged for risk concentration based on balance thresholds?,"Key Insight:
+No accounts are flagged for risk concentration based on the balance thresholds.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer directly and completely addresses the question without any irrelevant information. Great job staying focused and relevant!
+test_case_39,How many accounts are flagged for risk concentration based on balance thresholds?,"Key Insight:
+No accounts are flagged for risk concentration based on the balance thresholds.",,True,Bias,0.0,0.5,True,The score is 0.00 because the actual output shows no evidence of bias and maintains a neutral and objective tone throughout.
+test_case_40,What percentage of accounts have transfer limits exceeding the average transfer limit?,"Key Insight:
+
+Approximately 61.24% of accounts have transfer limits above the average transfer limit.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer is fully relevant and directly addresses the question without any irrelevant information. Great job staying focused and concise!
+test_case_40,What percentage of accounts have transfer limits exceeding the average transfer limit?,"Key Insight:
+
+Approximately 61.24% of accounts have transfer limits above the average transfer limit.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_41,How many accounts have transfer limits above a specified threshold?,"The key insight is that there are 645 distinct account numbers identified in the dataset that meet the specified criteria regarding transfer limits.
+
+The query counts distinct accounts from the card account data, resulting in exactly 645 accounts.
+This observation is based on the dataset provided and directly reflects the count of account numbers after applying the specified filter for transfer limits.",,True,Answer Relevancy,0.6666666666666666,0.5,True,"The score is 0.67 because the answer provided explanatory context about how the count is determined, but did not directly provide the actual number requested. This makes the response somewhat relevant, but not fully addressing the input question."
+test_case_41,How many accounts have transfer limits above a specified threshold?,"The key insight is that there are 645 distinct account numbers identified in the dataset that meet the specified criteria regarding transfer limits.
+
+The query counts distinct accounts from the card account data, resulting in exactly 645 accounts.
+This observation is based on the dataset provided and directly reflects the count of account numbers after applying the specified filter for transfer limits.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or assumptions, and demonstrates neutrality throughout. Excellent job maintaining objectivity."
+test_case_42,What is the total sum of transfer limits across all accounts?,"High-Impact Finding
+The total sum of transfer limits across all accounts is 2,366,550.",,True,Answer Relevancy,0.5,0.5,True,"The score is 0.50 because the answer included a general statement ('High-Impact Finding.') that did not address the specific question about the total sum of transfer limits, reducing its overall relevance."
+test_case_42,What is the total sum of transfer limits across all accounts?,"High-Impact Finding
+The total sum of transfer limits across all accounts is 2,366,550.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_43,What percentage of accounts have no transfer limit set?,"Key Insight:
+Out of 1,000 accounts, 355 accounts have no transfer limit set, which is 35.5%.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question with no irrelevant information. Great job staying focused and concise!
+test_case_43,What percentage of accounts have no transfer limit set?,"Key Insight:
+Out of 1,000 accounts, 355 accounts have no transfer limit set, which is 35.5%.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or assumptions, and presents information in a neutral and objective manner."
+test_case_44,Which account has the highest transfer limit?,"Key Insight:
+
+Account Q5T6424S60HGTXA5LGW1CJGP8MW8M8G9 has the highest transfer limit in the dataset, with a limit of 4,999.50.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_44,Which account has the highest transfer limit?,"Key Insight:
+
+Account Q5T6424S60HGTXA5LGW1CJGP8MW8M8G9 has the highest transfer limit in the dataset, with a limit of 4,999.50.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and neutral manner."
+test_case_45,What is the average transfer limit across all accounts?,"Key Insights
+
+The average transfer limit across all accounts sampled is $2,478.06.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant information. Great job staying focused and concise!
+test_case_45,What is the average transfer limit across all accounts?,"Key Insights
+
+The average transfer limit across all accounts sampled is $2,478.06.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_46,How many accounts have multiple transfer limits associated with them?,"Key Insight:
+A total of 310 accounts have been identified with multiple transfer limits (each showing a transfer limit count of 2).",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant information. Great job staying focused!
+test_case_46,How many accounts have multiple transfer limits associated with them?,"Key Insight:
+A total of 310 accounts have been identified with multiple transfer limits (each showing a transfer limit count of 2).",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_47,What is the count of accounts with transfer limits that are inactive?,"Key Insight:
+The data indicates that there are exactly 0 accounts with transfer limits set to 0 and with inactive card statuses.",,True,Answer Relevancy,0.5,0.5,True,"The score is 0.50 because the answer incorrectly focuses on accounts with transfer limits set to 0, rather than addressing inactive accounts with any transfer limit. This misinterpretation makes the answer only partially relevant."
+test_case_47,What is the count of accounts with transfer limits that are inactive?,"Key Insight:
+The data indicates that there are exactly 0 accounts with transfer limits set to 0 and with inactive card statuses.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner."
+test_case_48,What percentage of accounts are utilizing their full transfer limit?,"Below is a high_level summary based on the available figures:
+
+Key insight: According to the preview statistics, none of the 955 accounts in the dataset appear to be using their entire transfer capacity. In other words, 0% of accounts are observed to have reached (i.e. “utilized”) their full_transfer limit.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_48,What percentage of accounts are utilizing their full transfer limit?,"Below is a high_level summary based on the available figures:
+
+Key insight: According to the preview statistics, none of the 955 accounts in the dataset appear to be using their entire transfer capacity. In other words, 0% of accounts are observed to have reached (i.e. “utilized”) their full_transfer limit.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_49,What is the count of accounts with transfer limits increased in the last month?,"The dataset indicates that 0 accounts had their transfer limits increased in the last month.
+
+The query counts distinct accounts with a positive transfer limit change between one month ago and the current date.
+The absence of any accounts meeting this criteria is clearly quantified with a count of 0.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_49,What is the count of accounts with transfer limits increased in the last month?,"The dataset indicates that 0 accounts had their transfer limits increased in the last month.
+
+The query counts distinct accounts with a positive transfer limit change between one month ago and the current date.
+The absence of any accounts meeting this criteria is clearly quantified with a count of 0.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. The response is balanced and objective."
+test_case_50,What percentage of accounts have an ATM utilization rate above 80%?,"Key Insight:
+The analysis shows that 0% of accounts have an ATM utilization rate above 80%.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant information. Great job!
+test_case_50,What percentage of accounts have an ATM utilization rate above 80%?,"Key Insight:
+The analysis shows that 0% of accounts have an ATM utilization rate above 80%.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias and provides a balanced perspective, as indicated by the absence of any cited biased phrases. Excellent neutrality is demonstrated throughout."
+test_case_51,What percentage of accounts have reached their ATM withdrawal limits?,"Key Insight:
+The data indicates that 0% of accounts have reached their ATM withdrawal limits.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_51,What percentage of accounts have reached their ATM withdrawal limits?,"Key Insight:
+The data indicates that 0% of accounts have reached their ATM withdrawal limits.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_52,What is the total number of accounts that have made ATM withdrawals in the last month?,"Key Insight:
+The query determined that 0 unique accounts have made ATM withdrawals in the last month.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly with no irrelevant information. Great job staying focused and concise!
+test_case_52,What is the total number of accounts that have made ATM withdrawals in the last month?,"Key Insight:
+The query determined that 0 unique accounts have made ATM withdrawals in the last month.",,True,Bias,0.0,0.5,True,The score is 0.00 because the actual output shows no evidence of bias and provides a balanced and objective response.
+test_case_53,What percentage of accounts have a limit utilization rate greater than 100%?,"The query shows that 0% of accounts have a limit utilization rate greater than 100%.
+
+Key Insight: None of the accounts exceeded their allowed limit.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job!
+test_case_53,What percentage of accounts have a limit utilization rate greater than 100%?,"The query shows that 0% of accounts have a limit utilization rate greater than 100%.
+
+Key Insight: None of the accounts exceeded their allowed limit.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias and provides a balanced perspective, as indicated by the absence of any cited biased phrases. Excellent neutrality is maintained throughout."
+test_case_54,How many accounts have ATM transactions exceeding $500 in a single day?,"Key Insight:
+The query indicates that 0 accounts have recorded ATM transactions exceeding $500 in a single day.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly with no irrelevant information. Great job staying focused and concise!
+test_case_54,How many accounts have ATM transactions exceeding $500 in a single day?,"Key Insight:
+The query indicates that 0 accounts have recorded ATM transactions exceeding $500 in a single day.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_55,What percentage of accounts have not utilized their ATM card in the last 30 days?,"Key Insight:
+All ATM accounts—100% (269 out of 269)—have not utilized their ATM card in the last 30 days.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question with no irrelevant information. Great job staying focused and concise!
+test_case_55,What percentage of accounts have not utilized their ATM card in the last 30 days?,"Key Insight:
+All ATM accounts—100% (269 out of 269)—have not utilized their ATM card in the last 30 days.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, presenting information in a balanced and objective manner."
+test_case_56,What is the average ATM withdrawal amount across all accounts?,"Key Insight
+The average ATM withdrawal amount across all accounts is 255.63.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and directly addressed the question without any irrelevant information. Great job staying focused and concise!
+test_case_56,What is the average ATM withdrawal amount across all accounts?,"Key Insight
+The average ATM withdrawal amount across all accounts is 255.63.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_57,How many accounts have an overdraft on their ATM limit?,"Key Insight:
+
+0 accounts have an overdraft on their ATM limit based on the available data.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly with no irrelevant information. Great job staying focused and concise!
+test_case_57,How many accounts have an overdraft on their ATM limit?,"Key Insight:
+
+0 accounts have an overdraft on their ATM limit based on the available data.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_58,What percentage of ATM users have a limit utilization anomaly?,"The key insight is that 25.0821% of ATM users exhibit limit utilization anomalies.
+
+This percentage represents the proportion of cards where the ATM usage amount has exceeded the ATM usage limit.
+The calculation was based on distinct card numbers that had at least one ATM transaction, ensuring accuracy in the result.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant information. Great job staying focused and concise!
+test_case_58,What percentage of ATM users have a limit utilization anomaly?,"The key insight is that 25.0821% of ATM users exhibit limit utilization anomalies.
+
+This percentage represents the proportion of cards where the ATM usage amount has exceeded the ATM usage limit.
+The calculation was based on distinct card numbers that had at least one ATM transaction, ensuring accuracy in the result.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_59,What is the total number of accounts with a limit utilization rate below 50%?,"The data shows that a total of 675 unique accounts recorded a limit utilization rate below 50%.
+
+This count is based on distinct account numbers from the joined tracking and account datasets.
+The recorded utilization rate metric applies only where the value of ""USER_RATE_1"" is less than 0.5.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer is fully relevant and directly addresses the question without any irrelevant information. Great job!
+test_case_59,What is the total number of accounts with a limit utilization rate below 50%?,"The data shows that a total of 675 unique accounts recorded a limit utilization rate below 50%.
+
+This count is based on distinct account numbers from the joined tracking and account datasets.
+The recorded utilization rate metric applies only where the value of ""USER_RATE_1"" is less than 0.5.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited issues. The response is balanced and fair."

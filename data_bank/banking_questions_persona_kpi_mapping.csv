@@ -1,0 +1,15 @@
+question,persona,kpi,complexity
+What percentage of loan accounts are delinquent (90+ days past due),Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,simple
+Top 10 zip codes by total account balance,Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium
+How many accounts were closed within 90 days of opening,Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (≤90 days),medium
+What percentage of our loan portfolio is made up of credit cards (by account balance),Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium
+What percentage of our accounts have not had any activity in the last 90 days,Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,medium
+What member segments have the highest account longevity,Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),medium
+What member segments have the highest account longevity for accounts that are still open,Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,medium
+What is the monthly closure rate by loan product,Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,hard
+How many accounts have been open for longer than 5 years and separate into active vs dormant percentages,Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,hard
+What percentage of our loan portfolio is made up of credit cards,Executive Leadership; CRO,Product Mix %; Portfolio Allocation,simple
+Give the overall health of the credit union out of 100,CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard
+What are the top accounts with most loan balances,Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple
+Show accounts with the most transfer limits,Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple
+Which cards have high ATM usage but low limit,Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,hard

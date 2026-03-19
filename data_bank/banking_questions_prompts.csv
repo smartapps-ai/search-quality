@@ -1,0 +1,1891 @@
+id,persona,kpi,difficulty,prompt
+0,Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,simple,"You are a Risk & Credit Analytics Manager; CRO; Compliance Officer as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What percentage of loan accounts are delinquent (90+ days past due).
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+1,Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,simple,"You are a Finance / Treasury Manager; Branch / Regional Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Total Deposit Balance by Geography; Concentration Risk.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+2,Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (≤90 days),simple,"You are a Product Manager; Member Analytics Lead as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Early Closure Rate; Account Churn (≤90 days).
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+3,Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,simple,"You are a Finance Manager; CRO; Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Portfolio Mix %; Credit Card Exposure by Balance.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+4,Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,simple,"You are a Member Analytics Lead; Compliance Officer as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Dormant Account Rate; Inactivity Ratio.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+5,Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),simple,"You are a Member Analytics Lead; Executive Leadership as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Average Account Tenure; Member Lifetime Value (proxy).
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+6,Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,simple,"You are a Member Analytics Lead; Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Active Account Tenure; Retention Duration.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+7,Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,"You are a Product Manager; Risk Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Monthly Closure Rate; Product Attrition Rate.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+8,Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,"You are a Member Analytics Lead; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Long-Tenure Account %; Dormant vs Active Ratio.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+9,Executive Leadership; CRO,Product Mix %; Portfolio Allocation,simple,"You are a Executive Leadership; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Product Mix %; Portfolio Allocation.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What percentage of our loan portfolio is made up of credit cards.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+10,CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",simple,"You are a CEO; COO; Board; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth).
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+11,Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,"You are a Risk Manager; Finance Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+High-Balance Exposure; Concentration Risk.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What are the top accounts with most loan balances.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+12,Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,"You are a Fraud Analyst; Risk Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Transfer Limit Exposure; Operational Risk Indicator.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+Show accounts with the most transfer limits.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+13,Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,"You are a Fraud Analyst; Card Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+ATM Utilization Rate; Limit Utilization Anomaly.
+
+### Task
+Provide actionable simple difficulty questions to achieve this goal.
+
+#### simple difficulty questions must :
+- Single metric or straightforward count, percentage, or ranking
+- Minimal filtering and no segmentation
+- No time-series analysis or trend comparison
+- Answerable with one aggregation or query
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+14,Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,medium,"You are a Risk & Credit Analytics Manager; CRO; Compliance Officer as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+15,Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,"You are a Finance / Treasury Manager; Branch / Regional Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Total Deposit Balance by Geography; Concentration Risk.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+Top 10 zip codes by total account balance.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+16,Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (≤90 days),medium,"You are a Product Manager; Member Analytics Lead as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Early Closure Rate; Account Churn (≤90 days).
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+How many accounts were closed within 90 days of opening.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+17,Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,"You are a Finance Manager; CRO; Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Portfolio Mix %; Credit Card Exposure by Balance.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What percentage of our loan portfolio is made up of credit cards (by account balance).
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+18,Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,medium,"You are a Member Analytics Lead; Compliance Officer as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Dormant Account Rate; Inactivity Ratio.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What percentage of our accounts have not had any activity in the last 90 days.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+19,Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),medium,"You are a Member Analytics Lead; Executive Leadership as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Average Account Tenure; Member Lifetime Value (proxy).
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What member segments have the highest account longevity.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+20,Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,medium,"You are a Member Analytics Lead; Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Active Account Tenure; Retention Duration.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What member segments have the highest account longevity for accounts that are still open.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+21,Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,medium,"You are a Product Manager; Risk Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Monthly Closure Rate; Product Attrition Rate.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+22,Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,medium,"You are a Member Analytics Lead; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Long-Tenure Account %; Dormant vs Active Ratio.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+23,Executive Leadership; CRO,Product Mix %; Portfolio Allocation,medium,"You are a Executive Leadership; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Product Mix %; Portfolio Allocation.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+24,CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",medium,"You are a CEO; COO; Board; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth).
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+25,Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,medium,"You are a Risk Manager; Finance Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+High-Balance Exposure; Concentration Risk.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+26,Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,medium,"You are a Fraud Analyst; Risk Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Transfer Limit Exposure; Operational Risk Indicator.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+27,Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,medium,"You are a Fraud Analyst; Card Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+ATM Utilization Rate; Limit Utilization Anomaly.
+
+### Task
+Provide actionable medium difficulty questions to achieve this goal.
+
+#### medium difficulty questions must :
+- Involves filtering, grouping, or basic segmentation
+- May include a single time window or comparison
+- Requires joins across a small number of datasets
+- Produces ratios, breakdowns, or ranked results but not deep causal analysis
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+28,Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"You are a Risk & Credit Analytics Manager; CRO; Compliance Officer as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+29,Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,hard,"You are a Finance / Treasury Manager; Branch / Regional Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Total Deposit Balance by Geography; Concentration Risk.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+30,Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (≤90 days),hard,"You are a Product Manager; Member Analytics Lead as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Early Closure Rate; Account Churn (≤90 days).
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+31,Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,hard,"You are a Finance Manager; CRO; Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Portfolio Mix %; Credit Card Exposure by Balance.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+32,Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"You are a Member Analytics Lead; Compliance Officer as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Dormant Account Rate; Inactivity Ratio.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+33,Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"You are a Member Analytics Lead; Executive Leadership as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Average Account Tenure; Member Lifetime Value (proxy).
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+34,Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,"You are a Member Analytics Lead; Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Active Account Tenure; Retention Duration.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+35,Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,hard,"You are a Product Manager; Risk Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Monthly Closure Rate; Product Attrition Rate.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+What is the monthly closure rate by loan product.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+36,Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,hard,"You are a Member Analytics Lead; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Long-Tenure Account %; Dormant vs Active Ratio.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+How many accounts have been open for longer than 5 years and separate into active vs dormant percentages.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+37,Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"You are a Executive Leadership; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Product Mix %; Portfolio Allocation.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+38,CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"You are a CEO; COO; Board; CRO as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth).
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+Give the overall health of the credit union out of 100.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+39,Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,hard,"You are a Risk Manager; Finance Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+High-Balance Exposure; Concentration Risk.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+40,Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,hard,"You are a Fraud Analyst; Risk Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+Transfer Limit Exposure; Operational Risk Indicator.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"
+41,Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,hard,"You are a Fraud Analyst; Card Product Manager as Banking Domain Expert. 
+###
+Your goal is to improve the following KPI:
+ATM Utilization Rate; Limit Utilization Anomaly.
+
+### Task
+Provide actionable hard difficulty questions to achieve this goal.
+
+#### hard difficulty questions must :
+- Require multi-step analysis, segmentation, or time-based trends
+- Focus on early-warning signals, concentration risk, behavioral risk, or product-level risk
+- Go beyond simple counts or percentages
+- Be suitable for executive risk reviews or regulatory discussions
+
+### Table join
+
+Fact Table, Foreign Key, Join Type, Join Table, Primary Key,Status
+PUBLIC.COMMENT,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.TRACKING, ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.NOTE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.SHARE,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOOKUP,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.LOAN,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.CARD,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+PUBLIC.MEMBER,	ACCOUNT_NUMBER,	LEFT,	PUBLIC.ACCOUNT,	ACCOUNT_NUMBER,	Accept
+
+
+Here are some example questions:
+Which cards have high ATM usage but low limit.
+
+### Output Rules (MANDATORY)
+- Output JSON only
+- Do NOT include explanations, markdown, or extra text
+- Each question must be concise, specific, and clearly tied to the bank domain and the KPI
+
+### Output Schema
+{{
+  ""questions"": [
+    ""string"",
+    ""string"",
+    ...
+  ]
+}}
+
+Generate 10 questions directly in JSON format:"

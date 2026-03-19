@@ -1,0 +1,178 @@
+﻿persona,kpi,difficulty,synthetic_questions,tursio_response
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What percentage of accounts have made no transactions in the last 90 days?,"Key Insight:
+All accounts in the dataset (100%) have made no transactions in the last 90 days."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the total number of accounts that have closed within the last 90 days?,"Key Insights:
+
+The query indicates that 0 distinct accounts have closed within the last 90 days."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,"What percentage of accounts have a loan balance greater than $10,000?","Key Insight:
+
+68.8% of the accounts in the dataset (688 out of 1000) have a loan balance greater than $10,000."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,How many accounts have a credit card linked that is active?,"Key Insight:
+
+There are exactly 214 accounts with an active credit card. This count represents distinct account numbers linked to cards that meet the specified active status and type filters."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the total number of accounts that have commented in the last 30 days?,"Key Insight:
+
+The dataset indicates that 0 unique accounts have commented in the last 30 days."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What percentage of accounts have a tracking feature turned off?,"Key Insights:
+
+Out of 675 accounts, none (0%) have the tracking feature turned off."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,How many accounts have more than one loan?,"The data indicates that 463 accounts have more than one loan.
+
+The query groups by account number from the loan records and then counts those with more than one associated loan, resulting in the total of 463 accounts."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the average loan balance for all accounts as of today?,"The query did not return a numerical result for the average loan balance. The result appears blank, indicating that, under the current filter conditions (i.e., loans with an activity date equal to today), no applicable numeric data was aggregated or the computed average is null."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the total number of accounts that have shared their profile in the last 30 days?,"Key Insight:
+There are 0 accounts that have shared their profile in the last 30 days.
+"
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What percentage of accounts have received a note in the last 30 days?,"The key insight is that 0% of the accounts have received a note in the last 30 days. Out of 1,000 total accounts, none have a recorded note entered within the past 30 days.
+
+Accounts with notes: 0
+Total accounts: 1,000
+Percentage with notes: 0%
+This clear result shows that, based on the available note entries, there have been no recent notes linked to any of the existing accounts over the last 30 days."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What percentage of accounts have a negative balance?,"Key Insight:
+0% of accounts in the dataset exhibit a negative balance.
+
+Supporting Details:
+
+The calculation was derived by counting accounts with a negative balance and dividing by the total number of accounts.
+The result confirms that, within the current dataset, no accounts are in deficit."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,How many accounts currently have a loan open?,"Key Insight
+The dataset reveals that exactly 735 distinct accounts currently have open loans, as indicated by the condition where the loan close date is either null or marked as an open status."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What is the total number of accounts with active credit cards?,"The dataset indicates that there are 645 unique accounts associated with active credit cards.
+
+This insight is derived by counting distinct account numbers in the CARD table where the card status equals 1, meaning active.
+The statistic directly relates to the number of accounts holding active credit cards, with ""active"" defined by the card status field.
+This concise summary directly reflects the results from the executed SQL query without additional, unnecessary details."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What percentage of accounts have had no transactions in the last month?,"Key Insight:
+
+100% of the accounts in the dataset have had no transactions in the last month."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,How many accounts are currently flagged for suspicious activity?,"Key Insight:
+The query indicates that 0 accounts are currently flagged for suspicious activity."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What is the total number of accounts with missed payments in the last month?,"The query indicates 0 accounts experienced missed payments in the last month.
+
+The query aggregates distinct account numbers from the loan and account tables.
+It checks that the account activity occurred within the last month and that any delinquency metric (from 11 days to over 121 days) is greater than zero.
+Overall, no accounts met the delinquency criteria within the specified period."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,"How many accounts have a loan amount greater than $10,000?","Key Insight:
+The query identified that 688 unique accounts have a loan balance greater than $10,000.
+
+Supporting Details:
+
+This count was derived by filtering the loan records to include only those with loan balances exceeding $10,000 and then counting the distinct account numbers.
+The analysis confirms that the metric specifically accounts for unique accounts, ensuring that accounts with multiple qualifying loans are counted only once."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What percentage of accounts have a credit score below 600?,"Key Insight:
+The dataset preview does not include any explicit field for credit scores. As a result, it is not possible to determine the percentage of accounts with a credit score below 600 from the available data."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,How many members are currently enrolled in overdraft protection?,"Key Insight:
+The query reveals that there are 0 members enrolled in overdraft protection."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What is the average balance of accounts with loans?,"Key Insight:
+The average loan balance for accounts with loans is $25,861.83."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of active accounts have a loan?,"Key Insight:
+Based on the dataset preview, every active account shown in the join has an associated loan record, suggesting that 100% of active accounts have a loan."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have made a comment in the last year?,"Key Insight:
+All active accounts included in the sample have an associated loan record—i.e., 100% of the active accounts in the dataset have a loan."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,How many accounts have not logged any activity in the last 6 months?,"Key Insight: There are exactly 1,000 accounts that have not logged any activity in the last six months."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have a credit card?,"Key Insight:
+
+30.1% of accounts have an associated credit card."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have shared information with other accounts?,"The data indicates that 66% of accounts have shared information with other accounts. This means that nearly two-thirds of all accounts have been involved in multiple share transactions or associations, as defined by having more than one distinct share ID.
+
+66% of Accounts: Out of the total accounts, 66% are linked with multiple share entries."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,"What is the count of accounts with a loan balance above $10,000?","Key Insight:
+
+There are exactly 688 distinct accounts with a loan balance above $10,000."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts are classified as dormant?,"Key Insight:
+Approximately 97.9% of accounts are classified as dormant.
+"
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,How many accounts have received a note from a member in the last year?,"Key Insight:
+The query reveals that 21 accounts have received at least one note from a member in the past year."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have a tracking record?,"High-Impact Finding
+
+Out of 1,000 total accounts, 675 have an associated tracking record, which means 67.5% of accounts have a tracking record."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,How many accounts have more than one active loan?,"Key Insight:
+There are 463 accounts that have more than one active loan.
+"
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,"What percentage of accounts have a balance greater than $100,000?","Key Insight:
+
+0% of accounts have a balance greater than $100,000."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts have a concentration risk above 20% of total balances?,"The data shows that 0 accounts have a concentration risk above 20% of the total balances.
+
+The executed query calculated the concentration risk by dividing each account's balance by the overall total balance.
+No account exceeded the 20% threshold based on the available data.
+This indicates that, in the current dataset, none of the accounts are significantly concentrated relative to the aggregated total balances."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,What is the average balance of the top 10 high-balance accounts?,"The top 10 high-balance accounts have an average balance of 24,674.1.
+
+This value represents the mean calculated from the individual average balances of these accounts, which were derived by cleaning and converting text balance values to numeric form.
+The calculation focused solely on the top 10 accounts sorted by their computed average balances.
+The data is sourced by joining share and account details, ensuring the balance values are accurately processed before computing the overall average."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,What percentage of total assets are held in the top 5 highest balance accounts?,"The top 5 highest balance accounts hold a combined balance of 124,864, which represents 0.5% of the total assets of 24,989,500.
+
+Key Insight: The top 5 accounts make up only a fraction (0.5%) of the total asset value."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts are concentrated in a single industry sector?,"Key Insight:
+A single industry sector, indicated by an empty commercial code, concentrates exactly 1,000 accounts."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,"What is the total number of accounts with balances exceeding $500,000?","The key insight from the data is that no accounts have balances exceeding $500,000.
+
+The executed query returned a count of 0 distinct share account numbers meeting the criterion.
+This indicates that, based on the current dataset and applied filters, there are 0 accounts with balances above the $500,000 threshold."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,What percentage of total liabilities do the top 10 accounts represent?,"Key Insight:
+The top 10 accounts represent 0% of the total liabilities."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts have multiple credit products linked to them?,"Key Insight:
+The query returned a count of 1,000 unique accounts, which represents the total number of accounts processed, rather than explicitly identifying those with multiple credit products."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,"What is the proportion of accounts with balances over $250,000 relative to total accounts?","Key Insights:
+
+Out of 1,000 total accounts, there are 0 accounts with balances greater than $250,000, resulting in a 0% proportion."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts are flagged for risk concentration based on balance thresholds?,"Key Insight:
+No accounts are flagged for risk concentration based on the balance thresholds."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What percentage of accounts have transfer limits exceeding the average transfer limit?,"Key Insight:
+
+Approximately 61.24% of accounts have transfer limits above the average transfer limit."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,How many accounts have transfer limits above a specified threshold?,"The key insight is that there are 645 distinct account numbers identified in the dataset that meet the specified criteria regarding transfer limits.
+
+The query counts distinct accounts from the card account data, resulting in exactly 645 accounts.
+This observation is based on the dataset provided and directly reflects the count of account numbers after applying the specified filter for transfer limits."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the total sum of transfer limits across all accounts?,"High-Impact Finding
+The total sum of transfer limits across all accounts is 2,366,550."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What percentage of accounts have no transfer limit set?,"Key Insight:
+Out of 1,000 accounts, 355 accounts have no transfer limit set, which is 35.5%."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,Which account has the highest transfer limit?,"Key Insight:
+
+Account Q5T6424S60HGTXA5LGW1CJGP8MW8M8G9 has the highest transfer limit in the dataset, with a limit of 4,999.50."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the average transfer limit across all accounts?,"Key Insights
+
+The average transfer limit across all accounts sampled is $2,478.06."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,How many accounts have multiple transfer limits associated with them?,"Key Insight:
+A total of 310 accounts have been identified with multiple transfer limits (each showing a transfer limit count of 2)."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the count of accounts with transfer limits that are inactive?,"Key Insight:
+The data indicates that there are exactly 0 accounts with transfer limits set to 0 and with inactive card statuses."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What percentage of accounts are utilizing their full transfer limit?,"Below is a high_level summary based on the available figures:
+
+Key insight: According to the preview statistics, none of the 955 accounts in the dataset appear to be using their entire transfer capacity. In other words, 0% of accounts are observed to have reached (i.e. “utilized”) their full_transfer limit."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the count of accounts with transfer limits increased in the last month?,"The dataset indicates that 0 accounts had their transfer limits increased in the last month.
+
+The query counts distinct accounts with a positive transfer limit change between one month ago and the current date.
+The absence of any accounts meeting this criteria is clearly quantified with a count of 0."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have an ATM utilization rate above 80%?,"Key Insight:
+The analysis shows that 0% of accounts have an ATM utilization rate above 80%."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have reached their ATM withdrawal limits?,"Key Insight:
+The data indicates that 0% of accounts have reached their ATM withdrawal limits."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What is the total number of accounts that have made ATM withdrawals in the last month?,"Key Insight:
+The query determined that 0 unique accounts have made ATM withdrawals in the last month."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have a limit utilization rate greater than 100%?,"The query shows that 0% of accounts have a limit utilization rate greater than 100%.
+
+Key Insight: None of the accounts exceeded their allowed limit."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,How many accounts have ATM transactions exceeding $500 in a single day?,"Key Insight:
+The query indicates that 0 accounts have recorded ATM transactions exceeding $500 in a single day."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have not utilized their ATM card in the last 30 days?,"Key Insight:
+All ATM accounts—100% (269 out of 269)—have not utilized their ATM card in the last 30 days."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What is the average ATM withdrawal amount across all accounts?,"Key Insight
+The average ATM withdrawal amount across all accounts is 255.63."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,How many accounts have an overdraft on their ATM limit?,"Key Insight:
+
+0 accounts have an overdraft on their ATM limit based on the available data."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of ATM users have a limit utilization anomaly?,"The key insight is that 25.0821% of ATM users exhibit limit utilization anomalies.
+
+This percentage represents the proportion of cards where the ATM usage amount has exceeded the ATM usage limit.
+The calculation was based on distinct card numbers that had at least one ATM transaction, ensuring accuracy in the result."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What is the total number of accounts with a limit utilization rate below 50%?,"The data shows that a total of 675 unique accounts recorded a limit utilization rate below 50%.
+
+This count is based on distinct account numbers from the joined tracking and account datasets.
+The recorded utilization rate metric applies only where the value of ""USER_RATE_1"" is less than 0.5."

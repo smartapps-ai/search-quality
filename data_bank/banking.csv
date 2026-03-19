@@ -1,0 +1,58 @@
+﻿question,response,complexity
+How many accounts have been open for longer than 5 years and separate into active vs dormant percentages,"Key Insights
+
+There are a total of 196 accounts that have been open longer than 5 years, and all of them are classified as dormant (100% of the sample). No accounts in this period are listed as active.",hard
+Give the overall health of the credit union out of 100,"Overall Health Score: 75/100
+The aggregated results indicate a moderately strong credit union with key operational balances in place:
+
+Dividends & Transfers: The year‐to‐date dividend sum is approximately $494K while transfers total $102K. The current month’s paid dividends are almost identical to transfers at roughly $102K, indicating steady dividend performance and account activity.
+
+Courtesy Pay & Balances: Year‐to‐date courtesy pay aggregates at about $49.6K. Minimum balance sums of $1,002,980 suggest that a large volume of member funds is maintained on deposit, supporting liquidity.
+
+Overdraw Tolerance: With overdraw tolerance totaling $501K, there is significant leeway provided to members to exceed their available balance, an operational metric that may warrant monitoring for risk management.
+
+Missing Metric – Interest Income: Notably, the summed interest earned last year is reported as $0. This absence is significant given that interest income is a key revenue component for credit unions and could suggest either a change in revenue structures or missing data in this area.
+
+Taken together, while the positive balances and dividend performance reflect solid operational stability, the lack of recorded interest income is a notable gap that tempers the overall score. The score of 75/100 reflects these strengths balanced against the missing critical revenue metric.",hard
+What is the monthly closure rate by loan product,"Key Insights
+
+The query aggregates daily counts (using the column “count_late_charge_year_to_date_no_adjustment”) by activity date and loan product. In this context, each nonzero count can be interpreted as an “event” (e.g. a closure) that occurred on that date for that product.
+To report a monthly rate, the daily counts must be summed across all dates within a month for each loan product. For example, if one totals the events for January 2023, then the monthly “closures” for each product become available for analysis.
+Using January 2023 as a sample period, preliminary arithmetic shows that the total count for Auto Loans is 18 over the month. Similar monthly sums would need to be computed for Personal Loans, Home Loans, and Credit Cards to produce a complete monthly breakdown.",hard
+Which cards have high ATM usage but low limit,"Key Insights
+
+The query identified 29 card accounts that are in the top 20% for average ATM usage and simultaneously in the bottom 20% for average limit amounts.
+The highest average ATM usage among these cards is 131.59, with a corresponding average limit amount of 8,124.94, while the lowest reported average ATM usage in this set is 6.12 with a limit of 8,513.25.",hard
+How many accounts were closed within 90 days of opening,The data shows that 24 accounts were closed within 90 days of being opened.,medium
+top 10 zip codes by total account balance,"The top 10 zip codes ordered by total account balance have totals ranging from $9,747.39 (zip code 87172) to $6,641.65 (zip code 98178).
+The highest recorded balance is $9,747.39 for zip code 87172 across 13 accounts, with an average of $749.80 per account.
+Among the top 10, zip codes such as 21265 and 32841 show higher average balances per account — $1,211.69 and $1,247.66 respectively — despite managing fewer accounts (8 and 6 accounts).
+The ranking based on total balance highlights a mix of high total balances with either a large volume of accounts (e.g., zip code 37201 has 17 accounts) or fewer accounts with higher individual averages (e.g., zip code 21265).",medium
+What percentage of our loan portfolio is made up of credit cards (by account balance),"Key Insights:
+
+Credit card loans constitute 27.3% of the overall loan portfolio by balance.",medium
+What percentage of our accounts have not had any activity in the last 90 days,"High-Impact Findings
+
+100% of the accounts are classified as inactive, meaning none of the accounts have recorded activity in the last 90 days.",medium
+What member segments have the highest account longevity,"The analysis indicates that across 99 distinct member segments, the average account longevity measured in days spans from 945 to 1,710.62 days, with a median longevity of about 1,274 days. In other words, among the segments, the highest longevity is seen in a group that averages nearly 1,711 days since account opening.
+
+Account Longevity Range: Member segments show an average account longevity that ranges by group from 945 to 1,710.62 days.
+Central Tendency: The overall median is 1,274 days and the mean across all groups is 1,272.04 days.
+Account Count per Segment: Each segment has an average of 10.1 accounts, with counts ranging from 3 to 19 accounts per segment.
+These figures illustrate that while every segment sustains account longevity in excess of 2.5 years (945+ days), some segments maintain account relationships for almost 5 years (1,710.62 days). This pattern is consistent across a wide variety of member groups as evidenced by the uniform spread and relatively modest standard deviation of about 148 days in longevity across the groups.",medium
+What member segments have the highest account longevity for accounts that are still open,"Great question but unfortunately no data points were found to generate an answer for you. Consider adjusting your query to change one or more parameters, such as time or other filters.",medium
+Top 10 zip codes by total account balance,"Key Insight: The dataset preview reveals that a single zip code grouping, represented by an empty string (no reported zip code), has a total account balance of $24,989,486.",medium
+what percentage of loan accounts are delinquent (90+ days past due),"Approximately 81.72% of the loan accounts are delinquent, meaning they have at least one indicator of being 90 or more days past due.",simple
+Show accounts with the most transfer limits,"The top accounts by total transfer limit are very similar—four accounts have limits between approximately 9184 and 9321, each built from 2 cards. In these leading groups, the maximum individual card limit is in the range of about 4835 to 4944, with average per‐card limits hovering around 4660. By contrast, nearly every account in the result consolidates exactly 2 cards, showing a highly uniform card count among the high-transfer–limit accounts. Overall, the top aggregated limits are tightly clustered within a narrow range at the high end.",simple
+What percentage of loan accounts are delinquent (90+ days past due),"The key finding is that 82.99% of the loan accounts are delinquent (90+ days past due).
+
+This percentage is calculated based on checking if either the ""DQ_91_TO_120_DAYS"" or ""DQ_TO_121_AND_UP_DAYS"" values are greater than zero for each loan account.
+The query uses distinct counts for loan accounts and applies a 100.0 scaling factor, ensuring that the percentage is accurate relative to all loan accounts processed.
+This summary directly reflects the observable data without additional interpretations or speculation.",simple
+What percentage of our loan portfolio is made up of credit cards,"Key Insight:
+Approximately 43.67% of the overall loan portfolio is comprised of credit card loans, based on the count of 321 distinct credit card-related loan accounts.",simple
+What are the top accounts with most loan balances,"Key Insights
+
+The top 10 accounts by loan balance each hold exactly 3 loans, indicating a common loan grouping pattern across these accounts.
+The highest total loan balance is 134,003 and the lowest among the top accounts is 122,534, a difference of 11,469.
+Average loan balances range from approximately $40,845 to $44,668, showing relatively tight variance across accounts.",simple

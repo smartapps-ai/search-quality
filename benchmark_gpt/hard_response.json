@@ -1,0 +1,156 @@
+{
+"answers": [
+{
+"question": "What are typical 90+ day delinquency rates for different loan types in the banking industry?",
+"answer": "Typical 90+ day delinquency rates vary by loan type. Credit cards and unsecured personal loans are usually highest, ranging from 3% to 6%. Auto loans tend to be lower at around 1% to 2%, while first-lien mortgages are typically below 1%. Secured products generally perform better due to collateral and underwriting standards."
+},
+{
+"question": "What is the relationship between payment history length and loan default rates?",
+"answer": "Shorter payment histories are strongly associated with higher default rates. Borrowers with less than three months of payment history show significantly higher early-stage delinquency and default likelihood. Longer payment histories indicate repayment behavior stability and lower risk. This relationship is especially pronounced in unsecured lending."
+},
+{
+"question": "What borrower characteristics are commonly associated with non-performing loans?",
+"answer": "Non-performing loans are commonly associated with low credit scores, high debt-to-income ratios, and prior delinquencies. Borrowers with volatile income or recent credit inquiries also show higher risk. Younger accounts and highly leveraged borrowers are overrepresented. Economic stress amplifies these characteristics."
+},
+{
+"question": "What are early warning indicators for loan delinquency progression?",
+"answer": "Early warning indicators include rising credit utilization, missed or partial payments, and declining deposit balances. Increased cash advances and reduced discretionary spending payments are also signals. Behavioral changes often appear 30 to 60 days before serious delinquency. Monitoring transaction volatility improves early detection."
+},
+{
+"question": "Do loan delinquency rates differ between urban and rural areas?",
+"answer": "Yes, delinquency rates often differ between urban and rural areas. Rural regions may experience higher delinquency due to income volatility and limited employment diversity. Urban areas can show pockets of higher delinquency driven by cost-of-living pressures. Overall differences are influenced by local economic conditions."
+},
+{
+"question": "What are industry benchmarks for delinquency rates by loan product type?",
+"answer": "Industry benchmarks show mortgages below 1% for 90+ DPD, auto loans around 1% to 2%, and credit cards between 3% and 6%. Personal loans typically fall between 2% and 5%. Benchmarks vary with credit cycle conditions. Unsecured products consistently show higher risk."
+},
+{
+"question": "How do delinquency rates compare across different credit score ranges?",
+"answer": "Delinquency rates increase sharply as credit scores decline. Borrowers below 600 can experience delinquency rates several times higher than prime borrowers. Prime segments usually maintain low single-digit delinquency. Score segmentation is one of the strongest predictors of default."
+},
+{
+"question": "What is the typical credit utilization ratio for performing vs non-performing loans?",
+"answer": "Performing loans typically show utilization below 40% to 50%. Non-performing loans often exceed 70% utilization prior to delinquency. Rising utilization is a common precursor to missed payments. Sustained high utilization signals financial stress."
+},
+{
+"question": "Do promotional loan offers affect delinquency rates?",
+"answer": "Promotional loan offers can lead to higher delinquency if underwriting is relaxed. Short-term performance is often stable, but delinquency can rise after promotional periods end. Borrowers attracted primarily by incentives may have weaker repayment capacity. Careful targeting mitigates this risk."
+},
+{
+"question": "What is the correlation between high credit utilization and loan delinquency?",
+"answer": "High credit utilization is strongly correlated with increased delinquency risk. Accounts exceeding 70% utilization are significantly more likely to progress to 60+ or 90+ DPD. The effect is stronger for unsecured credit. Utilization trends are widely used in risk models."
+},
+{
+"question": "What are industry trends for dormant bank account rates?",
+"answer": "Dormant account rates across the industry typically range from 20% to 30%. Rates have declined slightly with improved digital engagement. Older and low-balance accounts contribute most to dormancy. Regulatory monitoring has increased focus on dormant accounts."
+},
+{
+"question": "Which types of bank accounts have higher dormancy rates?",
+"answer": "Savings and secondary checking accounts tend to have higher dormancy rates. Promotional or low-balance accounts also become dormant more frequently. Primary checking accounts are usually the most active. Dormancy is lower for accounts linked to loans or payroll deposits."
+},
+{
+"question": "What are effective strategies for reactivating dormant bank accounts?",
+"answer": "Effective strategies include targeted communication, fee waivers, and product-linked incentives. Encouraging direct deposit or bill pay increases reactivation success. Digital nudges and personalized offers are particularly effective. Reactivation is more likely for accounts with residual balances."
+},
+{
+"question": "What percentage of dormant account holders have multiple inactive products?",
+"answer": "Roughly 40% to 60% of dormant account holders also have other inactive products. This is common among customers with fragmented relationships. Inactivity often spans savings, cards, and unused credit lines. Multi-product dormancy signals disengagement risk."
+},
+{
+"question": "What factors lead to dormant bank account reactivation?",
+"answer": "Reactivation is often triggered by life events, new income streams, or targeted incentives. Prior low but non-zero engagement increases reactivation probability. Reactivated accounts typically show a transaction or login shortly before status change. Ease of digital access plays a key role."
+},
+{
+"question": "What transaction patterns predict bank account dormancy?",
+"answer": "Declining transaction frequency, reduced balance volatility, and absence of recurring credits predict dormancy. Loss of direct deposit is a strong indicator. Accounts with sporadic low-value transactions are also at risk. These patterns often emerge months in advance."
+},
+{
+"question": "Which demographic groups have the highest bank account dormancy rates?",
+"answer": "Younger customers, low-income segments, and rural populations tend to show higher dormancy rates. Dormancy is also common among older customers with legacy accounts. Customers with multiple banks are more likely to abandon secondary accounts. Digital engagement reduces dormancy across groups."
+},
+{
+"question": "What customer behaviors predict bank account inactivity?",
+"answer": "Reduced logins, lack of alert usage, and no customer service interactions predict inactivity. Absence of recurring payments is another signal. Customers who stop using budgeting or tracking tools often disengage next. Behavioral decline typically precedes dormancy classification."
+},
+{
+"question": "What are typical dormancy rates for different banking products?",
+"answer": "Checking accounts typically show dormancy rates of 15% to 25%. Savings accounts are higher, often 25% to 35%. Credit cards and loan-linked accounts have lower dormancy. Product purpose strongly influences activity levels."
+},
+{
+"question": "Does account limit size affect inactivity rates?",
+"answer": "Yes, higher account limits are generally associated with lower inactivity rates. Customers with higher limits tend to be more engaged and higher value. Low-limit accounts are more likely to be secondary or dormant. Limit size often correlates with relationship depth."
+},
+{
+"question": "What are characteristics of bank accounts with high activity but low balances?",
+"answer": "These accounts typically show frequent transactions with rapid balance turnover. They are often used for bill payments or cash flow management. Customers may rely on external savings or credit. Such accounts can still be valuable for engagement but have lower deposit profitability."
+},
+{
+"question": "What are typical customer retention rates for different banking products?",
+"answer": "Mortgages and primary checking accounts have the highest retention, often exceeding 90% annually. Savings and credit cards show moderate retention around 75% to 85%. Ancillary or promotional products have higher churn. Retention improves with product bundling."
+},
+{
+"question": "What is the typical customer lifetime value by tenure in banking?",
+"answer": "Customer lifetime value increases significantly with tenure. Accounts under one year have the lowest value due to acquisition costs. Value rises steadily after three years as product usage deepens. Long-tenured customers generate the highest profitability."
+},
+{
+"question": "What is the typical account tenure for high-balance bank customers?",
+"answer": "High-balance customers typically have longer tenures, often exceeding 7 to 10 years. These customers build trust and consolidate assets over time. Sudden engagement drops can signal potential attrition. Monitoring tenure alongside activity is critical."
+},
+{
+"question": "How does credit product usage correlate with savings account activity?",
+"answer": "Increased credit usage often coincides with reduced savings activity in the short term. Customers may draw down savings to service debt. Sustained declines in savings can signal financial stress. Balanced credit and savings usage indicates healthier account behavior."
+},
+{
+"question": "What is the relationship between customer service interactions and account retention?",
+"answer": "Moderate customer service interaction is associated with higher retention. Proactive issue resolution improves customer trust. Very high interaction frequency may signal dissatisfaction and higher churn risk. The nature of interactions matters more than volume alone."
+},
+{
+"question": "Which banking product combinations have the highest customer retention?",
+"answer": "Combinations of checking, savings, and credit products show the highest retention. Customers with loans and deposit accounts are especially sticky. Payroll-linked checking further increases retention. Cross-product usage strengthens relationship depth."
+},
+{
+"question": "How does digital banking adoption affect customer retention?",
+"answer": "Digital banking adoption is positively correlated with higher retention. Digitally engaged customers show longer tenure and more frequent interactions. Mobile and online usage increase switching costs. Lack of digital adoption increases attrition risk."
+},
+{
+"question": "How do customer satisfaction scores correlate with account closures?",
+"answer": "Declining customer satisfaction scores often precede account closures. Negative score trends can appear months before churn. Sudden drops are particularly predictive. Monitoring satisfaction changes improves churn prevention."
+},
+{
+"question": "Do loan customers show different transaction patterns over time?",
+"answer": "Yes, loan customers often show reduced discretionary spending after loan origination. Transaction frequency may decline as repayment obligations increase. Stable repayment behavior offsets lower activity. Sharp declines can indicate financial strain."
+},
+{
+"question": "What transaction patterns indicate potential account dormancy risk?",
+"answer": "Sharp declines in transaction frequency and elimination of recurring payments signal dormancy risk. Reduced digital logins and balance stagnation are also indicators. Risk increases when multiple patterns occur together. Early detection allows targeted engagement."
+},
+{
+"question": "What is the average account tenure before closure by product type?",
+"answer": "Average tenure before closure is shortest for savings and promotional accounts, often under three years. Credit cards and checking accounts typically close after four to six years if churn occurs. Loan-linked accounts have longer tenures. Product purpose influences closure timing."
+},
+{
+"question": "How does high credit utilization affect deposit behavior?",
+"answer": "High credit utilization often leads to declining deposit balances. Customers may draw down savings to manage debt. Reduced deposit inflows are common before delinquency. This pattern signals rising financial stress."
+},
+{
+"question": "What defines inactive bank account behavior patterns?",
+"answer": "Inactive accounts show no customer-initiated transactions for extended periods. They lack recurring credits or debits and have minimal digital engagement. Balances often remain flat or slowly decline. These patterns distinguish inactivity from seasonal usage."
+},
+{
+"question": "What factors predict account closure for long-term banking customers?",
+"answer": "Sudden declines in activity, loss of direct deposit, and reduced digital engagement predict closure. Increased complaints or negative feedback are also signals. Long-term customers usually show warning signs before exiting. Monitoring changes rather than absolute levels is critical."
+},
+{
+"question": "How does joint account activity affect account retention?",
+"answer": "Joint accounts with balanced activity from both parties have higher retention. Declines in shared usage increase closure risk. Joint accounts tied to household income are especially stable. Inactivity by both holders is a strong churn signal."
+},
+{
+"question": "Does customer service interaction improve account retention?",
+"answer": "Customer service interaction generally improves retention when issues are resolved effectively. Proactive outreach strengthens relationships. Poor service experiences increase churn risk. Quality of interaction is more important than frequency."
+},
+{
+"question": "What transaction patterns indicate risk for multi-product banking customers?",
+"answer": "Erratic transaction patterns across products indicate elevated risk. Sudden drops in usage for multiple products are concerning. Shifting balances without corresponding activity suggests disengagement. Consistency across products signals healthier relationships."
+}
+]
+}

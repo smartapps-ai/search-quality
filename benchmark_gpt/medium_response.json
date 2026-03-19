@@ -1,0 +1,84 @@
+{
+"answers": [
+{
+"question": "What are typical deposit balance ranges by geographic region in US banks?",
+"answer": "Typical deposit balances vary significantly by region in the US. The Northeast and West Coast tend to have higher average balances, often ranging from $40,000 to $70,000 per account. The Midwest and South generally show lower averages, commonly between $20,000 and $40,000. Cost of living, income levels, and urbanization are key drivers of these differences."
+},
+{
+"question": "Which US regions have the highest concentration of high-balance deposit accounts?",
+"answer": "The West Coast and Northeast have the highest concentration of high-balance deposit accounts. States such as California, New York, and Massachusetts contribute heavily to this concentration. These regions benefit from higher household incomes and greater wealth accumulation. Urban financial hubs further amplify high-balance clustering."
+},
+{
+"question": "What are typical deposit balances by customer segment in banking?",
+"answer": "Retail mass-market customers typically maintain balances between $5,000 and $15,000. Affluent and mass-affluent segments often hold $50,000 to $250,000 in deposits. Small business customers usually range from $20,000 to $100,000 depending on business size. High-net-worth individuals exceed these ranges significantly."
+},
+{
+"question": "What percentage of bank customers maintain accounts in single versus multiple locations?",
+"answer": "Approximately 75% to 85% of bank customers maintain accounts in a single geographic location. Around 15% to 25% hold accounts across multiple regions or states. Multi-location customers are more common among affluent individuals and business owners. Digital banking has slightly increased multi-location presence."
+},
+{
+"question": "What are typical inactive account rates by geographic region?",
+"answer": "Inactive account rates are generally higher in rural and lower-income regions, averaging 25% to 30%. Urban and coastal regions tend to have lower inactivity rates, closer to 15% to 20%. Regions with higher digital adoption show better activity levels. Demographics and branch density also influence inactivity."
+},
+{
+"question": "Which geographic areas show the highest deposit growth rates?",
+"answer": "High deposit growth rates are typically observed in fast-growing metropolitan areas in the South and Southwest. Regions such as Texas, Florida, and parts of Arizona show strong inflows. Population growth, job creation, and housing expansion drive these trends. Secondary cities often outperform mature coastal markets in growth rates."
+},
+{
+"question": "What is the average deposit per account by US region?",
+"answer": "The average deposit per account is highest in the Northeast and West, typically between $50,000 and $70,000. The Midwest averages closer to $30,000 to $45,000 per account. The South generally falls slightly lower, around $25,000 to $40,000. Regional income and housing costs heavily influence these figures."
+},
+{
+"question": "What are typical joint account ownership patterns by geography?",
+"answer": "Joint account ownership is more common in suburban and family-oriented regions, particularly in the Midwest and South. In these areas, 30% to 40% of accounts may be jointly owned. Urban and coastal regions show lower joint ownership, often closer to 20% to 25%. Household structure and marital rates are key factors."
+},
+{
+"question": "Do long-term bank customers have higher average balances by region?",
+"answer": "Yes, long-term bank customers consistently have higher average balances across all regions. Customers with 5+ years of tenure often hold 30% to 50% higher balances than newer customers. This effect is strongest in high-income regions such as the Northeast and West Coast. Relationship depth and accumulated savings drive this pattern."
+},
+{
+"question": "What percentage of bank accounts are considered low-balance accounts by region?",
+"answer": "Low-balance accounts, typically under $500, represent about 20% to 30% of accounts nationally. The percentage is higher in the South and rural regions, sometimes exceeding 30%. Coastal and affluent regions generally show lower proportions, closer to 15% to 20%. Income levels and account purpose influence these rates."
+},
+{
+"question": "What are average credit card balances by US state?",
+"answer": "Average credit card balances tend to be highest in states with higher costs of living. States like California, New York, and New Jersey often average between $6,000 and $8,000 per account. Lower-cost states in the Midwest and South commonly average $4,000 to $5,500. Income and housing costs are major drivers."
+},
+{
+"question": "Which demographic segments carry the highest credit card balances?",
+"answer": "Middle-aged consumers, particularly those aged 35 to 54, carry the highest credit card balances. Higher-income households also tend to hold larger balances. Families with children often rely more heavily on revolving credit. Younger adults and retirees generally carry lower balances."
+},
+{
+"question": "How do credit card balances compare across demographic segments?",
+"answer": "Credit card balances increase with age and income up to midlife. Prime credit segments carry higher balances but manage them more effectively. Subprime borrowers typically hold smaller balances but face higher utilization rates. Household size and employment stability also affect balance levels."
+},
+{
+"question": "What percentage of bank customers have multiple credit products?",
+"answer": "Approximately 50% to 60% of bank customers have multiple credit products. Common combinations include credit cards with auto loans or mortgages. Multi-product customers are more profitable and have lower churn. Banks actively encourage product bundling to deepen relationships."
+},
+{
+"question": "How do credit card balances vary by age group?",
+"answer": "Credit card balances are lowest among consumers under 25 and over 65. Balances peak in the 35 to 54 age range, often exceeding $6,000 on average. Younger consumers typically have thinner credit files. Older consumers tend to reduce balances as they approach retirement."
+},
+{
+"question": "Which geographic areas have the highest average credit card debt?",
+"answer": "Urban coastal areas tend to have the highest average credit card debt. Large metropolitan regions in California, the Northeast, and parts of the Pacific Northwest stand out. Higher living costs and spending levels contribute to larger balances. These areas also have higher average incomes."
+},
+{
+"question": "What percentage of credit card accounts are from new bank customers?",
+"answer": "Roughly 15% to 25% of credit card accounts belong to customers with less than one year of tenure. Many banks use credit cards as an entry product for new customers. Promotional offers drive early adoption. These accounts typically start with lower balances."
+},
+{
+"question": "Do consumers with multiple credit cards have higher average balances?",
+"answer": "Yes, consumers with multiple credit cards generally have higher total balances. While individual card balances may be moderate, combined exposure is significantly higher. These consumers also tend to have higher incomes and stronger credit profiles. Multiple cards increase available credit and spending flexibility."
+},
+{
+"question": "What percentage of total banking assets are credit card balances?",
+"answer": "Credit card balances typically represent about 3% to 5% of total banking assets. They are a small portion of assets but generate high yields. Mortgages and commercial loans dominate asset composition. Despite the size, credit cards contribute disproportionately to revenue."
+},
+{
+"question": "What percentage of credit card accounts show no recent transaction activity?",
+"answer": "Approximately 20% to 30% of credit card accounts show no transaction activity in a given 30-day period. These inactive accounts are often used as backup credit lines. Inactivity is more common among older and prime customers. Banks monitor inactivity for engagement and fraud reasons."
+}
+]
+}

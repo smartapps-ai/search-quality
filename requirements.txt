@@ -1,0 +1,13 @@
+openai
+anthropic
+ipykernel
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+deepeval
+ruff
+pydantic
+nltk
+python-dotenv
