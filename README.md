@@ -597,12 +597,6 @@ ensure_directories_exist()
 
 ---
 
-## License
-
-[Your License Here]
-
----
-
 ## Contact
 
 For questions or issues, please contact the Tursio team.
