@@ -1,0 +1,383 @@
+persona,kpi,difficulty,synthetic_questions,tursio_response
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"What is the trend of 90+ DPD accounts segmented by loan type over the last 24 months, and how does it correlate with macroeconomic indicators such as unemployment and interest rates?","Key Insights
+
+Over the last 24 months, the 90+ DPD counts show monthly fluctuations across loan types with certain loan types (e.g., 101 and 102) exhibiting larger swings in both counts and loan volumes.
+While the dataset provides monthly average interest rates alongside DPD counts, there is no clear, direct correlation between the interest rate changes and the frequency of 90+ DPD accounts. The macroeconomic indicator of unemployment is not present in the data, so its correlation cannot be assessed."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"For accounts that became delinquent in the last year, what share had less than 3 previous months of payment history versus those with more, and how does this impact future default likelihood?","High-Impact Findings
+
+In the last year, 100% of the delinquent accounts (10 accounts) had less than 3 months of payment history, with an average delinquency of 1 day.
+There are no records for accounts with 3 or more months of payment history, so the analysis is effectively limited to the group with minimal payment history."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,Analyze the concentration risk by identifying the top 10% of borrowers contributing to 50% of the total non-performing loans; what segments or characteristics do they share?,"Key Insights:
+
+The top 10% of borrowers driving 50% of the non-performing loans (NPL) each hold a single loan with balances tightly clustered in the range of approximately $44,844 to $49,898.
+There is a diverse mix of loan types among these top contributors, with recurring categories including Auto Loan, Personal Loan, Home Loan, and Credit Card. No single loan type overwhelmingly dominates the group."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"What behavioral traits or transaction patterns can predict early warning signals for accounts that transition from 30 DPD to 90 DPD, based on historical data?","Great question but unfortunately no data points were found to generate an answer for you. Consider adjusting your query to change one or more parameters, such as time or other filters."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"How does the delinquency ratio differ across different branch locations, and are there significant concentrations in urban versus rural regions?","Key Findings:
+
+Wide Range of Delinquency Ratios: Across all branches, the delinquency ratio varies from a low of 8.21 to a high of 15.25, indicating a considerable spread in late payment days relative to the number of loans managed.
+
+High Ratios Predominate in Some Rural Branches: The highest observed delinquency ratio of 15.25 occurs in branch 20 (Rural), with other high values (e.g., 14.38 in branch 26) also found among rural branches.
+
+Urban Branches Exhibit Moderately Lower Ratios: Urban branches generally show delinquency ratios between 9.67 and 14, with branch 55 at 14.00 and branch 66 at 9.67 highlighting the range.
+
+No Overwhelming Urban–Rural Divide: Both urban and rural regions display a broad range of ratios. While certain rural branches have the highest ratios, many rural branches also report ratios in the lower spectrum comparable to urban branches, indicating a dispersed pattern rather than a uniform concentration in one region type.
+"
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,Identify product-level risks by assessing the average time to delinquency for each loan type and the corresponding 90+ DPD rate; which products require targeted risk mitigation strategies?,"Key Insights
+
+All five loan product types (102, 101, 201, 301, and 401) display a 0% 90+ Days Past Due (DPD) rate, indicating no observable incidence of severe delinquency in this sample.
+There are differences in the average time to delinquency across loan types, ranging from 516.51 to 586.85 days."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"What percentage of accounts with a low credit score (below 600) are actively engaging in additional borrowing, and what is the trend in their delinquency rates versus higher-scored borrowers?","High-Impact Findings:
+
+98.6% of low credit score accounts (below 600) are actively engaging in additional borrowing.
+The low credit segment shows average delinquency levels (days past due) across different buckets (e.g., 11–30 days averaging approximately 4.5 to 6.0 days), with a modest month-to-month variation."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"How do the recent credit utilization ratios of non-performing loan accounts compare to those that have remained performing, particularly in the last six months?","Great question but unfortunately no data points were found to generate an answer for you. Consider adjusting your query to change one or more parameters, such as time or other filters."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,Evaluate the effect of promotional loan offers on the delinquency rates of those specific products; what is the post-promotion delinquency trend for those who took advantage?,"Great question but unfortunately no data points were found to generate an answer for you. Consider adjusting your query to change one or more parameters, such as time or other filters."
+Risk & Credit Analytics Manager; CRO; Compliance Officer,90+ DPD Rate; Delinquency Ratio; Non-Performing Loan %,hard,"What is the percentage of accounts moving from a high utilization rate to delinquency, and how does this varied by age of the account and total loan amount?","Key Insight:
+The query results indicate that 0% of accounts with a high utilization rate (≥ 80%) have moved to delinquency across all account age and origination balance groups."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What is the average total deposit balance by geography for accounts opened in the last year?,"Key Insights:
+
+The calculated average minimum balance for accounts opened between 2024-12-18 and 2025-12-18 is 611.34.
+No explicit geography grouping was applied in the query, so this average reflects the overall dataset for the specified account opening period."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,"Which geographical region has the highest concentration of accounts with balances over $10,000?","Great question but unfortunately no data points were found to generate an answer for you. Consider adjusting your query to change one or more parameters, such as time or other filters.
+"
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What is the total deposit balance for the top 5 customer segments by account number in each region?,"High-Impact Findings
+
+The total deposit balance for the top 5 records by account number is 1,381."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,How many accounts in the last 6 months have deposits concentrated in only one geographical area?,"Key Insight:
+No accounts in the last 6 months have deposits concentrated in only one geographical area, with the count being exactly 0."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What percentage of accounts with no recent activity (last 90 days) are located in the top 3 geographies by total balance?,"Key Insights
+
+Out of 1,000 accounts with no recent activity in the past 90 days, only 51 accounts (5.1%) are located in the top 3 geographies ranked by total balance."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,Which 5 zip codes show the highest growth in total deposit balance over the past year?,"High-Impact Findings:
+The data shows one zip code (with an empty value) achieving a total deposit balance growth of 475,382, while another (also with an empty zip code) experienced a decline of 506,519 in deposit balances."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What is the ratio of total deposits to total number of accounts by region?,"Key Insight:
+All regions (branches) have a deposit-to-account ratio of 0, meaning the total deposits are 0 across every branch despite a varying number of accounts."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,How many deposit accounts are shared among the top 5 member groups in each geographical area?,"Key Insights
+
+Each geographical area (branch) contributes the deposit accounts from its top 5 member groups. In most branches, each of the top 5 groups holds exactly 1 deposit account, so the overall shared deposit account total per branch is typically 5.
+Some branches deviate from the norm. For example, on branch 2 the top five groups collectively hold 2, 1, 1, 1, and 1 deposit accounts respectively—totaling 6 accounts. Likewise, branch 40 notably shows counts of 3, 2, 2, 2, and 2 deposit accounts among its top 5 member groups, which sums up to 11 accounts."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,Which geographical area has the highest average account balance among long-term account holders (5+ years)?,"The data indicates that branch 3 has the highest average account balance, with an average balance of 22,178.5 among account holders with 5 or more years of account history.
+
+This result is derived from accounts that have been active for at least 5 years.
+The average value was computed after cleaning and converting balance values, ensuring accuracy in the financial metric."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What percentage of accounts in each geography have balances less than $500?,"Below is a concise, fact-based summary of the query results and observable patterns regarding the percentage of accounts with balances less than $500 by geography:
+
+Key Insight:
+The query was designed to compute a percentage of accounts per branch (geography) with balances below $500. However, in the previewed results, the columns for both the count of accounts with balances under $500 and the computed percentage are empty for every branch. This suggests that none of the sample records met the condition, or the values were not populated in the dataset extract."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What percentage of accounts have made no transactions in the last 90 days?,"Key Insight:
+All accounts in the dataset (100%) have made no transactions in the last 90 days."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the total number of accounts that have closed within the last 90 days?,"Key Insights:
+
+The query indicates that 0 distinct accounts have closed within the last 90 days."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,"What percentage of accounts have a loan balance greater than $10,000?","Key Insight:
+
+68.8% of the accounts in the dataset (688 out of 1000) have a loan balance greater than $10,000."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,How many accounts have a credit card linked that is active?,"Key Insight:
+
+There are exactly 214 accounts with an active credit card. This count represents distinct account numbers linked to cards that meet the specified active status and type filters."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the total number of accounts that have commented in the last 30 days?,"Key Insight:
+
+The dataset indicates that 0 unique accounts have commented in the last 30 days."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What percentage of accounts have a tracking feature turned off?,"Key Insights:
+
+Out of 675 accounts, none (0%) have the tracking feature turned off."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,How many accounts have more than one loan?,"The data indicates that 463 accounts have more than one loan.
+
+The query groups by account number from the loan records and then counts those with more than one associated loan, resulting in the total of 463 accounts."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the average loan balance for all accounts as of today?,"The query did not return a numerical result for the average loan balance. The result appears blank, indicating that, under the current filter conditions (i.e., loans with an activity date equal to today), no applicable numeric data was aggregated or the computed average is null."
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What is the total number of accounts that have shared their profile in the last 30 days?,"Key Insight:
+There are 0 accounts that have shared their profile in the last 30 days.
+"
+Product Manager; Member Analytics Lead,Early Closure Rate; Account Churn (‚â§90 days),simple,What percentage of accounts have received a note in the last 30 days?,"The key insight is that 0% of the accounts have received a note in the last 30 days. Out of 1,000 total accounts, none have a recorded note entered within the past 30 days.
+
+Accounts with notes: 0
+Total accounts: 1,000
+Percentage with notes: 0%
+This clear result shows that, based on the available note entries, there have been no recent notes linked to any of the existing accounts over the last 30 days."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What is the average credit card balance per account in the top 5 states by total account balance?,"Key Insight:
+The dataset shows that for the top 5 states by total account balance, the only returned state (labeled ""0"") has an average credit card balance of $12,426.40 per account."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,"Which member segments have the highest percentage of credit card balances over $5,000?","The analysis shows that, on average, about 59.19% of credit card accounts in each member group have balance limits over $5,000, with a median of 60% across the 99 segments. Notably, some groups have all their accounts (up to 100%) exceeding the $5,000 threshold, while the minimum observed proportion is 0%.
+
+Further details indicate that for each member group, on average there are 6.52 credit card accounts, of which roughly 3.99 have balances over $5,000. The interquartile range demonstrates that 25% of the groups have at least 47.22% of accounts over the threshold, and 75% of the groups have up to 77.78%. This variation suggests marked segmentation in the distribution of high-limit accounts across member groups."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What percentage of accounts with a credit card have an account balance exceeding the average balance for their demographic segment?,"Key Insight:
+The provided query result shows an overall average (minimum) balance of 498.75, but it does not include any information about credit card accounts, demographic segments, or the distribution of account balances relative to their segment averages.
+
+Additional Details:
+
+The executed query aggregates the minimum balance across records in the SHARE table and joins with the ACCOUNT table, resulting only in the overall average balance.
+There is no data in the output linking accounts with credit cards to the average balance for their demographic segment.
+Therefore, it is not possible to determine what percentage of accounts with a credit card exceed the average balance for their specific demographic segment based on the given information."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,"How many accounts have both a credit card and a loan, and what is the average balance for these accounts?","High-Impact Findings
+
+Number of Accounts with both a Credit Card and a Loan: There are exactly 645 unique accounts identified by the query that indicate the presence of both a credit card and a loan.
+
+Average Credit Card Limit Amount: For these accounts, the average credit card limit amount is approximately 4,979.76."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What is the distribution of credit card balances across different age groups of members?,"Key Insights:
+
+The dataset shows significant variability in credit card limits across the member groups (interpreted as age groups). On a per-group basis, the average credit card limit ranges from as low as $2,109.39 (Group 40) to as high as approximately $7,294.05 (Group 66), reflecting a broad distribution in available credit.
+The number of cards per group also varies, with counts ranging from 2 cards (e.g., Group 66) up to 19 cards (e.g., Groups 7 and 34), and the total credit limits per group correspondingly range from under $10,000 to over $104,000."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,Which 10 zip codes have the highest average credit card balances among active accounts?,"Key Insight:
+Among the active accounts in the sample, the highest average credit card balance is found for the zip code represented as an empty value, with an average limit amount of $4,979.76 across 955 distinct cards."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What percentage of credit card accounts are from members with less than one year of account longevity?,"Key Insight:
+0% of credit card accounts belong to members with less than one year of account longevity.
+"
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,How does the average credit card exposure differ between members with one credit card versus those with multiple?,"The key insight is that members with multiple credit cards have a higher average credit card exposure compared to those with only one card. Specifically, members with multiple cards show an average exposure of 5030.87, while those with a single card exhibit an average exposure of 4885.17.
+
+This represents an increase of approximately 145.70 (or about 3%) in average credit exposure for members with multiple cards relative to those with a single card."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What is the ratio of credit card balances to total account balances for the top 5 account types?,"High-Impact Findings:
+
+Among the top 5 account types by total balance, only account type 3 shows a non-zero ratio; its credit card balance represents 100% of its total account balance.
+
+The remaining account types (1, 2, 4, and 5) have a credit card balance ratio of 0%, meaning no credit card balances are recorded for these types."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What percentage of accounts have a credit card balance and have had no activity in the last 30 days?,"Key Insight:
+None of the 1,000 accounts (0%) have a credit card balance and have had no activity in the last 30 days."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"What is the trend in the number of dormant accounts over the past 24 months segmented by account age, and what percentage of these accounts have zero transactions during this period?","Key Insights
+
+Over the past 24 months, every reported dormant account across all account ages has registered zero transactions, evidenced by a consistent 100% rate for zero-transaction accounts.
+The dataset spans a broad range of account ages—from negative values (indicating activity dates preceding the open dates) up to 59 months—yet in each period and age grouping, even when dormant account counts vary from 1 to 3, they all uniformly show no transactions."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"Which account types show a higher concentration of accounts that have been dormant for more than 2 years, and what is their respective average balance compared to active accounts?","Key Insights
+
+Account Type 2 stands out with a higher concentration of dormant accounts: 115 dormant accounts versus 79 active, with dormant accounts having an average balance of 11,510.1 compared to active accounts averaging 12,817.7.
+Account Types 1, 3, 4, and 5 display a more balanced or slightly lower count of dormant accounts compared to active ones. Notably, for Account Type 1, the dormant count (98) is nearly equal to the active count (101) but the dormant average balance (12,251.2) is slightly higher than the active average (11,809).
+For Account Type 3, the dormant accounts (94) and active accounts (99) have comparable average balances, with dormant slightly higher (12,734.8 vs. 12,528.9).
+Account Type 4 shows similar average balances for both statuses (dormant at 12,267.1 and active at 12,277.5), while Account Type 5 shows a marginal difference with active accounts (106 accounts averaging 12,787.4) holding a higher balance compared to dormant accounts (97 accounts averaging 12,448.1)."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"How many dormant accounts have initiated any interaction (such as comments, shares, or loans) in the last 6 months, and what does this indicate about potential reactivation strategies?","Key Insights:
+
+Zero Re-engagement: The query result indicates that 0 dormant accounts have initiated interactions via comments over the last 6 months.
+
+Implication for Reactivation Strategies: This lack of activity suggests that existing dormant accounts are not reengaging on their own, implying that reactivation strategies may need to include proactive outreach or alternative engagement methods to trigger interest.
+"
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"What percentage of dormant accounts have additional products (e.g., loans, cards) that are also inactive, and how does this vary by product category?","Great question but unfortunately no data points were found to generate an answer for you. Consider adjusting your query to change one or more parameters, such as time or other filters."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"What is the average time to reactivation for accounts that were previously classified as dormant, and what behaviors were observed prior to their reactivation?","Average Time to Reactivation: Reactivated dormant accounts took on average 930.37 days from the open date to their activity date.
+Investigation Attempt Behavior: Prior to reactivation, the average recorded value for the investigation attempt time was 1,030.05.
+Reactivation Activity: Among the 19 reactivated accounts, reactivation occurred between December 19, 2024 and December 31, 2024.
+These insights are derived directly from the applied filters and aggregate functions in the query without extrapolating additional behavior beyond the observed metrics."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,How do monthly transaction volumes of active accounts correlate with the subsequent rates of dormancy for accounts opened within the same time frame?,"Key Insights:
+
+Every month in the dataset shows a dormancy rate of 100% for accounts opened, with dormant accounts equaling the total accounts opened.
+The average monthly payments made per account vary moderately (ranging from 35.00 to 73.00), yet this variation does not correspond to any change in the dormancy rate."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"Which demographic segments (age, location, account type) display the highest rates of account dormancy, and what actionable insights can be drawn to address this risk?","Key Insights:
+
+The dataset reveals that a very high percentage of accounts in several demographic segments are dormant, with many segments showing a dormancy rate of 100%.
+Dormancy is evident across all age groups (from 20 through 70 years), locations (e.g., various cities in TX, CA, NY, and others), and account types. Some segments with larger sample sizes still show 100% dormancy, suggesting this is not limited to small or outlier groups."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"What changes in customer behavior (such as lack of engagement in comments or tracking) precede the dormancy classification, and how can this inform predictive modeling efforts?","Key Insights:
+
+Uniform Tracking Behavior: The preview shows that on nearly every reported date, each user registers exactly one tracking event with a user code count of zero. This uniformity suggests that there is no observable increase or decrease in tracking activity or engagement (as measured by these tracking metrics) immediately preceding dormancy.
+
+Implications for Predictive Modeling: Since the data only reflects a single standardized tracking event per day—with no additional user engagement signals captured—it appears that subtle engagement shifts, such as a drop in comment activity or diverse tracking codes, might be undetectable in this dataset. For predictive modeling, this uniform pattern implies that dormancy may not be preceded by gradual changes in this type of tracking behavior but rather might be better identified by the outright cessation of the solitary tracking event or by incorporating additional data sources (for example, comment or interaction logs) to uncover more nuanced pre-dormancy signals."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"What is the ratio of dormant accounts to total accounts for each product line, and how does this indicate potential product-level risk?","Key Insights
+
+Each product line shows a very high ratio of dormant to total accounts, with dormant ratios ranging from approximately 97.4% to 98.5%, indicating that nearly all accounts in these product lines have been inactive for over a year."
+Member Analytics Lead; Compliance Officer,Dormant Account Rate; Inactivity Ratio,hard,"How does the inactivity ratio for accounts with high transaction limits compare to those with low limits, and what does this imply for risk management strategies?","Key Insights:
+
+100% Inactivity for High-Limit Accounts: In the provided sample, every account (1,000 out of 1,000) in the high transaction limit group is marked as inactive, yielding an inactivity ratio of 1 (or 100%)."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"What percentage of accounts with loan products show a declining balance trend over the last 12 months, and how does this correlate with early account closure rates?",
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,Identify accounts with high transaction frequency but low average balance; what percentage of these accounts have seen a decrease in tenure over the past year?,"Key Insights:
+
+Among 43 accounts identified with high transaction frequency and low average balance, 0% have shown a decrease in tenure over the past year."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"Analyze the retention rates of members by product line; what products have the highest churn, and what early-warning signs are evident in member engagement metrics?","Key Insights
+
+The available dataset provides a single consolidated result with all engagement metrics registered as zero, making it impossible to differentiate retention rates, churn levels, or early-warning signs across product lines."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"Segregate members by tenure intervals (0-1 year, 1-3 years, 3-5 years, 5+ years) and assess the average lifetime value within each segment to identify high-risk groups.","Below are the key insights based on the available sample and query details:
+
+Limited Data Available:
+The provided query aggregates the average member user amount by license but does not include tenure information. The sample shows only one record (license is empty) with an average amount of 0.
+
+Insufficient Segmentation Information:
+The task requires segregation by tenure intervals (0–1 year, 1–3 years, 3–5 years, 5+ years) and the assessment of average lifetime value per segment. However, the current query neither references a tenure variable nor performs any segmentation based on membership duration, making it impossible to identify high-risk groups based on tenure intervals using the provided dataset.
+
+To proceed with the intended analysis, additional data or a modified query that includes tenure-related fields and mapping to the specified intervals would be needed."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,Evaluate the concentration risk by analyzing the average tenure of accounts in the top 10% of total balances; what early signals are present indicating potential drop-offs?,"High-Impact Findings:
+
+The top 10% of accounts, defined by balance, have an average tenure of 1,274.88 days (approximately 3.5 years).
+There's a wide range in account tenure with a minimum of 361 days and a maximum of 2,157 days, indicating variability in account maturity.
+Only 1 account in the top 10% was opened within the past year, with no accounts opened in the last 6 or 3 months, suggesting a concentration of older accounts and a potential early signal for drop-offs among newly opened high-value accounts."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"What percentage of accounts that have recently accessed credit services also show declining engagement with savings products, and what does this signal for overall account health?","Key Insight:
+No recent credit accounts were identified, so there is no applicable percentage for declining engagement with savings products."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,Determine the correlation between member note frequency and tenure; how many accounts with less than 5 notes have closed within 2 years?,"Key Insight:
+No accounts were found that both have fewer than 5 notes and closed within 2 years of their open date."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"For members with cross-product usage, analyze which combinations exhibit the highest average account tenure and what trends may indicate future risk of attrition.","Key Insights:
+
+The cross-product combination [1, 4, 5, 2, 3] exhibits the highest average account tenure at 1,275.86 days among members with multiple products.
+This combination is represented by a single member, with tenure values ranging from 354 days (minimum) to 2,172 days (maximum)."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"How does the average account tenure of members engaging with digital services compare with those utilizing only traditional services, particularly over the last 24 months?","The preview shows that the dataset separates members into two groups—Digital (490 members) and Traditional (763 members)—but it does not include any numerical values for the average account tenure in years. This means that while we know the counts for each group over the last 24 months, we cannot directly compare the average tenure for members engaging with digital services versus those using only traditional services based on the provided data."
+Member Analytics Lead; Executive Leadership,Average Account Tenure; Member Lifetime Value (proxy),hard,"What are the trends in member feedback score changes relative to tenure length, specifically noting any significant negative shifts prior to account closures?","Key Insights
+
+No Significant Negative Feedback Shifts: All records show a feedback score of 0 before account closure. Among the 1,000 members analyzed, not a single negative feedback instance was recorded, resulting in a 0% negative feedback rate.
+
+Uniform Feedback Scores: The minimum, average, and maximum feedback scores are consistently 0, indicating no observable variation in feedback scores relative to account closures."
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,What percentage of accounts that utilized a loan product in the last 12 months show a decrease in transaction frequency over the past 6 months?,"Key Insight:
+None (0%) of the accounts that utilized a loan product in the last 12 months showed a decrease in transaction frequency over the past 6 months."
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,Identify the top 10% of accounts by tenure and analyze their monthly activity across different product lines to determine early warning signs of potential dormancy.,
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,"How does the average tenure of accounts with a recent account closure compare to active accounts, segmented by product type?",
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,What percentage of accounts with high credit utilization (above 70%) exhibit a decline in deposit activity over the last quarter?,
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,"Analyze the trend of account activity for members who have not engaged with any products in the last 3 months, segmented by tenure and product usage.",
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,Which segments of long-tenured accounts (5 years+) show an increased risk of closure based on recent activity patterns across loans and cards?,
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,"Evaluate the correlation between inactivity in shared accounts and overall account tenure, and identify segments most at risk.",
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,"What is the average retention duration for accounts that have interacted with customer service versus those that have not, broken down by product category?",
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,Develop a risk profile for accounts that have multiple product holdings but display erratic behavior in transaction patterns over the last 6 months.,
+Member Analytics Lead; Product Manager,Active Account Tenure; Retention Duration,hard,"How does the closure rate of accounts with low engagement in multiple channels (comments, notes, shares) accrue over the last two years compared to more engaged accounts?",
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What percentage of accounts have a negative balance?,"Key Insight:
+0% of accounts in the dataset exhibit a negative balance.
+
+Supporting Details:
+
+The calculation was derived by counting accounts with a negative balance and dividing by the total number of accounts.
+The result confirms that, within the current dataset, no accounts are in deficit."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,How many accounts currently have a loan open?,"Key Insight
+The dataset reveals that exactly 735 distinct accounts currently have open loans, as indicated by the condition where the loan close date is either null or marked as an open status."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What is the total number of accounts with active credit cards?,"The dataset indicates that there are 645 unique accounts associated with active credit cards.
+
+This insight is derived by counting distinct account numbers in the CARD table where the card status equals 1, meaning active.
+The statistic directly relates to the number of accounts holding active credit cards, with ""active"" defined by the card status field.
+This concise summary directly reflects the results from the executed SQL query without additional, unnecessary details."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What percentage of accounts have had no transactions in the last month?,"Key Insight:
+
+100% of the accounts in the dataset have had no transactions in the last month."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,How many accounts are currently flagged for suspicious activity?,"Key Insight:
+The query indicates that 0 accounts are currently flagged for suspicious activity."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What is the total number of accounts with missed payments in the last month?,"The query indicates 0 accounts experienced missed payments in the last month.
+
+The query aggregates distinct account numbers from the loan and account tables.
+It checks that the account activity occurred within the last month and that any delinquency metric (from 11 days to over 121 days) is greater than zero.
+Overall, no accounts met the delinquency criteria within the specified period."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,"How many accounts have a loan amount greater than $10,000?","Key Insight:
+The query identified that 688 unique accounts have a loan balance greater than $10,000.
+
+Supporting Details:
+
+This count was derived by filtering the loan records to include only those with loan balances exceeding $10,000 and then counting the distinct account numbers.
+The analysis confirms that the metric specifically accounts for unique accounts, ensuring that accounts with multiple qualifying loans are counted only once."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What percentage of accounts have a credit score below 600?,"Key Insight:
+The dataset preview does not include any explicit field for credit scores. As a result, it is not possible to determine the percentage of accounts with a credit score below 600 from the available data."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,How many members are currently enrolled in overdraft protection?,"Key Insight:
+The query reveals that there are 0 members enrolled in overdraft protection."
+Product Manager; Risk Manager,Monthly Closure Rate; Product Attrition Rate,simple,What is the average balance of accounts with loans?,"Key Insight:
+The average loan balance for accounts with loans is $25,861.83."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of active accounts have a loan?,What percentage of active accounts have a loan?
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have made a comment in the last year?,"Key Insight:
+All active accounts included in the sample have an associated loan record—i.e., 100% of the active accounts in the dataset have a loan."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,How many accounts have not logged any activity in the last 6 months?,"Key Insight: There are exactly 1,000 accounts that have not logged any activity in the last six months."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have a credit card?,"Key Insight:
+
+30.1% of accounts have an associated credit card."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have shared information with other accounts?,What percentage of accounts have shared information with other accounts?
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,"What is the count of accounts with a loan balance above $10,000?","Key Insight:
+
+There are exactly 688 distinct accounts with a loan balance above $10,000."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts are classified as dormant?,"Key Insight:
+Approximately 97.9% of accounts are classified as dormant.
+"
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,How many accounts have received a note from a member in the last year?,"Key Insight:
+The query reveals that 21 accounts have received at least one note from a member in the past year."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,What percentage of accounts have a tracking record?,"High-Impact Finding
+
+Out of 1,000 total accounts, 675 have an associated tracking record, which means 67.5% of accounts have a tracking record."
+Member Analytics Lead; CRO,Long-Tenure Account %; Dormant vs Active Ratio,simple,How many accounts have more than one active loan?,"Key Insight:
+There are 463 accounts that have more than one active loan.
+"
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"What is the month-over-month trend in the product mix across different account segments, and how does this compare to historical performance over the past 24 months?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"Which product categories exhibit a rise in delinquency rates, and how does this correlate with specific member demographics or account types?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"What is the concentration risk associated with the top 10% of accounts by loan volume, and how has this risk fluctuated over the last year?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"How do product-level attrition rates vary across different member segments, and what early-warning signals can we identify for potential mass withdrawals?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"What percentage of accounts with high transaction volumes are concentrated in specific product lines, and how does this impact our overall liquidity stress tests?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"Which loan products have the highest loss ratio over time, and what behavioral factors are contributing to this trend among borrowers?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"How does the portfolio allocation across different risk categories change during economic downturns, and what adjustments might we need to consider for early intervention?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"In analyzing account age, what correlation exists between product mix shifts and member engagement levels over the last five years?",
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,How does member usage of credit cards with promotional interest rates impact the product mix and overall risk profile of our portfolio?,
+Executive Leadership; CRO,Product Mix %; Portfolio Allocation,hard,"What are the behavioral trends for accounts that have switched products in the last year, and how do these patterns indicate potential risk in continued portfolio allocation?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"What percentage of accounts with high utilization (above 80%) are also over 30 days delinquent, segmented by loan product?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"How has the average loan-to-value ratio changed over the last 12 months by property type, and what trends can we identify for potential concentration risk?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"What is the trend of accounts with a payment-to-income ratio above 40% over the last two years, and how does it correlate with default rates?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"Which loan products have seen a disproportionate increase in the ratio of high-risk borrowers (based on credit score) in the last three quarters, and what actions can be taken?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"What are the early-warning signals present in accounts that have made multiple late payments in the last 6 months, and how can they be prioritized for intervention?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,How does the distribution of employed versus self-employed members with loan products compare in terms of default rates over the last year?,
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"What percentage of our highest yielding accounts are experiencing significant changes in account activity, indicating potential behavioral risk?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,Analyze the last three years of member feedback on loan products; what recurring themes indicate underlying issues that could affect asset quality?,
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"What is the delinquency rate for accounts with multiple loan products compared to single product accounts, broken down by income bracket?",
+CEO; COO; Board; CRO,"Composite Health Score (Capital, Asset Quality, Earnings, Liquidity, Growth)",hard,"How has growth in new accounts correlated with changes in the credit quality of originated loans over the past year, and what factors might influence future performance?",
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,"What percentage of accounts have a balance greater than $100,000?","Key Insight:
+
+0% of accounts have a balance greater than $100,000."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts have a concentration risk above 20% of total balances?,"The data shows that 0 accounts have a concentration risk above 20% of the total balances.
+
+The executed query calculated the concentration risk by dividing each account's balance by the overall total balance.
+No account exceeded the 20% threshold based on the available data.
+This indicates that, in the current dataset, none of the accounts are significantly concentrated relative to the aggregated total balances."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,What is the average balance of the top 10 high-balance accounts?,"The top 10 high-balance accounts have an average balance of 24,674.1.
+
+This value represents the mean calculated from the individual average balances of these accounts, which were derived by cleaning and converting text balance values to numeric form.
+The calculation focused solely on the top 10 accounts sorted by their computed average balances.
+The data is sourced by joining share and account details, ensuring the balance values are accurately processed before computing the overall average."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,What percentage of total assets are held in the top 5 highest balance accounts?,"The top 5 highest balance accounts hold a combined balance of 124,864, which represents 0.5% of the total assets of 24,989,500.
+
+Key Insight: The top 5 accounts make up only a fraction (0.5%) of the total asset value."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts are concentrated in a single industry sector?,"Key Insight:
+A single industry sector, indicated by an empty commercial code, concentrates exactly 1,000 accounts."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,"What is the total number of accounts with balances exceeding $500,000?","The key insight from the data is that no accounts have balances exceeding $500,000.
+
+The executed query returned a count of 0 distinct share account numbers meeting the criterion.
+This indicates that, based on the current dataset and applied filters, there are 0 accounts with balances above the $500,000 threshold."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,What percentage of total liabilities do the top 10 accounts represent?,"Key Insight:
+The top 10 accounts represent 0% of the total liabilities."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts have multiple credit products linked to them?,"Key Insight:
+The query returned a count of 1,000 unique accounts, which represents the total number of accounts processed, rather than explicitly identifying those with multiple credit products."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,"What is the proportion of accounts with balances over $250,000 relative to total accounts?","Key Insights:
+
+Out of 1,000 total accounts, there are 0 accounts with balances greater than $250,000, resulting in a 0% proportion."
+Risk Manager; Finance Manager,High-Balance Exposure; Concentration Risk,simple,How many accounts are flagged for risk concentration based on balance thresholds?,"Key Insight:
+No accounts are flagged for risk concentration based on the balance thresholds."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What percentage of accounts have transfer limits exceeding the average transfer limit?,"Key Insight:
+
+Approximately 61.24% of accounts have transfer limits above the average transfer limit."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,How many accounts have transfer limits above a specified threshold?,"The key insight is that there are 645 distinct account numbers identified in the dataset that meet the specified criteria regarding transfer limits.
+
+The query counts distinct accounts from the card account data, resulting in exactly 645 accounts.
+This observation is based on the dataset provided and directly reflects the count of account numbers after applying the specified filter for transfer limits."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the total sum of transfer limits across all accounts?,"High-Impact Finding
+The total sum of transfer limits across all accounts is 2,366,550."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What percentage of accounts have no transfer limit set?,"Key Insight:
+Out of 1,000 accounts, 355 accounts have no transfer limit set, which is 35.5%."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,Which account has the highest transfer limit?,"Key Insight:
+
+Account Q5T6424S60HGTXA5LGW1CJGP8MW8M8G9 has the highest transfer limit in the dataset, with a limit of 4,999.50."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the average transfer limit across all accounts?,"Key Insights
+
+The average transfer limit across all accounts sampled is $2,478.06."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,How many accounts have multiple transfer limits associated with them?,"Key Insight:
+A total of 310 accounts have been identified with multiple transfer limits (each showing a transfer limit count of 2)."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the count of accounts with transfer limits that are inactive?,"Key Insight:
+The data indicates that there are exactly 0 accounts with transfer limits set to 0 and with inactive card statuses."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What percentage of accounts are utilizing their full transfer limit?,"Below is a high_level summary based on the available figures:
+
+Key insight: According to the preview statistics, none of the 955 accounts in the dataset appear to be using their entire transfer capacity. In other words, 0% of accounts are observed to have reached (i.e. “utilized”) their full_transfer limit."
+Fraud Analyst; Risk Manager,Transfer Limit Exposure; Operational Risk Indicator,simple,What is the count of accounts with transfer limits increased in the last month?,"The dataset indicates that 0 accounts had their transfer limits increased in the last month.
+
+The query counts distinct accounts with a positive transfer limit change between one month ago and the current date.
+The absence of any accounts meeting this criteria is clearly quantified with a count of 0."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have an ATM utilization rate above 80%?,"Key Insight:
+The analysis shows that 0% of accounts have an ATM utilization rate above 80%."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have reached their ATM withdrawal limits?,"Key Insight:
+The data indicates that 0% of accounts have reached their ATM withdrawal limits."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What is the total number of accounts that have made ATM withdrawals in the last month?,"Key Insight:
+The query determined that 0 unique accounts have made ATM withdrawals in the last month."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have a limit utilization rate greater than 100%?,"The query shows that 0% of accounts have a limit utilization rate greater than 100%.
+
+Key Insight: None of the accounts exceeded their allowed limit."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,How many accounts have ATM transactions exceeding $500 in a single day?,"Key Insight:
+The query indicates that 0 accounts have recorded ATM transactions exceeding $500 in a single day."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of accounts have not utilized their ATM card in the last 30 days?,"Key Insight:
+All ATM accounts—100% (269 out of 269)—have not utilized their ATM card in the last 30 days."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What is the average ATM withdrawal amount across all accounts?,"Key Insight
+The average ATM withdrawal amount across all accounts is 255.63."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,How many accounts have an overdraft on their ATM limit?,"Key Insight:
+
+0 accounts have an overdraft on their ATM limit based on the available data."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What percentage of ATM users have a limit utilization anomaly?,"The key insight is that 25.0821% of ATM users exhibit limit utilization anomalies.
+
+This percentage represents the proportion of cards where the ATM usage amount has exceeded the ATM usage limit.
+The calculation was based on distinct card numbers that had at least one ATM transaction, ensuring accuracy in the result."
+Fraud Analyst; Card Product Manager,ATM Utilization Rate; Limit Utilization Anomaly,simple,What is the total number of accounts with a limit utilization rate below 50%?,"The data shows that a total of 675 unique accounts recorded a limit utilization rate below 50%.
+
+This count is based on distinct account numbers from the joined tracking and account datasets.
+The recorded utilization rate metric applies only where the value of ""USER_RATE_1"" is less than 0.5."

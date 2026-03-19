@@ -1,0 +1,6 @@
+.venv/
+.env
+.env.local
+.env.*.local
+# Python cache
+__pycache__/

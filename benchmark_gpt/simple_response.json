@@ -1,0 +1,244 @@
+{
+"answers": [
+{
+"question": "What is the average account dormancy rate in US retail banks?",
+"answer": "The average account dormancy rate in US retail banks typically ranges between 15% and 25%. Dormant accounts are usually defined as having no customer-initiated activity for 6 to 12 months. Rates vary by institution, customer demographics, and digital engagement levels. Banks with strong mobile adoption generally report lower dormancy."
+},
+{
+"question": "What is the typical annual account closure rate for credit unions?",
+"answer": "The typical annual account closure rate for credit unions is around 5% to 10%. Credit unions generally experience lower churn than large retail banks due to relationship-based models. Closure rates tend to increase during periods of economic stress or product repricing. Younger and low-balance members contribute disproportionately to closures."
+},
+{
+"question": "What percentage of US households have personal loans exceeding $10000?",
+"answer": "Approximately 10% to 15% of US households have personal loan balances exceeding $10,000. This is more common among middle-income households consolidating debt or financing large expenses. Personal loans above this threshold are often associated with higher credit scores. The share has grown modestly with fintech lending expansion."
+},
+{
+"question": "What percentage of US adults have an active credit card?",
+"answer": "Roughly 70% to 75% of US adults have at least one active credit card. Active usage is higher among prime and super-prime credit segments. Credit card penetration is lower among younger adults and lower-income households. Most cardholders maintain more than one active card."
+},
+{
+"question": "What is the average customer engagement rate for banking mobile apps?",
+"answer": "Average monthly engagement rates for banking mobile apps are typically between 55% and 65%. Engagement is measured by active users performing at least one session per month. Large banks with feature-rich apps often exceed this range. Digital-only banks tend to show even higher engagement."
+},
+{
+"question": "What percentage of bank customers opt out of account alerts and notifications?",
+"answer": "Approximately 20% to 30% of bank customers opt out of account alerts and notifications. Opt-out rates are higher among older customers and those with low digital engagement. Transaction and fraud alerts have lower opt-out rates than marketing notifications. Banks increasingly default customers into critical alerts."
+},
+{
+"question": "What percentage of US consumers have multiple outstanding loans?",
+"answer": "An estimated 40% to 50% of US consumers carry multiple outstanding loans. This commonly includes combinations of mortgages, auto loans, student loans, and credit cards. Multiple-loan prevalence is higher among middle-aged consumers. It is also correlated with higher household income."
+},
+{
+"question": "What is the average personal loan balance in the United States?",
+"answer": "The average personal loan balance in the United States is approximately $8,000 to $12,000. Balances tend to be higher for borrowers using loans for debt consolidation. Prime borrowers typically carry larger balances than subprime borrowers. Average balances have increased gradually over recent years."
+},
+{
+"question": "What percentage of banking customers use account sharing features?",
+"answer": "Around 15% to 25% of banking customers use account sharing features. This includes joint accounts, shared access, or authorized user functionality. Usage is more common among married households and caregivers. Adoption has increased with improved digital permission controls."
+},
+{
+"question": "What is the average customer service interaction rate for banks monthly?",
+"answer": "On average, 10% to 15% of bank customers interact with customer service in a given month. Interactions include calls, chat sessions, or branch visits. Rates increase during billing cycles, fee assessments, or service disruptions. Digitally mature banks generally report lower interaction rates."
+},
+{
+"question": "What percentage of US checking accounts experience overdrafts annually?",
+"answer": "Approximately 30% to 40% of US checking accounts experience at least one overdraft annually. Overdraft incidence is concentrated among a smaller subset of frequent overdrafters. Lower-income and younger customers are more likely to incur overdrafts. Many banks have reduced overdraft frequency through policy changes."
+},
+{
+"question": "How many Americans currently have outstanding personal loans?",
+"answer": "Roughly 40 to 50 million Americans currently have outstanding personal loans. This includes loans originated by banks, credit unions, and fintech lenders. Personal loan usage expanded significantly over the past decade. Borrowers often use these loans for consolidation or major expenses."
+},
+{
+"question": "How many active credit card accounts exist in the United States?",
+"answer": "There are approximately 500 to 550 million active credit card accounts in the United States. Many consumers hold multiple active cards simultaneously. Active accounts are defined as having at least one transaction within recent months. The total reflects both bank-issued and private-label cards."
+},
+{
+"question": "What is the typical inactive account rate for retail banks?",
+"answer": "The typical inactive account rate for retail banks is around 20% to 30%. Inactive accounts usually show no transactions for 30 to 90 days. Rates vary significantly by customer age and product type. Digital engagement initiatives aim to reduce inactivity."
+},
+{
+"question": "What percentage of bank accounts are flagged for fraud annually?",
+"answer": "Less than 1% of bank accounts are typically flagged for fraud annually. While fraud attempts are common, confirmed account-level flags are relatively rare. Digital payments and card transactions account for most fraud alerts. Advanced monitoring systems help limit false positives."
+},
+{
+"question": "What is the credit card delinquency rate in the United States?",
+"answer": "The US credit card delinquency rate generally ranges between 2% and 4%. Delinquency is defined as balances that are 30 days or more past due. Rates rise during economic downturns and periods of high inflation. Subprime borrowers account for a disproportionate share of delinquencies."
+},
+{
+"question": "What percentage of auto loans in the US exceed $10000?",
+"answer": "More than 80% of auto loans in the US exceed $10,000. New vehicle loans almost always surpass this threshold. Used vehicle loans also commonly exceed $10,000 due to higher vehicle prices. Loan size has increased steadily over time."
+},
+{
+"question": "What percentage of US consumers have a credit score below 600?",
+"answer": "Approximately 15% to 20% of US consumers have a credit score below 600. This segment is considered subprime or deep subprime. Consumers in this range face higher borrowing costs and limited access to credit. The proportion fluctuates with economic conditions."
+},
+{
+"question": "What percentage of US checking accounts have overdraft protection?",
+"answer": "Roughly 40% to 50% of US checking accounts have overdraft protection enabled. Protection may include linked savings accounts or credit lines. Adoption is higher among long-tenured customers. Some customers opt out due to fee concerns."
+},
+{
+"question": "What is the average savings account balance for Americans with loans?",
+"answer": "Americans with loans typically hold average savings balances between $5,000 and $10,000. Balances vary widely by income and loan type. Mortgage holders often maintain higher savings buffers than unsecured loan borrowers. Many households keep limited liquid reserves despite active loans."
+},
+{
+"question": "What percentage of US bank customers have at least one loan product?",
+"answer": "Approximately 60% to 65% of US bank customers have at least one loan product. This includes mortgages, auto loans, personal loans, or credit cards. Loan penetration is highest among middle-aged households. Credit cards are the most common loan product."
+},
+{
+"question": "What is the annual customer feedback rate for retail banks?",
+"answer": "The annual customer feedback rate for retail banks is typically 20% to 30%. Feedback includes surveys, complaints, reviews, and direct messages. Rates are higher following service interactions or major product changes. Most customers provide feedback only when prompted."
+},
+{
+"question": "What percentage of bank accounts are considered dormant or inactive?",
+"answer": "Between 20% and 30% of bank accounts are considered dormant or inactive. Dormancy definitions vary but usually involve extended periods without transactions. Low-balance and legacy accounts drive most dormancy. Banks actively monitor dormant accounts for compliance reasons."
+},
+{
+"question": "What percentage of US adults own a credit card?",
+"answer": "Around 70% to 75% of US adults own at least one credit card. Ownership is highest among adults aged 30 to 65. Credit card ownership is lower among unbanked and underbanked populations. Most cardholders use cards regularly for everyday spending."
+},
+{
+"question": "What percentage of bank customers use joint accounts or authorized users?",
+"answer": "Approximately 25% to 35% of bank customers use joint accounts or authorized user features. This is common among couples and families. Authorized users are frequently added for credit-building purposes. Usage varies by life stage and household structure."
+},
+{
+"question": "How many Americans have personal loan balances exceeding $10000?",
+"answer": "An estimated 15 to 20 million Americans have personal loan balances exceeding $10,000. These borrowers often use loans for debt consolidation or large expenses. Higher balances are more common among prime borrowers. This segment has grown with online lending adoption."
+},
+{
+"question": "What is the dormant account rate across US financial institutions?",
+"answer": "Across US financial institutions, dormant account rates generally fall between 20% and 30%. Rates differ by institution size and customer base. Smaller institutions may see higher dormancy due to legacy accounts. Regulatory requirements drive active monitoring of dormant accounts."
+},
+{
+"question": "What percentage of bank customers contact customer service annually?",
+"answer": "Approximately 60% to 70% of bank customers contact customer service at least once per year. Contact reasons include disputes, account changes, and technical issues. Digital self-service has reduced call volumes but not overall contact rates. High-value customers tend to engage more frequently."
+},
+{
+"question": "What percentage of consumers use expense tracking in banking apps?",
+"answer": "About 35% to 45% of consumers use expense tracking features in banking apps. Adoption is higher among younger and digitally savvy customers. Usage increases when tools are automated and easy to understand. Many users try the feature but do not use it consistently."
+},
+{
+"question": "What percentage of Americans have multiple concurrent loans?",
+"answer": "Roughly 40% to 50% of Americans have multiple concurrent loans. Common combinations include mortgages with auto loans or credit cards. Multiple borrowing is more prevalent among higher-income households. It reflects broader access to credit products."
+},
+{
+"question": "What percentage of US households have savings exceeding $100000?",
+"answer": "Approximately 10% to 15% of US households have savings exceeding $100,000. These households are typically higher-income or near retirement. Savings levels vary widely by age and region. This group holds a disproportionate share of total deposits."
+},
+{
+"question": "What percentage of bank deposits come from high-net-worth individuals?",
+"answer": "High-net-worth individuals account for roughly 30% to 40% of total bank deposits. Deposit concentration is higher at large national banks. These customers often maintain multiple high-balance accounts. Concentration risk is actively monitored by banks."
+},
+{
+"question": "What is the average net worth of the top 1% of US households?",
+"answer": "The average net worth of the top 1% of US households exceeds $30 million. Net worth includes financial assets, real estate, and business ownership. This group holds a significant share of total US wealth. Their assets are heavily concentrated in investments."
+},
+{
+"question": "What percentage of US wealth is held by the top 5% of households?",
+"answer": "The top 5% of US households hold approximately 60% of total US wealth. Wealth concentration has increased over time. Financial assets drive most of this concentration. This group has significant influence on deposit and investment markets."
+},
+{
+"question": "What percentage of bank lending is concentrated in specific industries?",
+"answer": "Typically, 40% to 60% of bank lending is concentrated in a limited number of industries. Real estate, healthcare, and manufacturing are common concentration areas. Industry concentration varies by bank strategy and geography. Regulators closely monitor sector exposure."
+},
+{
+"question": "How many US households have liquid assets exceeding $500000?",
+"answer": "Approximately 5% to 7% of US households have liquid assets exceeding $500,000. Liquid assets include cash, savings, and marketable securities. These households are primarily high-net-worth individuals. They account for a large share of total bank deposits."
+},
+{
+"question": "What percentage of US bank deposits come from large institutional clients?",
+"answer": "Large institutional clients contribute roughly 20% to 30% of US bank deposits. These deposits can be more volatile than retail deposits. Concentration varies significantly by bank type. Liquidity risk management focuses heavily on this segment."
+},
+{
+"question": "What percentage of consumers have multiple products with the same bank?",
+"answer": "About 50% to 60% of consumers hold multiple products with the same bank. Common combinations include checking, savings, and credit cards. Product bundling improves customer retention. Relationship depth is a key profitability driver."
+},
+{
+"question": "What percentage of bank accounts have balances exceeding $250000?",
+"answer": "Less than 5% of bank accounts have balances exceeding $250,000. These accounts represent a disproportionate share of total deposits. They are often associated with affluent households or businesses. Banks apply enhanced monitoring to these balances."
+},
+{
+"question": "What percentage of high-balance accounts receive enhanced monitoring?",
+"answer": "Nearly 100% of high-balance accounts receive enhanced monitoring. Monitoring focuses on fraud, compliance, and concentration risk. Thresholds vary by institution and regulator. Enhanced oversight is standard risk management practice."
+},
+{
+"question": "What are typical daily transfer limits for retail bank accounts?",
+"answer": "Typical daily transfer limits for retail bank accounts range from $2,500 to $10,000. Limits vary by transfer type and customer tenure. Higher limits are often granted to premium customers. Banks balance convenience with fraud risk."
+},
+{
+"question": "What percentage of banks offer customizable transfer limits?",
+"answer": "Approximately 60% to 70% of banks offer customizable transfer limits. Customization may be temporary or permanent. This feature is more common at digitally advanced institutions. It helps balance security and customer flexibility."
+},
+{
+"question": "What is the average daily ACH transfer limit for US banks?",
+"answer": "The average daily ACH transfer limit for US banks is around $5,000 to $25,000. Limits depend on customer risk profiles and account history. Business accounts typically have higher limits. ACH limits are lower than wire transfer limits."
+},
+{
+"question": "What percentage of premium bank accounts have unlimited transfers?",
+"answer": "Approximately 10% to 20% of premium bank accounts offer unlimited transfers. These accounts are usually reserved for high-balance customers. Unlimited transfers still include fraud monitoring. Pricing often reflects the added flexibility."
+},
+{
+"question": "What is the maximum wire transfer limit at major US banks?",
+"answer": "Maximum wire transfer limits at major US banks typically range from $100,000 to $1 million per day. Limits vary by customer verification level. Higher limits require additional authentication. Banks may approve exceptions for specific transactions."
+},
+{
+"question": "What is the standard daily transfer limit for checking accounts?",
+"answer": "The standard daily transfer limit for checking accounts is usually between $2,500 and $10,000. Limits differ by channel such as online, ACH, or wire. New accounts often have lower limits. Limits can increase with account tenure."
+},
+{
+"question": "What percentage of business accounts have tiered transfer limits?",
+"answer": "Roughly 50% to 60% of business accounts have tiered transfer limits. Tiers are based on user roles, approval levels, or transaction types. Tiering helps manage operational and fraud risk. Larger businesses are more likely to use tiered structures."
+},
+{
+"question": "What percentage of customers reach their transfer limits monthly?",
+"answer": "Only about 5% to 10% of customers reach their transfer limits in a typical month. Most customers operate well below daily limits. Limit breaches are more common among businesses. Banks monitor frequent limit usage for risk signals."
+},
+{
+"question": "What is the average utilization rate of daily transfer limits?",
+"answer": "The average utilization rate of daily transfer limits is generally below 30%. Most customers make relatively small transfers. High utilization is more common among commercial clients. Persistent high utilization may trigger review."
+},
+{
+"question": "How often do banks adjust customer transfer limits?",
+"answer": "Banks adjust customer transfer limits infrequently, typically on an annual or as-needed basis. Adjustments often follow customer requests or risk reviews. Temporary increases are common for large transactions. Automated reviews are increasingly used."
+},
+{
+"question": "What percentage of debit card users regularly reach ATM withdrawal limits?",
+"answer": "Only about 5% to 10% of debit card users regularly reach ATM withdrawal limits. Most users withdraw amounts well below daily caps. Frequent limit usage may indicate cash-intensive behavior. Banks monitor this for fraud prevention."
+},
+{
+"question": "What is the typical ATM withdrawal limit utilization rate?",
+"answer": "Typical ATM withdrawal limit utilization rates are around 20% to 30%. Most customers withdraw modest amounts per transaction. Utilization varies by income and cash usage preferences. Higher utilization is common during travel or emergencies."
+},
+{
+"question": "What percentage of bank customers use ATMs monthly?",
+"answer": "Approximately 50% to 60% of bank customers use ATMs at least once per month. Usage has declined with digital payments growth. ATM use remains higher among cash-reliant customers. Urban areas show lower usage than rural areas."
+},
+{
+"question": "What percentage of ATM transactions are declined due to limit violations?",
+"answer": "Less than 2% of ATM transactions are declined due to limit violations. Most declines are caused by insufficient funds rather than limits. Limit violations are more common among high-frequency users. Banks design limits to minimize customer friction."
+},
+{
+"question": "What percentage of ATM withdrawals exceed $500 per transaction?",
+"answer": "Roughly 10% to 15% of ATM withdrawals exceed $500 per transaction. Higher amounts are more common at branch-adjacent ATMs. Daily limits often constrain larger withdrawals. Cash usage patterns vary widely by customer."
+},
+{
+"question": "What percentage of debit cards go unused each month?",
+"answer": "Approximately 20% to 30% of debit cards go unused in a given month. Inactivity is higher among secondary or backup accounts. Digital wallets and credit cards reduce debit usage. Banks track inactivity for engagement purposes."
+},
+{
+"question": "What is the average ATM withdrawal amount in the United States?",
+"answer": "The average ATM withdrawal amount in the United States is around $100 to $120. Amounts have increased slightly over time due to inflation. Withdrawal sizes vary by income and access to cashless payments. Many customers make multiple smaller withdrawals."
+},
+{
+"question": "What percentage of ATM transactions result in overdraft fees?",
+"answer": "Approximately 5% to 8% of ATM transactions result in overdraft fees. This is concentrated among frequent overdrafters. Many banks have reduced overdraft fees in recent years. Balance alerts help lower this rate."
+},
+{
+"question": "What percentage of ATM transactions are flagged for unusual activity?",
+"answer": "Less than 1% of ATM transactions are flagged for unusual activity. Flags are triggered by abnormal patterns or locations. Most alerts are resolved without customer impact. Advanced analytics help reduce false positives."
+},
+{
+"question": "What percentage of customers use less than half their ATM withdrawal limit?",
+"answer": "Over 70% of customers use less than half of their ATM withdrawal limit. Limits are set well above typical usage levels. This provides flexibility for occasional large withdrawals. Low utilization is normal for most retail customers."
+}
+]
+}

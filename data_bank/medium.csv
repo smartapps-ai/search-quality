@@ -1,0 +1,68 @@
+﻿persona,kpi,difficulty,synthetic_questions,tursio_response
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What is the average total deposit balance by geography for accounts opened in the last year?,"Key Insights:
+
+The calculated average minimum balance for accounts opened between 2024-12-18 and 2025-12-18 is 611.34.
+No explicit geography grouping was applied in the query, so this average reflects the overall dataset for the specified account opening period."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,"Which geographical region has the highest concentration of accounts with balances over $10,000?","Great question but unfortunately no data points were found to generate an answer for you. Consider adjusting your query to change one or more parameters, such as time or other filters.
+"
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What is the total deposit balance for the top 5 customer segments by account number in each region?,"High-Impact Findings
+
+The total deposit balance for the top 5 records by account number is 1,381."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,How many accounts in the last 6 months have deposits concentrated in only one geographical area?,"Key Insight:
+No accounts in the last 6 months have deposits concentrated in only one geographical area, with the count being exactly 0."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What percentage of accounts with no recent activity (last 90 days) are located in the top 3 geographies by total balance?,"Key Insights
+
+Out of 1,000 accounts with no recent activity in the past 90 days, only 51 accounts (5.1%) are located in the top 3 geographies ranked by total balance."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,Which 5 zip codes show the highest growth in total deposit balance over the past year?,"High-Impact Findings:
+The data shows one zip code (with an empty value) achieving a total deposit balance growth of 475,382, while another (also with an empty zip code) experienced a decline of 506,519 in deposit balances."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What is the ratio of total deposits to total number of accounts by region?,"Key Insight:
+All regions (branches) have a deposit-to-account ratio of 0, meaning the total deposits are 0 across every branch despite a varying number of accounts."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,How many deposit accounts are shared among the top 5 member groups in each geographical area?,"Key Insights
+
+Each geographical area (branch) contributes the deposit accounts from its top 5 member groups. In most branches, each of the top 5 groups holds exactly 1 deposit account, so the overall shared deposit account total per branch is typically 5.
+Some branches deviate from the norm. For example, on branch 2 the top five groups collectively hold 2, 1, 1, 1, and 1 deposit accounts respectively—totaling 6 accounts. Likewise, branch 40 notably shows counts of 3, 2, 2, 2, and 2 deposit accounts among its top 5 member groups, which sums up to 11 accounts."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,Which geographical area has the highest average account balance among long-term account holders (5+ years)?,"The data indicates that branch 3 has the highest average account balance, with an average balance of 22,178.5 among account holders with 5 or more years of account history.
+
+This result is derived from accounts that have been active for at least 5 years.
+The average value was computed after cleaning and converting balance values, ensuring accuracy in the financial metric."
+Finance / Treasury Manager; Branch / Regional Manager,Total Deposit Balance by Geography; Concentration Risk,medium,What percentage of accounts in each geography have balances less than $500?,"Below is a concise, fact-based summary of the query results and observable patterns regarding the percentage of accounts with balances less than $500 by geography:
+
+Key Insight:
+The query was designed to compute a percentage of accounts per branch (geography) with balances below $500. However, in the previewed results, the columns for both the count of accounts with balances under $500 and the computed percentage are empty for every branch. This suggests that none of the sample records met the condition, or the values were not populated in the dataset extract."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What is the average credit card balance per account in the top 5 states by total account balance?,"Key Insight:
+The dataset shows that for the top 5 states by total account balance, the only returned state (labeled ""0"") has an average credit card balance of $12,426.40 per account."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,"Which member segments have the highest percentage of credit card balances over $5,000?","The analysis shows that, on average, about 59.19% of credit card accounts in each member group have balance limits over $5,000, with a median of 60% across the 99 segments. Notably, some groups have all their accounts (up to 100%) exceeding the $5,000 threshold, while the minimum observed proportion is 0%.
+
+Further details indicate that for each member group, on average there are 6.52 credit card accounts, of which roughly 3.99 have balances over $5,000. The interquartile range demonstrates that 25% of the groups have at least 47.22% of accounts over the threshold, and 75% of the groups have up to 77.78%. This variation suggests marked segmentation in the distribution of high-limit accounts across member groups."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What percentage of accounts with a credit card have an account balance exceeding the average balance for their demographic segment?,"Key Insight:
+The provided query result shows an overall average (minimum) balance of 498.75, but it does not include any information about credit card accounts, demographic segments, or the distribution of account balances relative to their segment averages.
+
+Additional Details:
+
+The executed query aggregates the minimum balance across records in the SHARE table and joins with the ACCOUNT table, resulting only in the overall average balance.
+There is no data in the output linking accounts with credit cards to the average balance for their demographic segment.
+Therefore, it is not possible to determine what percentage of accounts with a credit card exceed the average balance for their specific demographic segment based on the given information."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,"How many accounts have both a credit card and a loan, and what is the average balance for these accounts?","High-Impact Findings
+
+Number of Accounts with both a Credit Card and a Loan: There are exactly 645 unique accounts identified by the query that indicate the presence of both a credit card and a loan.
+
+Average Credit Card Limit Amount: For these accounts, the average credit card limit amount is approximately 4,979.76."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What is the distribution of credit card balances across different age groups of members?,"Key Insights:
+
+The dataset shows significant variability in credit card limits across the member groups (interpreted as age groups). On a per-group basis, the average credit card limit ranges from as low as $2,109.39 (Group 40) to as high as approximately $7,294.05 (Group 66), reflecting a broad distribution in available credit.
+The number of cards per group also varies, with counts ranging from 2 cards (e.g., Group 66) up to 19 cards (e.g., Groups 7 and 34), and the total credit limits per group correspondingly range from under $10,000 to over $104,000."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,Which 10 zip codes have the highest average credit card balances among active accounts?,"Key Insight:
+Among the active accounts in the sample, the highest average credit card balance is found for the zip code represented as an empty value, with an average limit amount of $4,979.76 across 955 distinct cards."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What percentage of credit card accounts are from members with less than one year of account longevity?,"Key Insight:
+0% of credit card accounts belong to members with less than one year of account longevity.
+"
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,How does the average credit card exposure differ between members with one credit card versus those with multiple?,"The key insight is that members with multiple credit cards have a higher average credit card exposure compared to those with only one card. Specifically, members with multiple cards show an average exposure of 5030.87, while those with a single card exhibit an average exposure of 4885.17.
+
+This represents an increase of approximately 145.70 (or about 3%) in average credit exposure for members with multiple cards relative to those with a single card."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What is the ratio of credit card balances to total account balances for the top 5 account types?,"High-Impact Findings:
+
+Among the top 5 account types by total balance, only account type 3 shows a non-zero ratio; its credit card balance represents 100% of its total account balance.
+
+The remaining account types (1, 2, 4, and 5) have a credit card balance ratio of 0%, meaning no credit card balances are recorded for these types."
+Finance Manager; CRO; Product Manager,Portfolio Mix %; Credit Card Exposure by Balance,medium,What percentage of accounts have a credit card balance and have had no activity in the last 30 days?,"Key Insight:
+None of the 1,000 accounts (0%) have a credit card balance and have had no activity in the last 30 days."

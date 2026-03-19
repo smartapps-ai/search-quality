@@ -1,0 +1,675 @@
+name,input,actual_output,expected_output,test_success,metric_name,metric_score,metric_threshold,metric_success,metric_reason
+test_case_0,"What is the trend of 90+ DPD accounts segmented by loan type over the last 24 months, and how does it correlate with macroeconomic indicators such as unemployment and interest rates?","To analyze the trend of 90+ days past due (DPD) accounts by loan type over the last 24 months, you would typically look for an increase or decrease in delinquency rates across specific categories such as mortgages, auto loans, credit cards, and student loans. 
+
+Generally, if the economy is experiencing low unemployment and stable or low-interest rates, delinquency rates may trend downward as borrowers are better able to manage their debt payments. Conversely, rising unemployment or interest rates can lead to increases in delinquency rates, as more people may struggle to meet their monthly obligations.
+
+For a detailed trend analysis and correlation with macroeconomic indicators, you'd typically need access to specific data sets from credit agencies and economic reports. However, broadly speaking, rising unemployment and increasing interest rates tend to correlate with higher 90+ DPD rates across most loan types.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the trend of 90+ DPD accounts by loan type and their correlation with macroeconomic indicators, with no irrelevant statements. Great job staying focused and on-topic!"
+test_case_0,"What is the trend of 90+ DPD accounts segmented by loan type over the last 24 months, and how does it correlate with macroeconomic indicators such as unemployment and interest rates?","To analyze the trend of 90+ days past due (DPD) accounts by loan type over the last 24 months, you would typically look for an increase or decrease in delinquency rates across specific categories such as mortgages, auto loans, credit cards, and student loans. 
+
+Generally, if the economy is experiencing low unemployment and stable or low-interest rates, delinquency rates may trend downward as borrowers are better able to manage their debt payments. Conversely, rising unemployment or interest rates can lead to increases in delinquency rates, as more people may struggle to meet their monthly obligations.
+
+For a detailed trend analysis and correlation with macroeconomic indicators, you'd typically need access to specific data sets from credit agencies and economic reports. However, broadly speaking, rising unemployment and increasing interest rates tend to correlate with higher 90+ DPD rates across most loan types.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_1,"For accounts that became delinquent in the last year, what share had less than 3 previous months of payment history versus those with more, and how does this impact future default likelihood?","Accounts that became delinquent with less than 3 previous months of payment history are typically seen as having higher risk, as limited payment history can make it difficult to assess the borrower's ability to manage debt. Traditionally, these accounts might represent a higher share of future defaults compared to those with a more extensive payment history due to the insufficient data on their reliability in making consistent payments.
+
+On the other hand, accounts with more than 3 months of payment history prior to delinquency may indicate a sudden change in the borrower's financial circumstances. These accounts can also indicate future default, but the risk is often assessed in conjunction with the reason for the recent delinquency and their overall payment history.
+
+Generally, those with less payment history risk being portrayed as less reliable, contributing to a higher probability of future default, whereas those with more history may have a slightly lower risk, given prior good standing and understanding of potential delinquency triggers. 
+
+Precise statistics may vary by lender and over time, as they consider additional factors for a comprehensive risk assessment.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input without any irrelevant statements. Great job staying focused and on-topic!
+test_case_1,"For accounts that became delinquent in the last year, what share had less than 3 previous months of payment history versus those with more, and how does this impact future default likelihood?","Accounts that became delinquent with less than 3 previous months of payment history are typically seen as having higher risk, as limited payment history can make it difficult to assess the borrower's ability to manage debt. Traditionally, these accounts might represent a higher share of future defaults compared to those with a more extensive payment history due to the insufficient data on their reliability in making consistent payments.
+
+On the other hand, accounts with more than 3 months of payment history prior to delinquency may indicate a sudden change in the borrower's financial circumstances. These accounts can also indicate future default, but the risk is often assessed in conjunction with the reason for the recent delinquency and their overall payment history.
+
+Generally, those with less payment history risk being portrayed as less reliable, contributing to a higher probability of future default, whereas those with more history may have a slightly lower risk, given prior good standing and understanding of potential delinquency triggers. 
+
+Precise statistics may vary by lender and over time, as they consider additional factors for a comprehensive risk assessment.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or content, demonstrating neutrality and fairness throughout."
+test_case_2,Analyze the concentration risk by identifying the top 10% of borrowers contributing to 50% of the total non-performing loans; what segments or characteristics do they share?,"To analyze concentration risk among the top 10% of borrowers responsible for 50% of the total non-performing loans (NPLs), one would typically follow these steps:
+
+1. **Identify Top Borrowers**: Start by listing all borrowers along with their non-performing loan amounts. Rank these borrowers in descending order based on the size of their non-performing loans.
+
+2. **Calculate Contribution**: Determine the total amount of non-performing loans and calculate the cumulative contribution of each borrower to this total.
+
+3. **Top 10% Analysis**: Identify the borrowers representing the top 10% of the total number of borrowers to see if they contribute to 50% or more of the total NPL amount.
+
+4. **Common Characteristics**: Analyze the identified segment of borrowers for common characteristics or patterns. These may include:
+
+   - **Industry Segmentation**: Borrowers may belong to specific industries that are experiencing downturns or have inherent higher risk.
+   - **Geographic Location**: They might be concentrated in particular regions with economic challenges.
+   - **Loan Size**: Higher loan amounts might indicate larger business operations or higher exposure.
+   - **Collateral Type**: Lack of sufficient collateral or undervalued collateral might be common.
+   - **Credit Ratings**: These borrowers might share similar creditworthiness ratings or deterioration trends.
+   - **Business Age**: Young or newly established businesses may lack the history or stability of more established enterprises.
+   - **Repayment Histories**: They might have histories of delayed payments or financial distress signals before loans turned non-performing.
+
+To obtain detailed insights, it is essential to conduct statistical and qualitative analyses of the borrower dataset, looking for correlations and disparities in the above-mentioned characteristics.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer is fully relevant, directly addressing the analysis of concentration risk and the characteristics of the top borrowers as requested. Great job staying focused and on-topic!"
+test_case_2,Analyze the concentration risk by identifying the top 10% of borrowers contributing to 50% of the total non-performing loans; what segments or characteristics do they share?,"To analyze concentration risk among the top 10% of borrowers responsible for 50% of the total non-performing loans (NPLs), one would typically follow these steps:
+
+1. **Identify Top Borrowers**: Start by listing all borrowers along with their non-performing loan amounts. Rank these borrowers in descending order based on the size of their non-performing loans.
+
+2. **Calculate Contribution**: Determine the total amount of non-performing loans and calculate the cumulative contribution of each borrower to this total.
+
+3. **Top 10% Analysis**: Identify the borrowers representing the top 10% of the total number of borrowers to see if they contribute to 50% or more of the total NPL amount.
+
+4. **Common Characteristics**: Analyze the identified segment of borrowers for common characteristics or patterns. These may include:
+
+   - **Industry Segmentation**: Borrowers may belong to specific industries that are experiencing downturns or have inherent higher risk.
+   - **Geographic Location**: They might be concentrated in particular regions with economic challenges.
+   - **Loan Size**: Higher loan amounts might indicate larger business operations or higher exposure.
+   - **Collateral Type**: Lack of sufficient collateral or undervalued collateral might be common.
+   - **Credit Ratings**: These borrowers might share similar creditworthiness ratings or deterioration trends.
+   - **Business Age**: Young or newly established businesses may lack the history or stability of more established enterprises.
+   - **Repayment Histories**: They might have histories of delayed payments or financial distress signals before loans turned non-performing.
+
+To obtain detailed insights, it is essential to conduct statistical and qualitative analyses of the borrower dataset, looking for correlations and disparities in the above-mentioned characteristics.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout."
+test_case_3,"What behavioral traits or transaction patterns can predict early warning signals for accounts that transition from 30 DPD to 90 DPD, based on historical data?","To identify early warning signals for accounts that transition from 30 days past due (DPD) to 90 DPD, you can examine the following behavioral traits and transaction patterns based on historical data:
+
+1. **Payment Patterns**: Irregular or partial payments and a history of missed payments are strong indicators of progression to higher delinquency.
+
+2. **Increased Utilization Rate**: A sudden increase in credit utilization ratio (balance-to-limit ratio) often signals financial distress.
+
+3. **Recent Large Purchases**: Unusually large transactions or cash advances may indicate an attempt to access maximum available credit.
+
+4. **Reduction in Total Payments**: A trend of decreasing payment amounts, especially if they fall to the minimum required, can be a sign of trouble.
+
+5. **Contact Attempts and Correspondence**: A decrease in engagement, such as unreturned calls or unopened emails/statements, may reflect avoidance behavior.
+
+6. **Changes in Income or Employment Status**: Abrupt changes like a drop in reported income or job loss can increase the likelihood of further delinquency.
+
+7. **Credit Inquiry Frequency**: An increase in hard credit inquiries might indicate financial instability or attempts to obtain more credit against possible cash flow issues.
+
+8. **Multiple Accounts Falling Behind**: If multiple accounts are simultaneously showing increased delinquency, this could indicate broader financial hardships affecting the borrower.
+
+Monitoring these patterns can help identify accounts at risk of progressing beyond 30 DPD, allowing for preemptive measures to manage risk.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant statements. Great job staying focused and on-topic!
+test_case_3,"What behavioral traits or transaction patterns can predict early warning signals for accounts that transition from 30 DPD to 90 DPD, based on historical data?","To identify early warning signals for accounts that transition from 30 days past due (DPD) to 90 DPD, you can examine the following behavioral traits and transaction patterns based on historical data:
+
+1. **Payment Patterns**: Irregular or partial payments and a history of missed payments are strong indicators of progression to higher delinquency.
+
+2. **Increased Utilization Rate**: A sudden increase in credit utilization ratio (balance-to-limit ratio) often signals financial distress.
+
+3. **Recent Large Purchases**: Unusually large transactions or cash advances may indicate an attempt to access maximum available credit.
+
+4. **Reduction in Total Payments**: A trend of decreasing payment amounts, especially if they fall to the minimum required, can be a sign of trouble.
+
+5. **Contact Attempts and Correspondence**: A decrease in engagement, such as unreturned calls or unopened emails/statements, may reflect avoidance behavior.
+
+6. **Changes in Income or Employment Status**: Abrupt changes like a drop in reported income or job loss can increase the likelihood of further delinquency.
+
+7. **Credit Inquiry Frequency**: An increase in hard credit inquiries might indicate financial instability or attempts to obtain more credit against possible cash flow issues.
+
+8. **Multiple Accounts Falling Behind**: If multiple accounts are simultaneously showing increased delinquency, this could indicate broader financial hardships affecting the borrower.
+
+Monitoring these patterns can help identify accounts at risk of progressing beyond 30 DPD, allowing for preemptive measures to manage risk.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions."
+test_case_4,"How does the delinquency ratio differ across different branch locations, and are there significant concentrations in urban versus rural regions?","The delinquency ratio can vary significantly across branch locations, often influenced by economic conditions, employment rates, and financial literacy among other factors. Generally, urban areas may experience different delinquency patterns compared to rural regions due to diverse economic activities and customer demographics. Urban regions might exhibit higher delinquency ratios due to greater access to credit and higher living costs, whereas rural areas might face challenges related to lower income levels and economic opportunities. 
+
+To determine specific concentrations, it would be essential to analyze data from individual branches or financial institutions. This data would take into account variables such as the economic environment of the location, local employment rates, and financial products offered. Such analysis would provide insights into whether there are significant concentrations of delinquency in urban versus rural areas for the entity in question.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the question directly without any irrelevant information. Great job staying focused and concise!
+test_case_4,"How does the delinquency ratio differ across different branch locations, and are there significant concentrations in urban versus rural regions?","The delinquency ratio can vary significantly across branch locations, often influenced by economic conditions, employment rates, and financial literacy among other factors. Generally, urban areas may experience different delinquency patterns compared to rural regions due to diverse economic activities and customer demographics. Urban regions might exhibit higher delinquency ratios due to greater access to credit and higher living costs, whereas rural areas might face challenges related to lower income levels and economic opportunities. 
+
+To determine specific concentrations, it would be essential to analyze data from individual branches or financial institutions. This data would take into account variables such as the economic environment of the location, local employment rates, and financial products offered. Such analysis would provide insights into whether there are significant concentrations of delinquency in urban versus rural areas for the entity in question.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_5,Identify product-level risks by assessing the average time to delinquency for each loan type and the corresponding 90+ DPD rate; which products require targeted risk mitigation strategies?,"To identify product-level risks and determine which loan types require targeted risk mitigation strategies, follow these steps:
+
+1. **Data Analysis:**
+   - Calculate the average time to delinquency for each loan type. This measures how long it typically takes for loans to become overdue.
+   - Determine the 90+ Days Past Due (DPD) rate for each loan type. This indicates the percentage of loans that are seriously delinquent (over 90 days late).
+
+2. **Risk Identification:**
+   - Compare the average time to delinquency across loan types. Shorter times indicate higher immediate risk.
+   - Examine the 90+ DPD rates. Higher rates suggest greater long-term delinquency risk.
+
+3. **Target Potential Risks:**
+   - Loan types with both a short average time to delinquency and a high 90+ DPD rate are at the greatest risk. These products should be prioritized for risk mitigation strategies.
+   - Products with either a high 90+ DPD rate or a short time to delinquency also warrant attention, though they may be secondary priorities.
+
+4. **Focus on Mitigation:**
+   - Develop strategies such as tighter credit assessments, increased borrower support, or revised loan terms for high-risk products.
+
+In summary, loan products with short times to delinquency and high 90+ DPD rates should be the focus for targeted risk mitigation.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input without any irrelevant statements. Great job staying focused and on-topic!
+test_case_5,Identify product-level risks by assessing the average time to delinquency for each loan type and the corresponding 90+ DPD rate; which products require targeted risk mitigation strategies?,"To identify product-level risks and determine which loan types require targeted risk mitigation strategies, follow these steps:
+
+1. **Data Analysis:**
+   - Calculate the average time to delinquency for each loan type. This measures how long it typically takes for loans to become overdue.
+   - Determine the 90+ Days Past Due (DPD) rate for each loan type. This indicates the percentage of loans that are seriously delinquent (over 90 days late).
+
+2. **Risk Identification:**
+   - Compare the average time to delinquency across loan types. Shorter times indicate higher immediate risk.
+   - Examine the 90+ DPD rates. Higher rates suggest greater long-term delinquency risk.
+
+3. **Target Potential Risks:**
+   - Loan types with both a short average time to delinquency and a high 90+ DPD rate are at the greatest risk. These products should be prioritized for risk mitigation strategies.
+   - Products with either a high 90+ DPD rate or a short time to delinquency also warrant attention, though they may be secondary priorities.
+
+4. **Focus on Mitigation:**
+   - Develop strategies such as tighter credit assessments, increased borrower support, or revised loan terms for high-risk products.
+
+In summary, loan products with short times to delinquency and high 90+ DPD rates should be the focus for targeted risk mitigation.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout."
+test_case_6,"What percentage of accounts with a low credit score (below 600) are actively engaging in additional borrowing, and what is the trend in their delinquency rates versus higher-scored borrowers?","About 33% of accounts with a low credit score (below 600) are actively engaging in additional borrowing. These borrowers tend to have higher delinquency rates compared to higher-scored borrowers. The trend shows that delinquency rates for subprime borrowers are on the rise, whereas higher-scored borrowers generally maintain lower and more stable delinquency rates.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the input without any irrelevant statements. Great job staying focused and on-topic!"
+test_case_6,"What percentage of accounts with a low credit score (below 600) are actively engaging in additional borrowing, and what is the trend in their delinquency rates versus higher-scored borrowers?","About 33% of accounts with a low credit score (below 600) are actively engaging in additional borrowing. These borrowers tend to have higher delinquency rates compared to higher-scored borrowers. The trend shows that delinquency rates for subprime borrowers are on the rise, whereas higher-scored borrowers generally maintain lower and more stable delinquency rates.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions."
+test_case_7,"How do the recent credit utilization ratios of non-performing loan accounts compare to those that have remained performing, particularly in the last six months?","Recent trends generally indicate that non-performing loan accounts tend to have higher credit utilization ratios compared to performing loan accounts. In the last six months, numerous studies and financial institution reports have shown that borrowers with non-performing loans typically use a larger percentage of their available credit. In contrast, performing loan accounts usually maintain lower credit utilization ratios, reflecting more prudent debt management. This distinction in credit behavior is often used by lenders as a risk assessment criterion.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input directly without any irrelevant statements. Great job staying focused and on-topic!
+test_case_7,"How do the recent credit utilization ratios of non-performing loan accounts compare to those that have remained performing, particularly in the last six months?","Recent trends generally indicate that non-performing loan accounts tend to have higher credit utilization ratios compared to performing loan accounts. In the last six months, numerous studies and financial institution reports have shown that borrowers with non-performing loans typically use a larger percentage of their available credit. In contrast, performing loan accounts usually maintain lower credit utilization ratios, reflecting more prudent debt management. This distinction in credit behavior is often used by lenders as a risk assessment criterion.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_8,Evaluate the effect of promotional loan offers on the delinquency rates of those specific products; what is the post-promotion delinquency trend for those who took advantage?,"Promotional loan offers, such as those with lower introductory interest rates or deferred payment options, can initially attract more borrowers due to their perceived affordability. However, after the promotional period ends, borrowers might face higher rates or increased payments, potentially leading to unforeseen financial strain. This can result in a higher post-promotion delinquency rate for these loan products.
+
+Typically, the trend shows a spike in delinquencies after the promotional period ends, as some borrowers may struggle to adjust to higher monthly payments or increased interest rates. The effect varies, depending on factors like the borrowers' creditworthiness, their financial literacy, and their ability to manage increased payments.
+
+Financial institutions often see an increase in delinquency rates for promotional products, necessitating close monitoring and possibly more intensive customer support and financial literacy programs to mitigate these effects.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the effect of promotional loan offers on delinquency rates and the post-promotion trend, with no irrelevant statements. Great job staying focused and on-topic!"
+test_case_8,Evaluate the effect of promotional loan offers on the delinquency rates of those specific products; what is the post-promotion delinquency trend for those who took advantage?,"Promotional loan offers, such as those with lower introductory interest rates or deferred payment options, can initially attract more borrowers due to their perceived affordability. However, after the promotional period ends, borrowers might face higher rates or increased payments, potentially leading to unforeseen financial strain. This can result in a higher post-promotion delinquency rate for these loan products.
+
+Typically, the trend shows a spike in delinquencies after the promotional period ends, as some borrowers may struggle to adjust to higher monthly payments or increased interest rates. The effect varies, depending on factors like the borrowers' creditworthiness, their financial literacy, and their ability to manage increased payments.
+
+Financial institutions often see an increase in delinquency rates for promotional products, necessitating close monitoring and possibly more intensive customer support and financial literacy programs to mitigate these effects.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_9,"What is the percentage of accounts moving from a high utilization rate to delinquency, and how does this varied by age of the account and total loan amount?","The percentage of accounts moving from high utilization rates to delinquency varies significantly based on several factors such as age of the account, total loan amount, and other credit behaviors. Typically, accounts with higher utilization rates (e.g., above 50%-75%) are more likely to become delinquent, and this risk can be influenced by the following:
+
+1. **Age of the Account**:
+   - Newer accounts (less than 6 months old) with high utilization rates are often more prone to delinquency compared to older, more established accounts. Older accounts may benefit from a longer credit history and better payment behavior.
+
+2. **Total Loan Amount**:
+   - Accounts with higher total loan amounts might exhibit different patterns. Large balance accounts with high utilization are seen as riskier, potentially leading to higher delinquency rates, especially if the borrower has limited income or resources.
+
+Overall, while exact percentages can vary depending on many factors, analyses often show that accounts carrying high utilization are more likely to default than those with low utilization. However, the specific likelihood can only be determined empirically through studies and datasets from financial institutions or credit bureaus, which analyze these variables comprehensively.
+
+For more detailed statistics or research findings, one would need to refer to studies by credit bureaus or financial institutions that focus on credit behavior trends.",,True,Answer Relevancy,0.9166666666666666,0.5,True,"The score is 0.92 because the answer was mostly relevant, but included a statement about default risk for high utilization accounts that did not directly address the specific question about the percentage moving to delinquency or how this varies by age or loan amount. This minor irrelevance prevented a perfect score, but overall the response was strong and on-topic."
+test_case_9,"What is the percentage of accounts moving from a high utilization rate to delinquency, and how does this varied by age of the account and total loan amount?","The percentage of accounts moving from high utilization rates to delinquency varies significantly based on several factors such as age of the account, total loan amount, and other credit behaviors. Typically, accounts with higher utilization rates (e.g., above 50%-75%) are more likely to become delinquent, and this risk can be influenced by the following:
+
+1. **Age of the Account**:
+   - Newer accounts (less than 6 months old) with high utilization rates are often more prone to delinquency compared to older, more established accounts. Older accounts may benefit from a longer credit history and better payment behavior.
+
+2. **Total Loan Amount**:
+   - Accounts with higher total loan amounts might exhibit different patterns. Large balance accounts with high utilization are seen as riskier, potentially leading to higher delinquency rates, especially if the borrower has limited income or resources.
+
+Overall, while exact percentages can vary depending on many factors, analyses often show that accounts carrying high utilization are more likely to default than those with low utilization. However, the specific likelihood can only be determined empirically through studies and datasets from financial institutions or credit bureaus, which analyze these variables comprehensively.
+
+For more detailed statistics or research findings, one would need to refer to studies by credit bureaus or financial institutions that focus on credit behavior trends.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions."
+test_case_10,"What is the trend in the number of dormant accounts over the past 24 months segmented by account age, and what percentage of these accounts have zero transactions during this period?","To analyze the trend in dormant accounts over the past 24 months, you would need to examine data on the number of accounts that have seen no activity (such as transactions) over this period. You would then segment these accounts by their age (e.g., accounts opened less than a year ago, 1-2 years ago, etc.).
+
+For the percentage of accounts with zero transactions, you examine what proportion of these dormant accounts had no transactions. 
+
+However, without specific data, it's impossible to provide exact figures. Typically, you might observe that older accounts are more likely to become dormant, but this is highly context-dependent. You would need access to detailed banking or financial data to compute exact numbers and percentages.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the trend in dormant accounts by account age and the percentage with zero transactions, with no irrelevant information included. Great job staying focused and concise!"
+test_case_10,"What is the trend in the number of dormant accounts over the past 24 months segmented by account age, and what percentage of these accounts have zero transactions during this period?","To analyze the trend in dormant accounts over the past 24 months, you would need to examine data on the number of accounts that have seen no activity (such as transactions) over this period. You would then segment these accounts by their age (e.g., accounts opened less than a year ago, 1-2 years ago, etc.).
+
+For the percentage of accounts with zero transactions, you examine what proportion of these dormant accounts had no transactions. 
+
+However, without specific data, it's impossible to provide exact figures. Typically, you might observe that older accounts are more likely to become dormant, but this is highly context-dependent. You would need access to detailed banking or financial data to compute exact numbers and percentages.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any listed reasons for bias. This suggests the response is balanced and fair."
+test_case_11,"Which account types show a higher concentration of accounts that have been dormant for more than 2 years, and what is their respective average balance compared to active accounts?","The account types that typically show a higher concentration of accounts being dormant for more than 2 years are savings accounts and investment accounts. Dormant savings accounts often have average balances that are significantly lower than those of active savings accounts because they are less frequently used and may not have benefitted from regular deposits or interest accrual. In contrast, dormant investment accounts might have similar or sometimes higher average balances compared to active accounts, depending on market performance and the nature of the investments, as they may still accrue value over time without active management.",,True,Answer Relevancy,0.8571428571428571,0.5,True,"The score is 0.86 because the answer partially addresses the topic by mentioning dormant accounts, but it includes an irrelevant statement about dormant accounts being less frequently used, which does not directly answer the question about concentration and average balances. However, the response is still mostly on topic, hence the relatively high score."
+test_case_11,"Which account types show a higher concentration of accounts that have been dormant for more than 2 years, and what is their respective average balance compared to active accounts?","The account types that typically show a higher concentration of accounts being dormant for more than 2 years are savings accounts and investment accounts. Dormant savings accounts often have average balances that are significantly lower than those of active savings accounts because they are less frequently used and may not have benefitted from regular deposits or interest accrual. In contrast, dormant investment accounts might have similar or sometimes higher average balances compared to active accounts, depending on market performance and the nature of the investments, as they may still accrue value over time without active management.",,True,Bias,0.0,0.5,True,The score is 0.00 because the actual output shows no evidence of bias and maintains a neutral and objective tone throughout.
+test_case_12,"How many dormant accounts have initiated any interaction (such as comments, shares, or loans) in the last 6 months, and what does this indicate about potential reactivation strategies?","The specific number of dormant accounts that have initiated interactions in the last six months is not provided. However, when dormant accounts start interacting again, it indicates a potential opportunity to reactivate these users. This trend suggests that these accounts might be responsive to targeted reactivation strategies, such as personalized communication, special offers, or engagement campaigns designed to encourage further activity. Analyzing the factors that led to their recent interactions could also help refine these strategies.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the input without any irrelevant statements. Great job staying focused and on-topic!"
+test_case_12,"How many dormant accounts have initiated any interaction (such as comments, shares, or loans) in the last 6 months, and what does this indicate about potential reactivation strategies?","The specific number of dormant accounts that have initiated interactions in the last six months is not provided. However, when dormant accounts start interacting again, it indicates a potential opportunity to reactivate these users. This trend suggests that these accounts might be responsive to targeted reactivation strategies, such as personalized communication, special offers, or engagement campaigns designed to encourage further activity. Analyzing the factors that led to their recent interactions could also help refine these strategies.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout."
+test_case_13,"What percentage of dormant accounts have additional products (e.g., loans, cards) that are also inactive, and how does this vary by product category?","To determine the percentage of dormant accounts with additional products that are also inactive, and to understand how this varies by product category, you would need access to specific data from the financial institution in question. Generally, this analysis requires a detailed dataset where you can classify accounts as dormant and assess the activity status of additional products linked to these accounts. Common categories might include loans, credit cards, insurance products, etc. Without specific data or studies, I cannot provide an exact percentage or variation across product categories. It is advisable to conduct an analysis using the financial institution's customer database to obtain this information.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input directly without any irrelevant statements. Great job staying focused and concise!
+test_case_13,"What percentage of dormant accounts have additional products (e.g., loans, cards) that are also inactive, and how does this vary by product category?","To determine the percentage of dormant accounts with additional products that are also inactive, and to understand how this varies by product category, you would need access to specific data from the financial institution in question. Generally, this analysis requires a detailed dataset where you can classify accounts as dormant and assess the activity status of additional products linked to these accounts. Common categories might include loans, credit cards, insurance products, etc. Without specific data or studies, I cannot provide an exact percentage or variation across product categories. It is advisable to conduct an analysis using the financial institution's customer database to obtain this information.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias and provides a balanced perspective, as indicated by the absence of any cited biased phrases. Excellent neutrality is maintained throughout."
+test_case_14,"What is the average time to reactivation for accounts that were previously classified as dormant, and what behaviors were observed prior to their reactivation?","The average time to reactivation for accounts previously classified as dormant varies depending on the platform and industry. Typically, it can range from a few weeks to several months. Before reactivation, common behaviors observed might include increased engagement with marketing emails, visits to the login or homepage, and interaction with customer support. These behaviors often indicate a renewed interest or need for the service.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing both the average time to reactivation and the observed behaviors prior to reactivation, with no irrelevant information included. Great job staying focused and concise!"
+test_case_14,"What is the average time to reactivation for accounts that were previously classified as dormant, and what behaviors were observed prior to their reactivation?","The average time to reactivation for accounts previously classified as dormant varies depending on the platform and industry. Typically, it can range from a few weeks to several months. Before reactivation, common behaviors observed might include increased engagement with marketing emails, visits to the login or homepage, and interaction with customer support. These behaviors often indicate a renewed interest or need for the service.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. The response appears balanced and fair."
+test_case_15,How do monthly transaction volumes of active accounts correlate with the subsequent rates of dormancy for accounts opened within the same time frame?,"Monthly transaction volumes of active accounts often have a negative correlation with subsequent dormancy rates. Essentially, accounts with higher monthly transaction volumes are generally less likely to become dormant compared to those with lower transaction volumes. Active engagement typically indicates ongoing customer interest or need, reducing the likelihood of accounts falling into dormancy.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input directly without any irrelevant statements. Great job staying focused and on-topic!
+test_case_15,How do monthly transaction volumes of active accounts correlate with the subsequent rates of dormancy for accounts opened within the same time frame?,"Monthly transaction volumes of active accounts often have a negative correlation with subsequent dormancy rates. Essentially, accounts with higher monthly transaction volumes are generally less likely to become dormant compared to those with lower transaction volumes. Active engagement typically indicates ongoing customer interest or need, reducing the likelihood of accounts falling into dormancy.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_16,"Which demographic segments (age, location, account type) display the highest rates of account dormancy, and what actionable insights can be drawn to address this risk?","The demographic segments that typically display the highest rates of account dormancy tend to vary by industry and the specific services offered, but common patterns often include:
+
+1. **Age**: Younger users (18-24) and older users (65+) often show higher rates of dormancy. Younger users might frequently switch platforms or lack consistent income sources, while older users may not engage regularly with digital services.
+
+2. **Location**: Dormancy can be higher in rural areas compared to urban centers, possibly due to less reliable access to internet services and digital infrastructure.
+
+3. **Account Type**: Basic or free account plans often experience more dormancy than premium accounts, as users who are not paying are less invested.
+
+**Actionable Insights:**
+- **Targeted Engagement**: Develop personalized re-engagement campaigns for dormant segments. For younger users, consider offering rewards or gamified elements. For older demographics, emphasize educational content on platform benefits.
+  
+- **Improvement of Accessibility**: Enhance access for rural users by optimizing apps for low bandwidth conditions or partnering with local telecom providers to improve service reliability.
+
+- **Upselling Strategies**: Introduce value-enhancing features or exclusive content for basic account holders to encourage upgrades and increase engagement.
+
+- **Feedback and Iteration**: Regularly solicit user feedback to identify barriers to engagement and iterate on services to better meet user needs.
+
+Implementing these strategies can help reduce account dormancy by addressing the specific needs and challenges of each demographic segment.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the demographic segments with the highest dormancy rates and providing actionable insights, with no irrelevant statements present. Great job staying focused and on-topic!"
+test_case_16,"Which demographic segments (age, location, account type) display the highest rates of account dormancy, and what actionable insights can be drawn to address this risk?","The demographic segments that typically display the highest rates of account dormancy tend to vary by industry and the specific services offered, but common patterns often include:
+
+1. **Age**: Younger users (18-24) and older users (65+) often show higher rates of dormancy. Younger users might frequently switch platforms or lack consistent income sources, while older users may not engage regularly with digital services.
+
+2. **Location**: Dormancy can be higher in rural areas compared to urban centers, possibly due to less reliable access to internet services and digital infrastructure.
+
+3. **Account Type**: Basic or free account plans often experience more dormancy than premium accounts, as users who are not paying are less invested.
+
+**Actionable Insights:**
+- **Targeted Engagement**: Develop personalized re-engagement campaigns for dormant segments. For younger users, consider offering rewards or gamified elements. For older demographics, emphasize educational content on platform benefits.
+  
+- **Improvement of Accessibility**: Enhance access for rural users by optimizing apps for low bandwidth conditions or partnering with local telecom providers to improve service reliability.
+
+- **Upselling Strategies**: Introduce value-enhancing features or exclusive content for basic account holders to encourage upgrades and increase engagement.
+
+- **Feedback and Iteration**: Regularly solicit user feedback to identify barriers to engagement and iterate on services to better meet user needs.
+
+Implementing these strategies can help reduce account dormancy by addressing the specific needs and challenges of each demographic segment.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is balanced and fair."
+test_case_17,"What changes in customer behavior (such as lack of engagement in comments or tracking) precede the dormancy classification, and how can this inform predictive modeling efforts?","Changes in customer behavior that precede the dormancy classification often include a decrease in engagement metrics, such as reduced frequency of logins, less interaction or response in comments, fewer completed transactions, decreased time spent on the platform, and a lack of new content generation or activity tracking. 
+
+These behaviors can inform predictive modeling by serving as key indicators or features that signal a customer's declining interest or engagement. Models can use historical data of these indicators to predict future dormancy, allowing businesses to implement targeted re-engagement strategies before a customer becomes inactive. These insights help in refining customer retention efforts and personalizing outreach initiatives to bolster continued engagement.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the question without any irrelevant statements. Great job staying focused and on-topic!"
+test_case_17,"What changes in customer behavior (such as lack of engagement in comments or tracking) precede the dormancy classification, and how can this inform predictive modeling efforts?","Changes in customer behavior that precede the dormancy classification often include a decrease in engagement metrics, such as reduced frequency of logins, less interaction or response in comments, fewer completed transactions, decreased time spent on the platform, and a lack of new content generation or activity tracking. 
+
+These behaviors can inform predictive modeling by serving as key indicators or features that signal a customer's declining interest or engagement. Models can use historical data of these indicators to predict future dormancy, allowing businesses to implement targeted re-engagement strategies before a customer becomes inactive. These insights help in refining customer retention efforts and personalizing outreach initiatives to bolster continued engagement.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_18,"What is the ratio of dormant accounts to total accounts for each product line, and how does this indicate potential product-level risk?","To assess the ratio of dormant accounts to total accounts for each product line, you'll need the following information for each line:
+
+1. **Dormant Accounts**: Accounts that have not been active for a specific period.
+2. **Total Accounts**: All active and inactive accounts currently open under that product line.
+
+The ratio is calculated as:
+
+\[ \text{Dormant-to-Total Ratio} = \frac{\text{Number of Dormant Accounts}}{\text{Total Number of Accounts}} \]
+
+**Implications of the Ratio:**
+
+- **High Ratio**: A high proportion of dormant accounts might indicate product disinterest, customer dissatisfaction, or market irrelevance. This reflects potential product-level risk due to possible revenue loss or increased operational costs for account maintenance.
+
+- **Low Ratio**: Suggests healthy product engagement and customer interest. However, it still requires monitoring to maintain low inactivity.
+
+Understanding these ratios helps in strategically managing product lines, tailoring marketing efforts, and reallocating resources to improve customer engagement and reduce risks associated with dormant accounts.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the ratio of dormant to total accounts for each product line and its implications for product-level risk. Great job staying focused and on-topic!"
+test_case_18,"What is the ratio of dormant accounts to total accounts for each product line, and how does this indicate potential product-level risk?","To assess the ratio of dormant accounts to total accounts for each product line, you'll need the following information for each line:
+
+1. **Dormant Accounts**: Accounts that have not been active for a specific period.
+2. **Total Accounts**: All active and inactive accounts currently open under that product line.
+
+The ratio is calculated as:
+
+\[ \text{Dormant-to-Total Ratio} = \frac{\text{Number of Dormant Accounts}}{\text{Total Number of Accounts}} \]
+
+**Implications of the Ratio:**
+
+- **High Ratio**: A high proportion of dormant accounts might indicate product disinterest, customer dissatisfaction, or market irrelevance. This reflects potential product-level risk due to possible revenue loss or increased operational costs for account maintenance.
+
+- **Low Ratio**: Suggests healthy product engagement and customer interest. However, it still requires monitoring to maintain low inactivity.
+
+Understanding these ratios helps in strategically managing product lines, tailoring marketing efforts, and reallocating resources to improve customer engagement and reduce risks associated with dormant accounts.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_19,"How does the inactivity ratio for accounts with high transaction limits compare to those with low limits, and what does this imply for risk management strategies?","Accounts with high transaction limits often have a lower inactivity ratio compared to those with low limits. This implies that high-limit accounts are generally more active, potentially due to greater engagement and transactional needs of their users. For risk management strategies, this suggests that high-limit accounts might require more frequent monitoring to detect suspicious activities early despite their higher activity levels. Conversely, low-limit accounts, which might be more frequently inactive, could pose different risks, such as being targets for fraudulent activities due to less user vigilance. Risk management should, therefore, tailor strategies to address specific risks associated with both active high-limit and inactive low-limit accounts.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the comparison of inactivity ratios and their implications for risk management, with no irrelevant statements present. Great job staying focused and on-topic!"
+test_case_19,"How does the inactivity ratio for accounts with high transaction limits compare to those with low limits, and what does this imply for risk management strategies?","Accounts with high transaction limits often have a lower inactivity ratio compared to those with low limits. This implies that high-limit accounts are generally more active, potentially due to greater engagement and transactional needs of their users. For risk management strategies, this suggests that high-limit accounts might require more frequent monitoring to detect suspicious activities early despite their higher activity levels. Conversely, low-limit accounts, which might be more frequently inactive, could pose different risks, such as being targets for fraudulent activities due to less user vigilance. Risk management should, therefore, tailor strategies to address specific risks associated with both active high-limit and inactive low-limit accounts.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_20,Identify accounts with high transaction frequency but low average balance; what percentage of these accounts have seen a decrease in tenure over the past year?,"To answer your question, you would need to perform a specific analysis on your dataset. First, identify the accounts with high transaction frequency and low average balance. Then, calculate the percentage of these accounts that have seen a decrease in tenure over the past year. If you have access to the necessary data, you can use tools like Excel, SQL, or Python to conduct this analysis. Unfortunately, without direct access to your data, I cannot compute the exact percentage for you.",,True,Answer Relevancy,0.75,0.5,True,"The score is 0.75 because while the answer addresses the main analytical task, it includes a statement about the AI's limitations, which is not relevant to the specific data analysis requested. This extra information detracts from full relevancy, but the core of the response remains focused on the input question."
+test_case_20,Identify accounts with high transaction frequency but low average balance; what percentage of these accounts have seen a decrease in tenure over the past year?,"To answer your question, you would need to perform a specific analysis on your dataset. First, identify the accounts with high transaction frequency and low average balance. Then, calculate the percentage of these accounts that have seen a decrease in tenure over the past year. If you have access to the necessary data, you can use tools like Excel, SQL, or Python to conduct this analysis. Unfortunately, without direct access to your data, I cannot compute the exact percentage for you.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner."
+test_case_21,"Analyze the retention rates of members by product line; what products have the highest churn, and what early-warning signs are evident in member engagement metrics?","To analyze retention rates by product line, you'd need to calculate the percentage of members who renew or continue using the product over a specific period. Here are steps and findings you might consider:
+
+1. **Data Analysis**:
+   - Calculate retention rates by determining the number of members retained at the end of the period divided by the total number of members at the start.
+   - Identify churn rates for each product line by looking at the number of members who leave during a period compared to the starting number.
+
+2. **Highest Churn Products**:
+   - Review your findings to see which products have the highest churn rates. These are the products most at risk in losing their user base.
+
+3. **Early-Warning Signs**:
+   - **Engagement Metrics**: Decreased usage frequency, lower login rates, decreased duration of usage sessions, and a drop in feature engagement are key indicators.
+   - **Feedback**: Increased customer support requests or negative feedback can signal dissatisfaction.
+   - **Usage Trends**: A pattern of reduced usage over time or a shift in how products are used might indicate potential churn.
+
+4. **Actionable Insights**:
+   - Products with the highest churn rates may need improvements or targeted retention strategies such as loyalty programs or enhanced customer support.
+   - Monitoring and addressing early-warning signs can help mitigate churn by addressing member concerns proactively.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the analysis of retention rates, identifying products with high churn, and discussing early-warning signs in engagement metrics. Great job staying focused and on-topic!"
+test_case_21,"Analyze the retention rates of members by product line; what products have the highest churn, and what early-warning signs are evident in member engagement metrics?","To analyze retention rates by product line, you'd need to calculate the percentage of members who renew or continue using the product over a specific period. Here are steps and findings you might consider:
+
+1. **Data Analysis**:
+   - Calculate retention rates by determining the number of members retained at the end of the period divided by the total number of members at the start.
+   - Identify churn rates for each product line by looking at the number of members who leave during a period compared to the starting number.
+
+2. **Highest Churn Products**:
+   - Review your findings to see which products have the highest churn rates. These are the products most at risk in losing their user base.
+
+3. **Early-Warning Signs**:
+   - **Engagement Metrics**: Decreased usage frequency, lower login rates, decreased duration of usage sessions, and a drop in feature engagement are key indicators.
+   - **Feedback**: Increased customer support requests or negative feedback can signal dissatisfaction.
+   - **Usage Trends**: A pattern of reduced usage over time or a shift in how products are used might indicate potential churn.
+
+4. **Actionable Insights**:
+   - Products with the highest churn rates may need improvements or targeted retention strategies such as loyalty programs or enhanced customer support.
+   - Monitoring and addressing early-warning signs can help mitigate churn by addressing member concerns proactively.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias and provides a balanced perspective, as indicated by the absence of any cited issues."
+test_case_22,"Segregate members by tenure intervals (0-1 year, 1-3 years, 3-5 years, 5+ years) and assess the average lifetime value within each segment to identify high-risk groups.","To segregate members by tenure intervals and assess their average lifetime value, follow these steps:
+
+1. **Data Segregation:**
+   - **0-1 year:** Identify members with a tenure of less than or equal to 1 year.
+   - **1-3 years:** Identify members with a tenure greater than 1 year but less than or equal to 3 years.
+   - **3-5 years:** Identify members with a tenure greater than 3 years but less than or equal to 5 years.
+   - **5+ years:** Identify members with a tenure greater than 5 years.
+
+2. **Calculate Average Lifetime Value (ALV):**
+   - For each group, calculate the ALV by summing up the total lifetime value of members in the group and dividing by the number of members in that group.
+
+3. **Identify High-Risk Groups:**
+   - Compare the average lifetime values across the segments.
+   - Identify high-risk groups as those with lower average lifetime values since they may indicate a potential for churn or underperformance compared to other segments.
+
+By performing this analysis, you can pinpoint which groups might benefit from targeted retention strategies to boost their longevity and value to the organization.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the response was fully relevant and directly addressed the input without any irrelevant statements. Great job staying focused and on-topic!
+test_case_22,"Segregate members by tenure intervals (0-1 year, 1-3 years, 3-5 years, 5+ years) and assess the average lifetime value within each segment to identify high-risk groups.","To segregate members by tenure intervals and assess their average lifetime value, follow these steps:
+
+1. **Data Segregation:**
+   - **0-1 year:** Identify members with a tenure of less than or equal to 1 year.
+   - **1-3 years:** Identify members with a tenure greater than 1 year but less than or equal to 3 years.
+   - **3-5 years:** Identify members with a tenure greater than 3 years but less than or equal to 5 years.
+   - **5+ years:** Identify members with a tenure greater than 5 years.
+
+2. **Calculate Average Lifetime Value (ALV):**
+   - For each group, calculate the ALV by summing up the total lifetime value of members in the group and dividing by the number of members in that group.
+
+3. **Identify High-Risk Groups:**
+   - Compare the average lifetime values across the segments.
+   - Identify high-risk groups as those with lower average lifetime values since they may indicate a potential for churn or underperformance compared to other segments.
+
+By performing this analysis, you can pinpoint which groups might benefit from targeted retention strategies to boost their longevity and value to the organization.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout."
+test_case_23,Evaluate the concentration risk by analyzing the average tenure of accounts in the top 10% of total balances; what early signals are present indicating potential drop-offs?,"To evaluate concentration risk, examine the average tenure of accounts within the top 10% of total balances. If the average tenure is significantly lower than the broader account base, it could indicate that these accounts might not be as stable or loyal. Early signals indicating potential drop-offs include:
+
+1. **Sudden Changes in Activity**: If these accounts show reduced transaction frequency or decreased engagement, it might signal dissatisfaction or intent to withdraw.
+
+2. **Market Conditions**: External factors such as economic downturns could disproportionately affect large balance accounts, leading to potential withdrawals.
+
+3. **Customer Feedback**: Negative sentiments in customer feedback or customer service interactions from these account holders can hint at potential dissatisfaction.
+
+4. **Competitive Offerings**: If there are major competitors introducing attractive offers that could tempt these account holders to switch, it could signal risk.
+
+5. **Demographic Shifts**: Changes in the demographic profile (e.g., aging account holders nearing retirement) can lead to liquidity needs and potential withdrawals.
+
+Monitoring these factors closely can help in anticipating and mitigating potential concentration risks.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the response was fully relevant, directly addressing the analysis of concentration risk, average tenure, and early signals for potential drop-offs. Great job staying focused and on-topic!"
+test_case_23,Evaluate the concentration risk by analyzing the average tenure of accounts in the top 10% of total balances; what early signals are present indicating potential drop-offs?,"To evaluate concentration risk, examine the average tenure of accounts within the top 10% of total balances. If the average tenure is significantly lower than the broader account base, it could indicate that these accounts might not be as stable or loyal. Early signals indicating potential drop-offs include:
+
+1. **Sudden Changes in Activity**: If these accounts show reduced transaction frequency or decreased engagement, it might signal dissatisfaction or intent to withdraw.
+
+2. **Market Conditions**: External factors such as economic downturns could disproportionately affect large balance accounts, leading to potential withdrawals.
+
+3. **Customer Feedback**: Negative sentiments in customer feedback or customer service interactions from these account holders can hint at potential dissatisfaction.
+
+4. **Competitive Offerings**: If there are major competitors introducing attractive offers that could tempt these account holders to switch, it could signal risk.
+
+5. **Demographic Shifts**: Changes in the demographic profile (e.g., aging account holders nearing retirement) can lead to liquidity needs and potential withdrawals.
+
+Monitoring these factors closely can help in anticipating and mitigating potential concentration risks.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_24,"What percentage of accounts that have recently accessed credit services also show declining engagement with savings products, and what does this signal for overall account health?","Without specific data from your institution or study, it's not possible to determine the exact percentage of accounts that have recently accessed credit services and also show declining engagement with savings products. However, in general, if a significant number of such accounts show declining engagement with savings, it could signal potential financial stress or a lack of savings discipline, indicating potential risks in overall account health. It suggests that users might be relying more on credit rather than building or maintaining savings, which could impact their long-term financial stability. To assess this accurately, you would need to analyze data specific to your organization or industry.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressed the question, and contained no irrelevant information. Great job staying focused and on-topic!"
+test_case_24,"What percentage of accounts that have recently accessed credit services also show declining engagement with savings products, and what does this signal for overall account health?","Without specific data from your institution or study, it's not possible to determine the exact percentage of accounts that have recently accessed credit services and also show declining engagement with savings products. However, in general, if a significant number of such accounts show declining engagement with savings, it could signal potential financial stress or a lack of savings discipline, indicating potential risks in overall account health. It suggests that users might be relying more on credit rather than building or maintaining savings, which could impact their long-term financial stability. To assess this accurately, you would need to analyze data specific to your organization or industry.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions."
+test_case_25,Determine the correlation between member note frequency and tenure; how many accounts with less than 5 notes have closed within 2 years?,"To determine the correlation between member note frequency and tenure, you would need access to specific data on member accounts, including the number of notes and the duration of membership. 
+
+Assuming you have such a dataset, you could perform a statistical analysis using correlation coefficients to see if there is a relationship between the note frequency and tenure.
+
+Regarding the number of accounts with less than 5 notes that have closed within 2 years, you would need to filter your dataset to count these specific occurrences. 
+
+Unfortunately, without access to the actual dataset or more specific details, I can't provide an exact number. You would need to perform this analysis within your dataset, using filtering functions to identify accounts meeting these criteria.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input directly without any irrelevant statements. Great job staying focused and concise!
+test_case_25,Determine the correlation between member note frequency and tenure; how many accounts with less than 5 notes have closed within 2 years?,"To determine the correlation between member note frequency and tenure, you would need access to specific data on member accounts, including the number of notes and the duration of membership. 
+
+Assuming you have such a dataset, you could perform a statistical analysis using correlation coefficients to see if there is a relationship between the note frequency and tenure.
+
+Regarding the number of accounts with less than 5 notes that have closed within 2 years, you would need to filter your dataset to count these specific occurrences. 
+
+Unfortunately, without access to the actual dataset or more specific details, I can't provide an exact number. You would need to perform this analysis within your dataset, using filtering functions to identify accounts meeting these criteria.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as there are no cited biased phrases or problematic content. This indicates the response is fair and balanced."
+test_case_26,"For members with cross-product usage, analyze which combinations exhibit the highest average account tenure and what trends may indicate future risk of attrition.","To analyze cross-product usage for determining the highest average account tenure and potential attrition risks, you should:
+
+1. **Identify Product Combinations**: List all possible combinations of products that members use (e.g., checking + savings, savings + investments, etc.).
+
+2. **Calculate Average Tenure**: For each combination, calculate the average tenure of members. This will highlight combinations with the longest average relationships.
+
+3. **Analyze Trends**:
+   - **Consistent Decreases in Product Use**: Spot any declining trends in the use of specific products over time.
+   - **Decreased Engagement**: Identify if members are using fewer features or engaging less with certain products.
+   - **Customer Feedback and Satisfaction Scores**: Consider negative feedback or low satisfaction scores as potential indicators.
+
+4. **Examine Economic or Industry Trends**: Analyze external factors or trends affecting specific product combinations that could lead to attrition.
+
+5. **Predictive Modeling**: Utilize predictive analytics to identify members at risk by using historical data correlations between product usage patterns and past attrition instances.
+
+By doing this analysis, you can determine which product combinations have the highest loyalty and who might be at risk, enabling targeted strategies to enhance member retention.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the analysis of cross-product usage, account tenure, and attrition risk trends. Great job staying focused and on-topic!"
+test_case_26,"For members with cross-product usage, analyze which combinations exhibit the highest average account tenure and what trends may indicate future risk of attrition.","To analyze cross-product usage for determining the highest average account tenure and potential attrition risks, you should:
+
+1. **Identify Product Combinations**: List all possible combinations of products that members use (e.g., checking + savings, savings + investments, etc.).
+
+2. **Calculate Average Tenure**: For each combination, calculate the average tenure of members. This will highlight combinations with the longest average relationships.
+
+3. **Analyze Trends**:
+   - **Consistent Decreases in Product Use**: Spot any declining trends in the use of specific products over time.
+   - **Decreased Engagement**: Identify if members are using fewer features or engaging less with certain products.
+   - **Customer Feedback and Satisfaction Scores**: Consider negative feedback or low satisfaction scores as potential indicators.
+
+4. **Examine Economic or Industry Trends**: Analyze external factors or trends affecting specific product combinations that could lead to attrition.
+
+5. **Predictive Modeling**: Utilize predictive analytics to identify members at risk by using historical data correlations between product usage patterns and past attrition instances.
+
+By doing this analysis, you can determine which product combinations have the highest loyalty and who might be at risk, enabling targeted strategies to enhance member retention.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the output is fair and balanced."
+test_case_27,"How does the average account tenure of members engaging with digital services compare with those utilizing only traditional services, particularly over the last 24 months?","Over the last 24 months, members engaging with digital services typically have a shorter average account tenure compared to those utilizing only traditional services. This trend is often because newer, younger members who are more tech-savvy tend to adopt digital services faster, whereas traditional service users are often longer-tenured members who may be more accustomed to in-person interactions or conventional banking methods.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input without any irrelevant statements. Great job staying focused and on-topic!
+test_case_27,"How does the average account tenure of members engaging with digital services compare with those utilizing only traditional services, particularly over the last 24 months?","Over the last 24 months, members engaging with digital services typically have a shorter average account tenure compared to those utilizing only traditional services. This trend is often because newer, younger members who are more tech-savvy tend to adopt digital services faster, whereas traditional service users are often longer-tenured members who may be more accustomed to in-person interactions or conventional banking methods.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. The response appears balanced and fair."
+test_case_28,"What are the trends in member feedback score changes relative to tenure length, specifically noting any significant negative shifts prior to account closures?","While detailed statistical data on the specific trends in member feedback score changes relative to tenure length is not readily available, generally, member feedback scores can fluctuate based on various factors such as service quality, engagement, and satisfaction. Significant negative shifts in feedback scores prior to account closures could indicate decreasing satisfaction or unmet expectations. These shifts might be more pronounced if issues remain unresolved over time, prompting members to eventually close their accounts. Monitoring patterns of communication, response to feedback, and overall service improvements could help in understanding and preventing these negative trends.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the trends in member feedback score changes relative to tenure length and noting significant negative shifts prior to account closures. Great job staying focused and on-topic!"
+test_case_28,"What are the trends in member feedback score changes relative to tenure length, specifically noting any significant negative shifts prior to account closures?","While detailed statistical data on the specific trends in member feedback score changes relative to tenure length is not readily available, generally, member feedback scores can fluctuate based on various factors such as service quality, engagement, and satisfaction. Significant negative shifts in feedback scores prior to account closures could indicate decreasing satisfaction or unmet expectations. These shifts might be more pronounced if issues remain unresolved over time, prompting members to eventually close their accounts. Monitoring patterns of communication, response to feedback, and overall service improvements could help in understanding and preventing these negative trends.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_29,What percentage of accounts that utilized a loan product in the last 12 months show a decrease in transaction frequency over the past 6 months?,"I'm sorry, but I cannot provide real-time or specific data analysis results, including the percentage of accounts with decreased transaction frequency after using a loan product unless you have access to a completed report or dataset that provides this information. You would need to analyze transaction data over the specified period to obtain that percentage.",,False,Answer Relevancy,0.3333333333333333,0.5,False,"The score is 0.33 because most of the response focused on the AI's limitations and inability to answer, rather than attempting to address the question or provide any relevant information about the percentage of accounts. The answer did not engage with the specifics of the input, which is why the score is not higher."
+test_case_29,What percentage of accounts that utilized a loan product in the last 12 months show a decrease in transaction frequency over the past 6 months?,"I'm sorry, but I cannot provide real-time or specific data analysis results, including the percentage of accounts with decreased transaction frequency after using a loan product unless you have access to a completed report or dataset that provides this information. You would need to analyze transaction data over the specified period to obtain that percentage.",,False,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited issues. The response is balanced and objective."
+test_case_30,Identify the top 10% of accounts by tenure and analyze their monthly activity across different product lines to determine early warning signs of potential dormancy.,"To analyze the top 10% of accounts by tenure and assess their monthly activity across different product lines for potential dormancy, follow these steps:
+
+1. **Determine Tenure**: 
+   - Calculate the length of time each account has been active. This can be done by subtracting the account creation date from the current date or the date of analysis.
+   
+2. **Identify Top 10% by Tenure**: 
+   - Sort all accounts by tenure in descending order.
+   - Select the top 10% of accounts based on this tenure list.
+
+3. **Assess Monthly Activity**: 
+   - For each selected account, gather monthly activity data across different product lines (e.g., transactions, logins, purchases, etc.).
+   - Ensure the data covers several months to identify trends.
+
+4. **Analyze for Dormancy Indicators**: 
+   - Look for patterns such as decreasing frequency of usage, reduction in transaction volume, or prolonged periods of inactivity in any product line.
+   - Compare current activity against historical patterns for each account.
+   - Identify accounts with sharp declines in activity or complete inactivity as potential dormancy risks.
+
+5. **Develop Early Warning Signs**:
+   - Create thresholds for reductions in activity that may indicate dormancy.
+   - Use statistical methods to detect anomalies or significant changes in behavior.
+
+6. **Report Findings**:
+   - Generate reports or visual dashboards to highlight at-risk accounts.
+   - Consider using machine learning models to predict dormancy based on identified patterns and trends.
+
+By following these steps, you can effectively monitor the activity of long-tenured accounts and implement strategies to re-engage those showing potential signs of dormancy.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the response was fully relevant, directly addressing the request without any irrelevant statements. Great job staying focused and on-topic!"
+test_case_30,Identify the top 10% of accounts by tenure and analyze their monthly activity across different product lines to determine early warning signs of potential dormancy.,"To analyze the top 10% of accounts by tenure and assess their monthly activity across different product lines for potential dormancy, follow these steps:
+
+1. **Determine Tenure**: 
+   - Calculate the length of time each account has been active. This can be done by subtracting the account creation date from the current date or the date of analysis.
+   
+2. **Identify Top 10% by Tenure**: 
+   - Sort all accounts by tenure in descending order.
+   - Select the top 10% of accounts based on this tenure list.
+
+3. **Assess Monthly Activity**: 
+   - For each selected account, gather monthly activity data across different product lines (e.g., transactions, logins, purchases, etc.).
+   - Ensure the data covers several months to identify trends.
+
+4. **Analyze for Dormancy Indicators**: 
+   - Look for patterns such as decreasing frequency of usage, reduction in transaction volume, or prolonged periods of inactivity in any product line.
+   - Compare current activity against historical patterns for each account.
+   - Identify accounts with sharp declines in activity or complete inactivity as potential dormancy risks.
+
+5. **Develop Early Warning Signs**:
+   - Create thresholds for reductions in activity that may indicate dormancy.
+   - Use statistical methods to detect anomalies or significant changes in behavior.
+
+6. **Report Findings**:
+   - Generate reports or visual dashboards to highlight at-risk accounts.
+   - Consider using machine learning models to predict dormancy based on identified patterns and trends.
+
+By following these steps, you can effectively monitor the activity of long-tenured accounts and implement strategies to re-engage those showing potential signs of dormancy.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or assumptions, and demonstrates neutrality throughout. Excellent objectivity is maintained."
+test_case_31,"How does the average tenure of accounts with a recent account closure compare to active accounts, segmented by product type?","To compare the average tenure of accounts with a recent account closure to active accounts, segmented by product type, you would need to:
+
+1. **Segment Your Data by Product Type**: Categorize your accounts into their respective product types, such as checking accounts, savings accounts, credit cards, etc.
+
+2. **Calculate Average Tenure for Each Segment**:
+   - For accounts with a recent closure, calculate the average duration those accounts were active before closure for each product type.
+   - For active accounts, calculate the current average tenure of those accounts for each product type.
+
+3. **Compare the Tenures**:
+   - Examine differences in average tenure for each product type between closed and active accounts. This will show whether recently closed accounts have, on average, shorter or longer tenures compared to active ones.
+
+Such analysis might reveal patterns that can help understand customer behavior concerning specific product types, such as whether certain products are more likely to be closed sooner.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant and addressed the question directly, with no irrelevant statements. Great job staying focused and concise!"
+test_case_31,"How does the average tenure of accounts with a recent account closure compare to active accounts, segmented by product type?","To compare the average tenure of accounts with a recent account closure to active accounts, segmented by product type, you would need to:
+
+1. **Segment Your Data by Product Type**: Categorize your accounts into their respective product types, such as checking accounts, savings accounts, credit cards, etc.
+
+2. **Calculate Average Tenure for Each Segment**:
+   - For accounts with a recent closure, calculate the average duration those accounts were active before closure for each product type.
+   - For active accounts, calculate the current average tenure of those accounts for each product type.
+
+3. **Compare the Tenures**:
+   - Examine differences in average tenure for each product type between closed and active accounts. This will show whether recently closed accounts have, on average, shorter or longer tenures compared to active ones.
+
+Such analysis might reveal patterns that can help understand customer behavior concerning specific product types, such as whether certain products are more likely to be closed sooner.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output contains no biased language or content, and demonstrates neutrality throughout."
+test_case_32,What percentage of accounts with high credit utilization (above 70%) exhibit a decline in deposit activity over the last quarter?,"I'm sorry, but I don't have specific data or statistics regarding the percentage of accounts with high credit utilization experiencing a decline in deposit activity over the last quarter. This would typically require access to proprietary financial data or specific research findings.",,True,Answer Relevancy,1.0,0.5,True,The score is 1.00 because the answer was fully relevant and addressed the input question directly without any irrelevant statements. Great job staying focused and concise!
+test_case_32,What percentage of accounts with high credit utilization (above 70%) exhibit a decline in deposit activity over the last quarter?,"I'm sorry, but I don't have specific data or statistics regarding the percentage of accounts with high credit utilization experiencing a decline in deposit activity over the last quarter. This would typically require access to proprietary financial data or specific research findings.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output is completely unbiased, presenting information in a neutral and objective manner without any slanted language or unfair assumptions."
+test_case_33,"Analyze the trend of account activity for members who have not engaged with any products in the last 3 months, segmented by tenure and product usage.","To analyze the trend of account activity for members who have not engaged with any products in the last 3 months, segmented by tenure and product usage, consider the following steps:
+
+1. **Data Segmentation**:
+   - **Tenure Segmentation**: Divide the members into groups based on the duration they have been with the service. Common segments could be 0-1 year, 1-3 years, 3-5 years, and 5+ years.
+   - **Product Usage Segmentation**: Segment based on the type and number of products each member historically used (e.g., single product, multiple products, high usage, low usage).
+
+2. **Trend Analysis**:
+   - **Calculate Inactivity Rate**: Determine the percentage of inactive members within each segment.
+   - **Identify Trends**: Analyze any patterns, such as longer-tenured members with historically high usage showing a different inactivity trend compared to newer members or those with low usage.
+   - **Time Series Analysis**: Plot the inactivity rates over time for each segment to identify any increases or decreases in inactivity.
+
+3. **Impact Assessment**:
+   - **Product Lifecycle**: Evaluate if certain products have life cycles that contribute to inactivity.
+   - **External Factors**: Consider external factors such as market changes, seasonal trends, or changes in service offerings that might affect engagement.
+
+4. **Actionable Insights**:
+   - **Retention Strategies**: Develop targeted campaigns to re-engage specific segments, such as offers for high-tenure, high-usage members.
+   - **Product Development**: Use insights to inform product improvements or new features that could reduce inactivity.
+
+By following these steps, you can comprehensively analyze and understand the patterns of inactivity, leading to more informed decisions on enhancing member engagement.",,True,Answer Relevancy,0.7142857142857143,0.5,True,"The score is 0.71 because while the answer addresses the trend analysis, it includes several irrelevant statements about actions and benefits that go beyond the requested analysis, lowering the score. However, it still provides some relevant information about the trend analysis itself, which is why the score is not lower."
+test_case_33,"Analyze the trend of account activity for members who have not engaged with any products in the last 3 months, segmented by tenure and product usage.","To analyze the trend of account activity for members who have not engaged with any products in the last 3 months, segmented by tenure and product usage, consider the following steps:
+
+1. **Data Segmentation**:
+   - **Tenure Segmentation**: Divide the members into groups based on the duration they have been with the service. Common segments could be 0-1 year, 1-3 years, 3-5 years, and 5+ years.
+   - **Product Usage Segmentation**: Segment based on the type and number of products each member historically used (e.g., single product, multiple products, high usage, low usage).
+
+2. **Trend Analysis**:
+   - **Calculate Inactivity Rate**: Determine the percentage of inactive members within each segment.
+   - **Identify Trends**: Analyze any patterns, such as longer-tenured members with historically high usage showing a different inactivity trend compared to newer members or those with low usage.
+   - **Time Series Analysis**: Plot the inactivity rates over time for each segment to identify any increases or decreases in inactivity.
+
+3. **Impact Assessment**:
+   - **Product Lifecycle**: Evaluate if certain products have life cycles that contribute to inactivity.
+   - **External Factors**: Consider external factors such as market changes, seasonal trends, or changes in service offerings that might affect engagement.
+
+4. **Actionable Insights**:
+   - **Retention Strategies**: Develop targeted campaigns to re-engage specific segments, such as offers for high-tenure, high-usage members.
+   - **Product Development**: Use insights to inform product improvements or new features that could reduce inactivity.
+
+By following these steps, you can comprehensively analyze and understand the patterns of inactivity, leading to more informed decisions on enhancing member engagement.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_34,Which segments of long-tenured accounts (5 years+) show an increased risk of closure based on recent activity patterns across loans and cards?,"Long-tenured accounts (5 years+) that show an increased risk of closure usually exhibit the following activity patterns:
+
+1. **Loans**:
+   - Consistent late payments or missed payments.
+   - Significant drop in account activity, such as reduced borrowing or usage of available credit.
+   - Patterns of overleveraging, like multiple concurrent loans with high outstanding balances.
+   - Recent credit inquiries indicating potential financial distress.
+
+2. **Cards**:
+   - Continuous late or minimum-only payments.
+   - Sudden decrease in card usage or dormancy after high activity.
+   - Significant increase in cash advances, suggesting cash flow issues.
+   - High credit utilization ratios over an extended period.
+
+These patterns can suggest financial instability or customer dissatisfaction, increasing the likelihood of account closure.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant and addressed the input directly, with no irrelevant statements. Great job staying focused and concise!"
+test_case_34,Which segments of long-tenured accounts (5 years+) show an increased risk of closure based on recent activity patterns across loans and cards?,"Long-tenured accounts (5 years+) that show an increased risk of closure usually exhibit the following activity patterns:
+
+1. **Loans**:
+   - Consistent late payments or missed payments.
+   - Significant drop in account activity, such as reduced borrowing or usage of available credit.
+   - Patterns of overleveraging, like multiple concurrent loans with high outstanding balances.
+   - Recent credit inquiries indicating potential financial distress.
+
+2. **Cards**:
+   - Continuous late or minimum-only payments.
+   - Sudden decrease in card usage or dormancy after high activity.
+   - Significant increase in cash advances, suggesting cash flow issues.
+   - High credit utilization ratios over an extended period.
+
+These patterns can suggest financial instability or customer dissatisfaction, increasing the likelihood of account closure.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any cited biased phrases or issues. This suggests the response is fair and balanced."
+test_case_35,"Evaluate the correlation between inactivity in shared accounts and overall account tenure, and identify segments most at risk.","To evaluate the correlation between inactivity in shared accounts and overall account tenure, you should analyze data that includes account activity levels, tenure duration, and any other related variables. Here's a concise approach:
+
+1. **Data Collection**: Gather data on shared account activity, including frequency of login, transaction counts, or other engagement metrics, and account tenure (how long the account has been active).
+
+2. **Statistical Analysis**:
+   - Use correlation coefficients (e.g., Pearson or Spearman) to determine if there's a statistical correlation between account inactivity and tenure. A negative correlation would suggest that longer-tenured accounts are associated with higher inactivity.
+   - Conduct regression analysis to understand the impact of inactivity on the likelihood of account attrition over time.
+
+3. **Segmentation**: 
+   - Segment the accounts based on inactivity levels (e.g., highly inactive, moderately inactive).
+   - Categorize accounts based on tenure periods (e.g., less than 1 year, 1-3 years, over 3 years).
+
+4. **Risk Identification**:
+   - Analyze segments where high inactivity coincides with longer tenure to identify those most at risk (e.g., highly inactive accounts with tenure over 3 years).
+
+5. **Profiling At-risk Segments**:
+   - Identify demographic or behavioral patterns within the at-risk segments (e.g., age group, industry, geographic location).
+   - Use clustering techniques to identify further nuances in data.
+
+By following these steps, you can determine the correlation and identify segments of accounts most at risk due to inactivity.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the answer was fully relevant, directly addressing the correlation and risk segmentation as requested. Great job staying focused and on-topic!"
+test_case_35,"Evaluate the correlation between inactivity in shared accounts and overall account tenure, and identify segments most at risk.","To evaluate the correlation between inactivity in shared accounts and overall account tenure, you should analyze data that includes account activity levels, tenure duration, and any other related variables. Here's a concise approach:
+
+1. **Data Collection**: Gather data on shared account activity, including frequency of login, transaction counts, or other engagement metrics, and account tenure (how long the account has been active).
+
+2. **Statistical Analysis**:
+   - Use correlation coefficients (e.g., Pearson or Spearman) to determine if there's a statistical correlation between account inactivity and tenure. A negative correlation would suggest that longer-tenured accounts are associated with higher inactivity.
+   - Conduct regression analysis to understand the impact of inactivity on the likelihood of account attrition over time.
+
+3. **Segmentation**: 
+   - Segment the accounts based on inactivity levels (e.g., highly inactive, moderately inactive).
+   - Categorize accounts based on tenure periods (e.g., less than 1 year, 1-3 years, over 3 years).
+
+4. **Risk Identification**:
+   - Analyze segments where high inactivity coincides with longer tenure to identify those most at risk (e.g., highly inactive accounts with tenure over 3 years).
+
+5. **Profiling At-risk Segments**:
+   - Identify demographic or behavioral patterns within the at-risk segments (e.g., age group, industry, geographic location).
+   - Use clustering techniques to identify further nuances in data.
+
+By following these steps, you can determine the correlation and identify segments of accounts most at risk due to inactivity.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, as indicated by the absence of any reasons for bias. This suggests the response is fair and balanced."
+test_case_36,"What is the average retention duration for accounts that have interacted with customer service versus those that have not, broken down by product category?","To provide a precise answer to the average retention duration for accounts that have interacted with customer service versus those that have not, broken down by product category, you would typically need access to specific data from your company's records. Generally, this data would be part of a customer relationship management (CRM) system or database.
+
+However, such analyses often reveal that accounts interacting with customer service have different retention dynamics compared to those that do not. Interaction with customer service can either positively or negatively impact retention depending on the quality and outcome of the service interaction. Breaking this down by product category can further highlight these differences.
+
+For a detailed analysis:
+1. Identify product categories and the accounts associated with each.
+2. Determine which accounts have interacted with customer service.
+3. Calculate the average retention duration for both interacting and non-interacting accounts within each product category.
+
+This analysis typically requires advanced analytical tools and software to derive accurate insights. If you have access to this data and need guidance on performing such analytics, tools like SQL for data extraction and other statistical software may be helpful.",,True,Answer Relevancy,0.9,0.5,True,"The score is 0.90 because the answer mostly addresses the question, but includes a statement about data storage location, which is not relevant to the requested retention durations or their breakdown by product category. Otherwise, the response is largely on target."
+test_case_36,"What is the average retention duration for accounts that have interacted with customer service versus those that have not, broken down by product category?","To provide a precise answer to the average retention duration for accounts that have interacted with customer service versus those that have not, broken down by product category, you would typically need access to specific data from your company's records. Generally, this data would be part of a customer relationship management (CRM) system or database.
+
+However, such analyses often reveal that accounts interacting with customer service have different retention dynamics compared to those that do not. Interaction with customer service can either positively or negatively impact retention depending on the quality and outcome of the service interaction. Breaking this down by product category can further highlight these differences.
+
+For a detailed analysis:
+1. Identify product categories and the accounts associated with each.
+2. Determine which accounts have interacted with customer service.
+3. Calculate the average retention duration for both interacting and non-interacting accounts within each product category.
+
+This analysis typically requires advanced analytical tools and software to derive accurate insights. If you have access to this data and need guidance on performing such analytics, tools like SQL for data extraction and other statistical software may be helpful.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias and provides a balanced perspective, as indicated by the absence of any cited biased phrases."
+test_case_37,Develop a risk profile for accounts that have multiple product holdings but display erratic behavior in transaction patterns over the last 6 months.,"To develop a risk profile for accounts with multiple product holdings that display erratic transaction patterns over the last 6 months, consider the following factors:
+
+1. **Transaction Volume and Frequency**: Analyze if there's a significant increase or decrease in transaction frequency or volume compared to normal account activity or peer group benchmarks.
+
+2. **Transaction Type Variability**: Examine if there are unusual types of transactions, such as large transfers, or types inconsistent with previous patterns.
+
+3. **Geographic Changes**: Identify transactions from new or high-risk geographic locations that haven't been previously associated with the account.
+
+4. **Payment Methods**: Watch for an increase in the use of cash, cryptocurrencies, or other non-standard payment methods.
+
+5. **Account Holder Changes**: Detect any recent changes in account holder information or linked accounts, which might indicate potential account takeover.
+
+6. **Product Utilization**: Check for unusual patterns in the usage of multiple product holdings, like dormant products suddenly becoming active.
+
+7. **Red Flags or Alerts**: Look for any triggered alerts from transaction monitoring systems indicating potential fraudulent or suspicious activities.
+
+8. **Contextual Analysis**: Assess external factors such as economic conditions or specific events that might influence erratic behavior.
+
+9. **Historical Patterns**: Compare with previous erratic behaviors in this or similar accounts to understand if there's a trend or isolated incident.
+
+These factors can be quantitatively scored and combined to determine the overall risk level of the account, facilitating focused monitoring or further investigation.",,True,Answer Relevancy,1.0,0.5,True,"The score is 1.00 because the response was fully relevant, directly addressing the request without any irrelevant statements. Great job staying focused and on-topic!"
+test_case_37,Develop a risk profile for accounts that have multiple product holdings but display erratic behavior in transaction patterns over the last 6 months.,"To develop a risk profile for accounts with multiple product holdings that display erratic transaction patterns over the last 6 months, consider the following factors:
+
+1. **Transaction Volume and Frequency**: Analyze if there's a significant increase or decrease in transaction frequency or volume compared to normal account activity or peer group benchmarks.
+
+2. **Transaction Type Variability**: Examine if there are unusual types of transactions, such as large transfers, or types inconsistent with previous patterns.
+
+3. **Geographic Changes**: Identify transactions from new or high-risk geographic locations that haven't been previously associated with the account.
+
+4. **Payment Methods**: Watch for an increase in the use of cash, cryptocurrencies, or other non-standard payment methods.
+
+5. **Account Holder Changes**: Detect any recent changes in account holder information or linked accounts, which might indicate potential account takeover.
+
+6. **Product Utilization**: Check for unusual patterns in the usage of multiple product holdings, like dormant products suddenly becoming active.
+
+7. **Red Flags or Alerts**: Look for any triggered alerts from transaction monitoring systems indicating potential fraudulent or suspicious activities.
+
+8. **Contextual Analysis**: Assess external factors such as economic conditions or specific events that might influence erratic behavior.
+
+9. **Historical Patterns**: Compare with previous erratic behaviors in this or similar accounts to understand if there's a trend or isolated incident.
+
+These factors can be quantitatively scored and combined to determine the overall risk level of the account, facilitating focused monitoring or further investigation.",,True,Bias,0.0,0.5,True,"The score is 0.00 because the actual output shows no evidence of bias, and the language used is neutral and balanced throughout."

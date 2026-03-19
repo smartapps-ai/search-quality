@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" width="1000" height="460" font-family="'Georgia', 'Times New Roman', serif">
+  <defs>
+    <filter id="shadow" x="-8%" y="-8%" width="120%" height="130%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+    </filter>
+    <filter id="shadowMed" x="-8%" y="-8%" width="125%" height="135%">
+      <feDropShadow dx="1.5" dy="2.5" stdDeviation="3" flood-color="#00000025"/>
+    </filter>
+
+    <marker id="arr"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#444"/></marker>
+    <marker id="arrB" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#1D4ED8"/></marker>
+    <marker id="arrG" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#065F46"/></marker>
+    <marker id="arrO" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#92400E"/></marker>
+
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F9FAFB"/>
+      <stop offset="100%" stop-color="#EEF1F7"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#BFDBFE"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0FDF4"/>
+      <stop offset="100%" stop-color="#BBF7D0"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="inputGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="metricGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF4FF"/>
+      <stop offset="100%" stop-color="#E9D5FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="460" rx="10" fill="url(#bgGrad)" stroke="#CBD5E1" stroke-width="1.2"/>
+
+  <!-- Title -->
+  <text x="500" y="32" text-anchor="middle" font-size="17.5" font-weight="bold" fill="#1E293B" letter-spacing="0.3">Answer Evaluation Pipeline</text>
+  <line x1="20" y1="42" x2="980" y2="42" stroke="#CBD5E1" stroke-width="0.8"/>
+
+  <!-- Subtitle -->
+  <text x="500" y="60" text-anchor="middle" font-size="12.5" fill="#94A3B8" font-style="italic">Questions → Chatbot → Answer → Evaluation → Metrics</text>
+
+  <!--
+  BOX GEOMETRY (font-size ~13.5 bold, line-height ~18px):
+
+  A  Synth Custom (A):    x=20  y=90  w=160 h=75  cx=100  cy=127  R=180
+  B  Synth RW (B):        x=20  y=240 w=160 h=75  cx=100  cy=277  R=180
+  C  Std Prompt:          x=20  y=340 w=160 h=58  cx=100  cy=369  R=180
+
+  D  Tursio Chat:         x=210 y=92  w=170 h=70  cx=295  cy=127  L=210 R=380
+  E  ChatGPT:             x=210 y=242 w=170 h=70  cx=295  cy=277  L=210 R=380
+
+  G  Persona/KPI/Q:       x=610 y=72  w=170 h=78  cx=695  cy=111  B=150
+  F  DeepEval:            x=610 y=170 w=170 h=90  cx=695  cy=215  L=610 R=780
+  H  Metrics:             x=810 y=188 w=160 h=54  cx=890  cy=215  L=810
+  -->
+
+  <!-- Track labels -->
+  <text x="295" y="82" text-anchor="middle" font-size="12" fill="#1D4ED8" font-style="italic" font-weight="bold">Track A — Custom Questions</text>
+  <text x="295" y="232" text-anchor="middle" font-size="12" fill="#059669" font-style="italic" font-weight="bold">Track B — Real-World Questions</text>
+
+  <!-- Bracket lines -->
+  <line x1="20" y1="75" x2="380" y2="75" stroke="#1D4ED8" stroke-width="0.6" stroke-dasharray="3,3" opacity="0.5"/>
+  <line x1="20" y1="205" x2="380" y2="205" stroke="#CBD5E1" stroke-width="0.6" stroke-dasharray="3,3"/>
+  <line x1="20" y1="225" x2="380" y2="225" stroke="#059669" stroke-width="0.6" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- === ARROWS FIRST === -->
+
+  <!-- A → D -->
+  <line x1="180" y1="127" x2="210" y2="127" stroke="#1D4ED8" stroke-width="1.2" marker-end="url(#arrB)"/>
+
+  <!-- B → E -->
+  <line x1="180" y1="277" x2="210" y2="277" stroke="#065F46" stroke-width="1.2" marker-end="url(#arrG)"/>
+
+  <!-- C → E elbow -->
+  <polyline points="180,369  196,369  196,312  210,312" fill="none" stroke="#065F46" stroke-width="1.2" marker-end="url(#arrG)"/>
+
+  <!-- D → F answer path top -->
+  <polyline points="380,127  500,127  500,190  610,190" fill="none" stroke="#1D4ED8" stroke-width="1.2" marker-end="url(#arrB)"/>
+  <text x="410" y="120" font-size="12" fill="#1D4ED8" font-style="italic">Answer</text>
+
+  <!-- E → F answer path bottom -->
+  <polyline points="380,277  500,277  500,240  610,240" fill="none" stroke="#065F46" stroke-width="1.2" marker-end="url(#arrG)"/>
+  <text x="410" y="272" font-size="12" fill="#065F46" font-style="italic">Answer</text>
+
+  <!-- G → F context arrow -->
+  <line x1="695" y1="150" x2="695" y2="170" stroke="#92400E" stroke-width="1.2" marker-end="url(#arrO)"/>
+  <text x="700" y="165" font-size="11.5" fill="#92400E" font-style="italic">context</text>
+
+  <!-- F → H metrics -->
+  <line x1="780" y1="215" x2="810" y2="215" stroke="#7C3AED" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <!-- === BOXES === -->
+
+  <!-- A: Synthetic Custom Questions -->
+  <rect x="20" y="90" width="160" height="75" rx="5" fill="url(#inputGrad)" stroke="#3B82F6" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="100" y="113" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1E40AF">Synthetic Custom</text>
+  <text x="100" y="131" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1E40AF">Questions</text>
+  <text x="100" y="155" text-anchor="middle" font-size="12" fill="#3B82F6" font-style="italic">(A)</text>
+
+  <!-- B: Synthetic Real-World Questions -->
+  <rect x="20" y="240" width="160" height="75" rx="5" fill="url(#inputGrad)" stroke="#059669" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="100" y="263" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#065F46">Synthetic Real-World</text>
+  <text x="100" y="281" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#065F46">Questions</text>
+  <text x="100" y="305" text-anchor="middle" font-size="12" fill="#059669" font-style="italic">(B)</text>
+
+  <!-- C: Standardized Prompt -->
+  <rect x="20" y="340" width="160" height="58" rx="5" fill="url(#inputGrad)" stroke="#64748B" stroke-width="1.1" filter="url(#shadow)" stroke-dasharray="5,3"/>
+  <text x="100" y="362" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#334155">Standardized</text>
+  <text x="100" y="385" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#334155">Prompt</text>
+
+  <!-- D: Tursio Chat -->
+  <rect x="210" y="92" width="170" height="70" rx="6" fill="url(#blueGrad)" stroke="#1D4ED8" stroke-width="1.4" filter="url(#shadowMed)"/>
+  <text x="295" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#1E3A8A">Tursio Chat</text>
+  <text x="295" y="149" text-anchor="middle" font-size="11.5" fill="#1D4ED8" font-style="italic">proprietary chatbot</text>
+
+  <!-- E: ChatGPT -->
+  <rect x="210" y="242" width="170" height="70" rx="6" fill="url(#greenGrad)" stroke="#059669" stroke-width="1.4" filter="url(#shadowMed)"/>
+  <text x="295" y="270" text-anchor="middle" font-size="15" font-weight="bold" fill="#065F46">ChatGPT</text>
+  <text x="295" y="299" text-anchor="middle" font-size="11.5" fill="#059669" font-style="italic">baseline chatbot</text>
+
+  <!-- G: Persona / KPI / Question context box -->
+  <rect x="610" y="72" width="170" height="78" rx="5" fill="url(#inputGrad)" stroke="#92400E" stroke-width="1.2" stroke-dasharray="5,3" filter="url(#shadow)"/>
+  <text x="695" y="97" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#78350F">Persona, KPI</text>
+  <text x="695" y="116" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#78350F">&amp; Question</text>
+  <text x="695" y="140" text-anchor="middle" font-size="11.5" fill="#92400E" font-style="italic">evaluation context</text>
+
+  <!-- F: DeepEval -->
+  <rect x="610" y="170" width="170" height="90" rx="6" fill="url(#amberGrad)" stroke="#B45309" stroke-width="1.6" filter="url(#shadowMed)"/>
+  <text x="695" y="203" text-anchor="middle" font-size="16" font-weight="bold" fill="#78350F">DeepEval</text>
+  <text x="695" y="227" text-anchor="middle" font-size="12" fill="#92400E" font-style="italic">LLM-as-judge</text>
+  <text x="695" y="249" text-anchor="middle" font-size="11.5" fill="#92400E" font-style="italic">multi-criteria scoring</text>
+
+  <!-- H: Metrics -->
+  <rect x="810" y="188" width="160" height="54" rx="5" fill="url(#metricGrad)" stroke="#7C3AED" stroke-width="1.3" filter="url(#shadow)"/>
+  <text x="890" y="211" text-anchor="middle" font-size="14" font-weight="bold" fill="#4C1D95">Metrics</text>
+  <text x="890" y="232" text-anchor="middle" font-size="11.5" fill="#6D28D9" font-style="italic">correctness, relevance…</text>
+
+  <!-- Legend — single tall row -->
+  <rect x="20" y="415" width="960" height="32" rx="4" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.8"/>
+
+  <rect x="30" y="422" width="11" height="11" rx="1.5" fill="url(#inputGrad)" stroke="#64748B" stroke-width="0.8"/>
+  <text x="46" y="433" font-size="12" fill="#475569">Input</text>
+
+  <rect x="100" y="422" width="11" height="11" rx="1.5" fill="url(#blueGrad)" stroke="#1D4ED8" stroke-width="0.8"/>
+  <text x="116" y="433" font-size="12" fill="#475569">Tursio Chat (A)</text>
+
+  <rect x="245" y="422" width="11" height="11" rx="1.5" fill="url(#greenGrad)" stroke="#059669" stroke-width="0.8"/>
+  <text x="261" y="433" font-size="12" fill="#475569">ChatGPT (B)</text>
+
+  <rect x="370" y="422" width="11" height="11" rx="1.5" fill="url(#amberGrad)" stroke="#B45309" stroke-width="0.8"/>
+  <text x="386" y="433" font-size="12" fill="#475569">DeepEval Judge</text>
+
+  <rect x="510" y="422" width="11" height="11" rx="1.5" fill="url(#metricGrad)" stroke="#7C3AED" stroke-width="0.8"/>
+  <text x="526" y="433" font-size="12" fill="#475569">Output Metrics</text>
+
+  <line x1="640" y1="428" x2="658" y2="428" stroke="#1D4ED8" stroke-width="1.1" marker-end="url(#arrB)"/>
+  <text x="664" y="433" font-size="12" fill="#475569">Track A flow</text>
+
+  <line x1="750" y1="428" x2="768" y2="428" stroke="#065F46" stroke-width="1.1" marker-end="url(#arrG)"/>
+  <text x="774" y="433" font-size="12" fill="#475569">Track B flow</text>
+
+  <line x1="855" y1="428" x2="873" y2="428" stroke="#92400E" stroke-width="1.1" marker-end="url(#arrO)"/>
+  <text x="879" y="433" font-size="12" fill="#475569">Context injection</text>
+
+  <rect x="950" y="422" width="22" height="11" rx="2" fill="none" stroke="#64748B" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="976" y="433" font-size="10" fill="#475569">ext.</text>
+
+</svg>

@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" font-family="'Georgia', 'Times New Roman', serif">
+  <defs>
+    <filter id="shadow" x="-8%" y="-8%" width="120%" height="130%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+    </filter>
+    <filter id="shadowStrong" x="-8%" y="-8%" width="125%" height="135%">
+      <feDropShadow dx="1.5" dy="2.5" stdDeviation="3" flood-color="#00000022"/>
+    </filter>
+    <!-- Markers: refX=8 so the tip of the 9-unit arrowhead sits exactly at the endpoint -->
+    <marker id="arr"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#555"/></marker>
+    <marker id="arrO" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#EA580C"/></marker>
+    <marker id="arrG" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#059669"/></marker>
+    <marker id="arrV" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#7C3AED"/></marker>
+    <marker id="arrA" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,7 L9,3.5 z" fill="#B45309"/></marker>
+    <linearGradient id="bgGrad"    x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F8F9FB"/><stop offset="100%" stop-color="#EEF1F7"/></linearGradient>
+    <linearGradient id="inputGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#EFF6FF"/><stop offset="100%" stop-color="#DBEAFE"/></linearGradient>
+    <linearGradient id="llmGrad"   x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF7ED"/><stop offset="100%" stop-color="#FED7AA"/></linearGradient>
+    <linearGradient id="synthGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F0FDF4"/><stop offset="100%" stop-color="#BBF7D0"/></linearGradient>
+    <linearGradient id="qualGrad"  x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FDF4FF"/><stop offset="100%" stop-color="#E9D5FF"/></linearGradient>
+    <linearGradient id="outGrad"   x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFBEB"/><stop offset="100%" stop-color="#FDE68A"/></linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="400" rx="10" fill="url(#bgGrad)" stroke="#CBD5E1" stroke-width="1.2"/>
+
+  <!-- Title -->
+  <text x="480" y="27" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1E293B" letter-spacing="0.3">Question Generation Pipeline with Rejection Sampling</text>
+  <line x1="60" y1="34" x2="900" y2="34" stroke="#CBD5E1" stroke-width="0.8"/>
+
+  <!-- Phase labels -->
+  <text x="82"  y="55" text-anchor="middle" font-size="9" fill="#64748B" font-style="italic">Inputs</text>
+  <text x="248" y="55" text-anchor="middle" font-size="9" fill="#64748B" font-style="italic">Preprocessing</text>
+  <text x="435" y="55" text-anchor="middle" font-size="9" fill="#64748B" font-style="italic">Generation</text>
+  <text x="620" y="55" text-anchor="middle" font-size="9" fill="#64748B" font-style="italic">Synthesis</text>
+  <text x="818" y="55" text-anchor="middle" font-size="9" fill="#64748B" font-style="italic">Quality &amp; Output</text>
+
+  <!-- Column dividers -->
+  <line x1="152" y1="42" x2="152" y2="372" stroke="#CBD5E1" stroke-width="0.7" stroke-dasharray="4,4"/>
+  <line x1="330" y1="42" x2="330" y2="372" stroke="#CBD5E1" stroke-width="0.7" stroke-dasharray="4,4"/>
+  <line x1="524" y1="42" x2="524" y2="372" stroke="#CBD5E1" stroke-width="0.7" stroke-dasharray="4,4"/>
+  <line x1="718" y1="42" x2="718" y2="372" stroke="#CBD5E1" stroke-width="0.7" stroke-dasharray="4,4"/>
+
+  <!--
+  BOX GEOMETRY (x y w h):
+    A Persona:       18  68  130 46  → cx=83  cy=91   R=148  B=114
+    B Difficulty:    18 130  130 46  → cx=83  cy=153  R=148  B=176
+    C Golden:        18 192  130 42  → cx=83  cy=213  R=148  B=234
+    D DB Schema:     18 252  130 42  → cx=83  cy=273  R=148  B=294
+    E Map Golden:   165 172  150 70  → cx=240 cy=207  L=165 R=315 T=172 B=242
+    F Generate:     348 128  164 82  → cx=430 cy=169  L=348 R=512 T=128 B=210
+    G Mapper:       535 216  148 62  → cx=609 cy=247  L=535 R=683 T=216 B=278
+    H SynthCustom:  535  72  148 50  → cx=609 cy=97   L=535 R=683 T=72  B=122
+    I SynthRW:      535 298  148 50  → cx=609 cy=323  L=535 R=683 T=298 B=348
+    J Quality:      728 162  144 56  → cx=800 cy=190  L=728 R=872 T=162 B=218
+    K Rejection:    728  82  144 52  → cx=800 cy=108  L=728 R=872 T=82  B=134
+    L OutputA:      892  76   56 66  → cx=920 cy=109  L=892
+    M OutputB:      892 272   56 66  → cx=920 cy=305  L=892
+  -->
+
+  <!-- ══ Boxes drawn AFTER arrows so they sit on top ══ -->
+
+  <!-- === ARROWS FIRST (so boxes render above them) === -->
+
+  <!-- A(R=148,y=83) elbows to E(L=165,y=190) — context P to Map -->
+  <polyline points="148,83  157,83  157,190  165,190" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <!-- label -->
+  <text x="151" y="79" font-size="7.5" fill="#64748B" font-style="italic">context (P)</text>
+
+  <!-- B(R=148,y=153) elbows to E(L=165,y=212) -->
+  <polyline points="148,153  157,153  157,212  165,212" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- C(R=148,y=213) → E(L=165,y=222) straight -->
+  <line x1="148" y1="222" x2="165" y2="222" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="148" y="219" font-size="7.5" fill="#64748B" font-style="italic">exemplars</text>
+
+  <!-- A(R=148,y=83) → F(L=348,y=143) — context P via top highway -->
+  <polyline points="148,77  338,77  338,143  348,143" fill="none" stroke="#555" stroke-width="1.1" marker-end="url(#arr)"/>
+  <text x="212" y="73" font-size="7.5" fill="#64748B" font-style="italic">context (P)</text>
+
+  <!-- B(R=148,y=153) → F(L=348,y=158) straight -->
+  <line x1="148" y1="158" x2="348" y2="158" stroke="#555" stroke-width="1.1" marker-end="url(#arr)"/>
+  <text x="212" y="153" font-size="7.5" fill="#64748B" font-style="italic">context (D)</text>
+
+  <!-- D(R=148,y=273) → F(L=348,y=207) via elbow (dashed, schema) -->
+  <polyline points="148,273  292,273  292,207  348,207" fill="none" stroke="#555" stroke-width="1.1" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <text x="188" y="269" font-size="7.5" fill="#64748B" font-style="italic">schema context</text>
+
+  <!-- E(R=315,y=200) → F(L=348,y=185) few-shots orange -->
+  <polyline points="315,200  331,200  331,185  348,185" fill="none" stroke="#EA580C" stroke-width="1.3" marker-end="url(#arrO)"/>
+  <text x="316" y="195" font-size="7.5" fill="#EA580C" font-style="italic">few-shots</text>
+
+  <!-- F(R=512,y=148) → H(L=535,y=97) via elbow -->
+  <polyline points="512,148  523,148  523,97  535,97" fill="none" stroke="#059669" stroke-width="1.3" marker-end="url(#arrG)"/>
+  <text x="513" y="130" font-size="7.5" fill="#059669" font-style="italic">P×D×N</text>
+
+  <!-- F(R=512,y=192) → G(L=535,y=240) via elbow -->
+  <polyline points="512,192  523,192  523,240  535,240" fill="none" stroke="#059669" stroke-width="1.3" marker-end="url(#arrG)"/>
+  <text x="513" y="223" font-size="7.5" fill="#059669" font-style="italic">P×D×N</text>
+
+  <!-- G(B=278,x=609) → I(T=298,x=609) straight down -->
+  <line x1="609" y1="278" x2="609" y2="298" stroke="#059669" stroke-width="1.3" marker-end="url(#arrG)"/>
+
+  <!-- H(R=683,y=97) → J(L=728,y=175) via elbow -->
+  <polyline points="683,97  705,97  705,175  728,175" fill="none" stroke="#7C3AED" stroke-width="1.2" marker-end="url(#arrV)"/>
+
+  <!-- I(R=683,y=323) → J(L=728,y=208) via elbow -->
+  <polyline points="683,323  705,323  705,208  728,208" fill="none" stroke="#7C3AED" stroke-width="1.2" marker-end="url(#arrV)"/>
+
+  <!-- J(T=162,x=800) → K(B=134,x=800) straight up -->
+  <line x1="800" y1="162" x2="800" y2="134" stroke="#B45309" stroke-width="1.3" marker-end="url(#arrA)"/>
+
+  <!-- K(R=872,y=108) → L(L=892,y=108) straight right -->
+  <line x1="872" y1="108" x2="892" y2="108" stroke="#B45309" stroke-width="1.3" marker-end="url(#arrA)"/>
+
+  <!-- K(R=872,y=120) → M(L=892,y=305) down along right side dashed -->
+  <polyline points="872,120  882,120  882,305  892,305" fill="none" stroke="#B45309" stroke-width="1.3" stroke-dasharray="5,3" marker-end="url(#arrA)"/>
+
+  <!-- === BOXES ON TOP OF ARROWS === -->
+
+  <!-- A: Persona and KPIs -->
+  <rect x="18" y="68" width="130" height="46" rx="5" fill="url(#inputGrad)" stroke="#3B82F6" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="83" y="86" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E40AF">Persona and KPIs</text>
+  <text x="83" y="99" text-anchor="middle" font-size="9.5" fill="#1D4ED8" font-style="italic">(P)</text>
+  <text x="83" y="110" text-anchor="middle" font-size="7.5" fill="#475569">persona × kpi definitions</text>
+
+  <!-- B: Difficulty Definition -->
+  <rect x="18" y="130" width="130" height="46" rx="5" fill="url(#inputGrad)" stroke="#3B82F6" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="83" y="149" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E40AF">Difficulty</text>
+  <text x="83" y="162" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E40AF">Definition</text>
+  <text x="83" y="173" text-anchor="middle" font-size="9.5" fill="#1D4ED8" font-style="italic">(D)</text>
+
+  <!-- C: Golden Examples -->
+  <rect x="18" y="192" width="130" height="42" rx="5" fill="url(#inputGrad)" stroke="#3B82F6" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="83" y="210" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E40AF">Golden Examples</text>
+  <text x="83" y="226" text-anchor="middle" font-size="7.5" fill="#475569">few-shot exemplars</text>
+
+  <!-- D: DB Schema -->
+  <rect x="18" y="252" width="130" height="42" rx="5" fill="url(#inputGrad)" stroke="#3B82F6" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="83" y="270" text-anchor="middle" font-size="10" font-weight="bold" fill="#1E40AF">DB Schema</text>
+  <text x="83" y="285" text-anchor="middle" font-size="7.5" fill="#475569">structured context</text>
+
+  <!-- E: Map Golden -->
+  <rect x="165" y="172" width="150" height="70" rx="6" fill="url(#llmGrad)" stroke="#EA580C" stroke-width="1.4" filter="url(#shadowStrong)"/>
+  <text x="240" y="194" text-anchor="middle" font-size="10" font-weight="bold" fill="#7C2D12">Map Golden to</text>
+  <text x="240" y="208" text-anchor="middle" font-size="10" font-weight="bold" fill="#7C2D12">Persona + KPI +</text>
+  <text x="240" y="222" text-anchor="middle" font-size="10" font-weight="bold" fill="#7C2D12">Difficulty</text>
+  <rect x="204" y="231" width="72" height="13" rx="3" fill="#EA580C"/>
+  <text x="240" y="241" text-anchor="middle" font-size="8" fill="white" font-weight="bold">LLM</text>
+
+  <!-- F: Generate Question -->
+  <rect x="348" y="128" width="164" height="82" rx="6" fill="url(#llmGrad)" stroke="#EA580C" stroke-width="1.6" filter="url(#shadowStrong)"/>
+  <text x="430" y="152" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#7C2D12">Generate Question</text>
+  <text x="430" y="167" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#7C2D12">for each context</text>
+  <text x="430" y="182" text-anchor="middle" font-size="9.5" fill="#9A3412" font-style="italic">(N questions)</text>
+  <rect x="392" y="197" width="76" height="13" rx="3" fill="#EA580C"/>
+  <text x="430" y="207" text-anchor="middle" font-size="8" fill="white" font-weight="bold">LLM</text>
+
+  <!-- H: Synthetic Custom Questions -->
+  <rect x="535" y="72" width="148" height="50" rx="5" fill="url(#synthGrad)" stroke="#059669" stroke-width="1.3" filter="url(#shadow)"/>
+  <text x="609" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#065F46">Synthetic Custom</text>
+  <text x="609" y="104" text-anchor="middle" font-size="10" font-weight="bold" fill="#065F46">Questions</text>
+  <text x="609" y="117" text-anchor="middle" font-size="7.5" fill="#047857" font-style="italic">P × D × N samples</text>
+
+  <!-- G: Question Mapper -->
+  <rect x="535" y="216" width="148" height="62" rx="6" fill="url(#llmGrad)" stroke="#EA580C" stroke-width="1.4" filter="url(#shadowStrong)"/>
+  <text x="609" y="238" text-anchor="middle" font-size="10" font-weight="bold" fill="#7C2D12">Question Mapper</text>
+  <text x="609" y="252" text-anchor="middle" font-size="10" font-weight="bold" fill="#7C2D12">to Real World</text>
+  <rect x="572" y="264" width="74" height="13" rx="3" fill="#EA580C"/>
+  <text x="609" y="274" text-anchor="middle" font-size="8" fill="white" font-weight="bold">LLM</text>
+
+  <!-- I: Synthetic Real-World Questions -->
+  <rect x="535" y="298" width="148" height="50" rx="5" fill="url(#synthGrad)" stroke="#059669" stroke-width="1.3" filter="url(#shadow)"/>
+  <text x="609" y="316" text-anchor="middle" font-size="10" font-weight="bold" fill="#065F46">Synthetic Real-World</text>
+  <text x="609" y="330" text-anchor="middle" font-size="10" font-weight="bold" fill="#065F46">Questions</text>
+  <text x="609" y="343" text-anchor="middle" font-size="7.5" fill="#047857" font-style="italic">P × D × N samples</text>
+
+  <!-- J: Question Quality Checker -->
+  <rect x="728" y="162" width="144" height="56" rx="6" fill="url(#qualGrad)" stroke="#7C3AED" stroke-width="1.4" filter="url(#shadowStrong)"/>
+  <text x="800" y="182" text-anchor="middle" font-size="10" font-weight="bold" fill="#4C1D95">Question Quality</text>
+  <text x="800" y="196" text-anchor="middle" font-size="10" font-weight="bold" fill="#4C1D95">Checker</text>
+  <text x="800" y="211" text-anchor="middle" font-size="7.5" fill="#6D28D9" font-style="italic">scoring + filtering</text>
+
+  <!-- K: Rejection Sampling -->
+  <rect x="728" y="82" width="144" height="52" rx="6" fill="url(#outGrad)" stroke="#B45309" stroke-width="1.5" filter="url(#shadowStrong)"/>
+  <text x="800" y="103" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#78350F">Rejection</text>
+  <text x="800" y="118" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#78350F">Sampling</text>
+  <text x="800" y="129" text-anchor="middle" font-size="7.5" fill="#92400E" font-style="italic">quality threshold τ</text>
+
+  <!-- L: Output A -->
+  <rect x="892" y="76" width="58" height="66" rx="5" fill="#FFFBEB" stroke="#B45309" stroke-width="1.3" stroke-dasharray="5,3" filter="url(#shadow)"/>
+  <text x="921" y="97"  text-anchor="middle" font-size="9" font-weight="bold" fill="#78350F">High</text>
+  <text x="921" y="110" text-anchor="middle" font-size="9" font-weight="bold" fill="#78350F">Quality</text>
+  <text x="921" y="123" text-anchor="middle" font-size="9" font-weight="bold" fill="#78350F">Custom</text>
+  <text x="921" y="137" text-anchor="middle" font-size="9" fill="#D97706" font-style="italic">(A)</text>
+
+  <!-- M: Output B -->
+  <rect x="892" y="272" width="58" height="66" rx="5" fill="#FFFBEB" stroke="#B45309" stroke-width="1.3" stroke-dasharray="5,3" filter="url(#shadow)"/>
+  <text x="921" y="293" text-anchor="middle" font-size="9" font-weight="bold" fill="#78350F">High</text>
+  <text x="921" y="306" text-anchor="middle" font-size="9" font-weight="bold" fill="#78350F">Quality</text>
+  <text x="921" y="319" text-anchor="middle" font-size="9" font-weight="bold" fill="#78350F">Real-World</text>
+  <text x="921" y="332" text-anchor="middle" font-size="9" fill="#D97706" font-style="italic">(B)</text>
+
+  <!-- Legend -->
+  <rect x="18" y="370" width="922" height="24" rx="4" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.8"/>
+  <rect x="26" y="376" width="9" height="9" rx="2" fill="url(#inputGrad)" stroke="#3B82F6" stroke-width="1"/>
+  <text x="39" y="384" font-size="8" fill="#475569">Input</text>
+  <rect x="76" y="376" width="9" height="9" rx="2" fill="url(#llmGrad)" stroke="#EA580C" stroke-width="1"/>
+  <text x="89" y="384" font-size="8" fill="#475569">LLM Module</text>
+  <rect x="156" y="376" width="9" height="9" rx="2" fill="url(#synthGrad)" stroke="#059669" stroke-width="1"/>
+  <text x="169" y="384" font-size="8" fill="#475569">Synthetic Data</text>
+  <rect x="246" y="376" width="9" height="9" rx="2" fill="url(#qualGrad)" stroke="#7C3AED" stroke-width="1"/>
+  <text x="259" y="384" font-size="8" fill="#475569">Quality Module</text>
+  <rect x="336" y="376" width="9" height="9" rx="2" fill="url(#outGrad)" stroke="#B45309" stroke-width="1"/>
+  <text x="349" y="384" font-size="8" fill="#475569">Rejection/Output</text>
+  <line x1="432" y1="381" x2="448" y2="381" stroke="#555" stroke-width="1.1" marker-end="url(#arr)"/>
+  <text x="452" y="384" font-size="8" fill="#475569">Dataflow</text>
+  <line x1="498" y1="381" x2="514" y2="381" stroke="#555" stroke-width="1.1" stroke-dasharray="4,2" marker-end="url(#arr)"/>
+  <text x="518" y="384" font-size="8" fill="#475569">Context (dashed)</text>
+  <line x1="604" y1="381" x2="620" y2="381" stroke="#EA580C" stroke-width="1.1" marker-end="url(#arrO)"/>
+  <text x="624" y="384" font-size="8" fill="#475569">Few-shot</text>
+  <line x1="664" y1="381" x2="680" y2="381" stroke="#059669" stroke-width="1.1" marker-end="url(#arrG)"/>
+  <text x="684" y="384" font-size="8" fill="#475569">Synthesis</text>
+  <line x1="726" y1="381" x2="742" y2="381" stroke="#7C3AED" stroke-width="1.1" marker-end="url(#arrV)"/>
+  <text x="746" y="384" font-size="8" fill="#475569">Quality</text>
+  <line x1="782" y1="381" x2="798" y2="381" stroke="#B45309" stroke-width="1.1" marker-end="url(#arrA)"/>
+  <text x="802" y="384" font-size="8" fill="#475569">Rejection</text>
+</svg>
