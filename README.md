@@ -1,6 +1,8 @@
-# Tursio: Banking Question Generation & Evaluation Pipeline
+# Evaluating Structured Data Search
 
-A comprehensive system for generating, mapping, and evaluating synthetic banking questions with quality metrics and response evaluation capabilities.
+Business users need to search enterprise databases using natural language, just as they now search the web using ChatGPT or Perplexity. However, existing benchmarks are designed for open-domain QA or text-to-SQL and they do not evaluate the end-to-end quality of such a search experience. This project focuses on an evaluation framework for structured database search that generates realistic banking queries across varying difficulty levels and assesses answer quality using relevance, safety, and conversational metrics via an LLM-as-judge approach.
+
+Below, we describe the components for generating, mapping, and evaluating synthetic banking questions, including quality metrics and response evaluation.
 
 ## 📋 Table of Contents
 
@@ -16,7 +18,7 @@ A comprehensive system for generating, mapping, and evaluating synthetic banking
 
 ## Overview
 
-**Tursio** is an end-to-end pipeline for:
+This is an end-to-end pipeline for:
 1. **Generating synthetic banking questions** based on personas, KPIs, and difficulty levels
 2. **Mapping questions** to relevant KPIs using Claude AI
 3. **Validating question quality** with duplicate detection, similarity analysis, and lexical diversity metrics
