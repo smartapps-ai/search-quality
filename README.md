@@ -2,6 +2,8 @@
 
 Business users need to search enterprise databases using natural language, just as they now search the web using ChatGPT or Perplexity. However, existing benchmarks are designed for open-domain QA or text-to-SQL and they do not evaluate the end-to-end quality of such a search experience. This project focuses on an evaluation framework for structured database search that generates realistic banking queries across varying difficulty levels and assesses answer quality using relevance, safety, and conversational metrics via an LLM-as-judge approach.
 
+Please refer to the full paper for detailed results: [https://arxiv.org/pdf/2603.18835](https://arxiv.org/pdf/2603.18835)
+
 Below, we describe the components for generating, mapping, and evaluating synthetic banking questions, including quality metrics and response evaluation.
 
 ## 📋 Table of Contents
